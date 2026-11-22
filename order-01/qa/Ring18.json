@@ -1,0 +1,25 @@
+{
+  "name": "Ring18.stl",
+  "sha256": "087463067ba6e1c9cbcc33ffaa740b9e739fd4193b07c5e31a607e05f98810ac",
+  "started": "2026-11-22T16:15:43.877Z",
+  "completed": "2026-11-22T16:15:47.939Z",
+  "metrics": {
+    "triCount": 75504,
+    "openEdges": 0,
+    "nonManifold": 0,
+    "inconsistent": 0,
+    "degenerate": 0,
+    "watertight": true,
+    "reliable": true,
+    "inverted": false,
+    "volumeMm3": 197.58274737527725,
+    "volumeCm3": 0.19758274737527726,
+    "areaMm2": 589.6779646690493
+  },
+  "red": 0,
+  "warning": 18336,
+  "missing": 2353,
+  "min": 0.46247541904449463,
+  "minFace": 28834,
+  "ui": "Крит. 0.0% · Риск 25.1%"
+}

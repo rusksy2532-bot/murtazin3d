@@ -1,0 +1,25 @@
+{
+  "name": "Nut.stl",
+  "sha256": "b096f7fc52d6e0c7b26a2a1463df870d07d6c930059f7198fde3ac4f2a0f8835",
+  "started": "2026-11-22T16:02:04.670Z",
+  "completed": "2026-11-22T16:02:08.367Z",
+  "metrics": {
+    "triCount": 47482,
+    "openEdges": 0,
+    "nonManifold": 0,
+    "inconsistent": 0,
+    "degenerate": 0,
+    "watertight": true,
+    "reliable": true,
+    "inverted": false,
+    "volumeMm3": 33.705783738977296,
+    "volumeCm3": 0.0337057837389773,
+    "areaMm2": 67.09119412928447
+  },
+  "red": 0,
+  "warning": 0,
+  "missing": 1855,
+  "min": 0.8365954160690308,
+  "minFace": 31720,
+  "ui": "Крит. 0.0% · Риск 0.0%"
+}

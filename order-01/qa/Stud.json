@@ -1,0 +1,25 @@
+{
+  "name": "Stud.stl",
+  "sha256": "906994552caf7941f0d50e9ef2fc34b75ee7a92f1d932f656090e1c649019ff2",
+  "started": "2026-11-22T16:01:56.983Z",
+  "completed": "2026-11-22T16:02:01.367Z",
+  "metrics": {
+    "triCount": 51666,
+    "openEdges": 0,
+    "nonManifold": 0,
+    "inconsistent": 0,
+    "degenerate": 0,
+    "watertight": true,
+    "reliable": true,
+    "inverted": false,
+    "volumeMm3": 32.64926962410437,
+    "volumeCm3": 0.03264926962410437,
+    "areaMm2": 125.29854315977656
+  },
+  "red": 0,
+  "warning": 0,
+  "missing": 734,
+  "min": 0.7400000095367432,
+  "minFace": 11113,
+  "ui": "Крит. 0.0% · Риск 0.0%"
+}
