@@ -1,0 +1,22 @@
+{
+  "method": "CGAL Polygon Mesh Processing self_intersections; exact equality of stored vertex coordinates; zero-based STL facet indices.",
+  "reference": "https://doc.cgal.org/latest/Polygon_mesh_processing/",
+  "files": {
+    "White": {
+      "sha256": "8d2f7429211361dfe88a48426660779fe2e571def74a0760c1bd8177f65c7efe",
+      "faces": 39398,
+      "vertices": 19675,
+      "closed": true,
+      "intersectingPairs": 0,
+      "pairs": []
+    },
+    "Champagne": {
+      "sha256": "b17b066c114a59983286f2d1f5c6c11624e02f6e7fad2de75577fdae4be9413f",
+      "faces": 18446,
+      "vertices": 9215,
+      "closed": true,
+      "intersectingPairs": 0,
+      "pairs": []
+    }
+  }
+}

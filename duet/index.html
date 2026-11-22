@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="ru"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#f7f5ef">
+<title>Дуэт R3 — кольцо в двух сплавах · R&amp;R Design</title>
+<meta name="description" content="Кольцо «Дуэт» R3. Две груши и пять бриллиантов диаметром 1 мм. Вращайте сборку, смотрите посадку вставок и результаты замеров металла на плечах.">
+<meta property="og:title" content="Дуэт · R&R Design"><meta property="og:description" content="Кольцо в двух сплавах. Интерактивная сборка и комплект для мастерской.">
+<meta property="og:type" content="website"><meta property="og:image" content="https://murtazin3d.ru/duet/assets/duet-r3.webp">
+<link rel="stylesheet" href="atelier.css?v=r3"><link rel="icon" href="data:,">
+</head><body>
+<header class="mast"><a class="wordmark" href="#top" aria-label="R&R Design, начало страницы">R<span>&amp;</span>R <small>DESIGN</small></a><nav aria-label="Разделы"><a href="#assembly">Модель в 3D</a><a href="#files">Файлы</a></nav></header>
+<main id="top">
+<section class="hero" aria-labelledby="title">
+  <div class="hero-picture"><img src="assets/duet-r3.webp" alt="Цифровая примерка камней в открытых оправах «Дуэта» R3" width="1500" height="1390" fetchpriority="high"></div>
+  <div class="hero-copy"><p class="eyebrow">Кольцо в двух сплавах · R3</p><h1 id="title">Дуэт</h1>
+    <p class="intro">Бриллиант и индиголит обращены острыми концами в разные стороны. Вдоль белого плеча идут пять круглых бриллиантов диаметром 1 мм. Камни на этом рендере показаны в открытых крапанах до обжима.</p>
+    <a class="action" href="#assembly">Рассмотреть конструкцию</a>
+    <dl class="legend"><div><dt><i class="alloy silver"></i>Белое золото</dt><dd>Шинка и оправа бриллианта</dd></div><div><dt><i class="alloy gold"></i>Золото цвета шампанского</dt><dd>Встречная лента и оправа индиголита</dd></div></dl>
+  </div>
+</section>
+<section class="workshop" id="assembly" aria-labelledby="assembly-title">
+<div class="section-heading"><div><p class="eyebrow">Рабочая модель</p><h2 id="assembly-title">До обжима</h2></div>
+<p>Поверните заготовку и проследите сборку от двух металлических частей до установки последнего камня.</p></div>
+<div class="bench">
+<div class="stage" id="stage">
+  <canvas id="viewport" aria-label="Вращаемая модель кольца до обжима"></canvas>
+  <div class="stage-over"><strong id="stage-name">Заготовка</strong><span id="stage-pos">Общий вид</span></div>
+  <p class="status" id="status" role="status">Загрузка модели…</p>
+  <div class="camera-controls" id="camera-controls" hidden><button id="zoom-out" title="Отдалить" aria-label="Отдалить">−</button><button id="zoom-in" title="Приблизить" aria-label="Приблизить">+</button><button id="reset-camera" title="Вернуть ракурс">Исходный ракурс</button></div>
+</div>
+<div class="panel"><fieldset id="modes" disabled><legend>Что рассмотреть</legend>
+ <div class="mode-list" role="group" aria-label="Режим просмотра">
+ <button type="button" data-mode="blank" aria-pressed="true">Крапаны до обжима</button>
+ <button type="button" data-mode="joint" aria-pressed="false">Стык сплавов</button>
+ <button type="button" data-mode="gems" aria-pressed="false">Посадка камней</button></div></fieldset>
+ <div class="mode-text"><h3 id="mode-title">Открытые оправы</h3><p id="mode-copy">Вынутые камни открывают вид на посадочные места и свободные концы крапанов.</p></div>
+ <div id="joint-detail" hidden><button data-socket="round" type="button" class="light-btn">Круглое гнездо</button> <button data-socket="oblong" type="button" class="light-btn">Продолговатое гнездо</button><dl class="dimensions" aria-label="Размеры соединения"><div><dt>Штифты</dt><dd id="pin-size"></dd></div><div><dt>Круглое гнездо</dt><dd id="round-size"></dd></div><div><dt>Продолговатое гнездо</dt><dd id="oblong-size"></dd></div></dl></div>
+ <div id="stone-field" hidden><label for="stone">Камень</label><select id="stone"></select><dl class="dimensions" aria-label="Размеры выбранной вставки"><div><dt>Размер камня</dt><dd id="stone-size"></dd></div><div><dt>Крепление</dt><dd id="stone-prongs"></dd></div></dl></div>
+ <div id="travel-field" hidden><div class="field-line"><label for="travel" id="distance-label">Ход</label><output for="travel" id="distance">0 мм</output></div><input type="range" id="travel" min="0" max="1000" step="1" value="0">
+ <div class="ends"><span id="start-label">На месте</span><span id="end-label">Раздвинуто</span></div>
+ <button id="play" class="light-btn" type="button">Показать движение</button></div>
+ <p class="stage-hint" id="gesture-hint">Потяните модель, чтобы повернуть. Колесо мыши или жест двумя пальцами меняет масштаб.</p>
+</div></div></section>
+<section class="detail-strip" aria-labelledby="detail-title"><img id="shoulder-photo" src="assets/detail-r3.webp" alt="Макро правого плеча R3 со штифтом и гнездом. Золотистая лента отведена вдоль оси сборки." width="1496" height="890" loading="lazy"><div><p class="eyebrow">Макро · разборка на 2,4 мм</p><h2 id="detail-title">Стык на плече</h2><p>У площадки со штифтом лента шампанского золота заканчивается притуплённой кромкой. Сравните её с прежней формой в том же ракурсе.</p><div class="mode-list" role="group" aria-label="Версия плеча"><button type="button" data-shoulder="current" aria-pressed="true">Текущая · R3</button><button type="button" data-shoulder="previous" aria-pressed="false">Прежняя · R2</button></div><p id="wall-note">В контрольных сечениях оба конца ленты дали минимум 0,560 мм при цели 0,40 мм. В нижнем поясе белой корзины поперечный минимум составил 0,555 мм при цели 0,50 мм.</p><a href="report.html?v=r3" class="text-link">Посмотреть результаты замеров</a></div></section>
+<section id="files" class="files" aria-labelledby="files-title"><div class="file-intro"><p class="eyebrow">Материалы мастерской</p><h2 id="files-title">Комплект «Дуэт»</h2><p>Заготовки двух сплавов в общей системе координат, вставки и результаты проверки сборки. Размеры указаны в миллиметрах. Перед печатью проверьте участки у оправ обеих груш. Их координаты отмечены в протоколе.</p></div>
+<div class="file-actions"><a class="action" href="kit.zip?v=r3" download>Скачать полный комплект <span>ZIP</span></a><a href="report.html?v=r3" class="text-link">Протокол и порядок сборки</a><a href="Duet-dimensions.pdf?v=r3" class="text-link">Размерный лист <span>PDF</span></a><a href="Duet.3dm?v=r3" download class="text-link">Сеточная сборка для Rhino <span>3DM</span></a><a href="Duet.blend?v=r3" download class="text-link">Сцена для Blender <span>BLEND</span></a><a href="Assembly.glb?v=r3" download class="text-link">Скачать сборку в 3D <span>GLB</span></a></div></section>
+</main><footer><span>R&amp;R DESIGN</span><span>Duet · Руслан и Римма</span></footer>
+<script src="viewer.js?v=r3" defer></script></body></html>

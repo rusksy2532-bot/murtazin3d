@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#1e211f">
+  <meta name="description" content="Классический солитер R&amp;R Design. Круглая вставка в открытой корзинке на четырёх крапанах, техническая модель и замеры.">
+  <title>Классический солитер · R&amp;R Design</title>
+  <link rel="icon" href="../mark.svg">
+  <link rel="stylesheet" href="atelier.css">
+  <script src="viewer.js" defer></script>
+</head>
+<body>
+  <header><div class="bar"><img src="../rr-design.svg" width="141" height="39" alt="R&amp;R Design"><a href="../#workshop">Все проекты для мастерской</a></div></header>
+  <main>
+    <section class="product" aria-labelledby="title">
+      <div class="visual">
+        <div id="stage">
+          <img id="still" src="cover.webp" alt="Классический солитер с круглым камнем" fetchpriority="high">
+          <canvas id="model" tabindex="0" aria-label="Интерактивное кольцо. Поворачивайте мышью или пальцем; с клавиатуры используйте стрелки и клавиши плюс и минус." hidden></canvas>
+          <p id="status" role="status">Загружается модель…</p>
+        </div>
+        <div class="view-switch" aria-label="Варианты просмотра">
+          <button data-tab="model" aria-pressed="true">Вращать в 3D</button>
+          <button data-tab="cover" aria-pressed="false">Общий вид</button>
+          <button data-tab="profile" aria-pressed="false">Профиль</button>
+          <button data-tab="macro" aria-pressed="false">Макро</button>
+        </div>
+      </div>
+      <div class="about">
+        <h1 id="title">Классический<br>солитер</h1>
+        <p class="lead">Круглый камень в открытой корзинке. Четыре прямых крапана показаны до обжима. Сбоку видно, как оправа соединяется с шинкой.</p>
+        <dl>
+          <div><dt>Внутренний диаметр</dt><dd>17,00 мм</dd></div>
+          <div><dt>Круглая вставка</dt><dd>Ø 6,00 мм</dd></div>
+          <div><dt>Запас крапанов над рундистом</dt><dd>0,715 мм</dd></div>
+          <div><dt>Расчётная масса металла</dt><dd>585 · 3,68 г<br>750 · 4,23 г</dd></div>
+        </dl>
+        <fieldset id="inspection" hidden>
+          <legend>Посадка камня</legend>
+          <div class="tools">
+            <button data-state="set" aria-pressed="true">На опоре</button>
+            <button data-state="lift" aria-pressed="false">Поднять на 6 мм</button>
+            <button data-state="blank" aria-pressed="false">Без камня</button>
+          </div>
+          <button id="reset" class="link">Исходный ракурс</button>
+        </fieldset>
+        <div class="documents"><a class="primary" href="Classic-Solitaire-kit.zip" download>Скачать STL и Rhino</a><a class="link" href="report.html">Протокол измерений</a></div>
+        <p class="format">В архиве — металл и камень в миллиметрах, сеточная сборка Rhino 8 и результаты проверки посадки.</p>
+      </div>
+    </section>
+  </main>
+</body>
+</html>

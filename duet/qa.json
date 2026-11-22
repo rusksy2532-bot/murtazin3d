@@ -1,0 +1,1681 @@
+{
+  "sourceMetaSha256": "b794524f64953c7805875dbbf32f9be8dd21fe137455772a92ade35389f28d35",
+  "glbSha256": "d864eb9b043b04b8637ce6d96ed0f5554d90e71a1938ec924f9ec471b12d5cff",
+  "units": "mm",
+  "volEpsilonMm3": 1e-06,
+  "files": {
+    "White": {
+      "name": "White",
+      "sha256": "8d2f7429211361dfe88a48426660779fe2e571def74a0760c1bd8177f65c7efe",
+      "triangles": 39398,
+      "openEdges": 0,
+      "nonManifoldEdges": 0,
+      "degenerateTriangles": 0,
+      "consistent": true,
+      "components": 1,
+      "volumeMm3": 157.4009934228222,
+      "sizeXYZmm": [
+        20.959999084472656,
+        21.98699951171875,
+        5.820044994354248
+      ],
+      "boreDiameterMm": 17.000599292206623
+    },
+    "Champagne": {
+      "name": "Champagne",
+      "sha256": "b17b066c114a59983286f2d1f5c6c11624e02f6e7fad2de75577fdae4be9413f",
+      "triangles": 18446,
+      "openEdges": 0,
+      "nonManifoldEdges": 0,
+      "degenerateTriangles": 0,
+      "consistent": true,
+      "components": 1,
+      "volumeMm3": 67.1501471735689,
+      "sizeXYZmm": [
+        20.959999084472656,
+        12.757000029087067,
+        5.231193840503693
+      ],
+      "boreDiameterMm": 17.000600385471547
+    },
+    "PearWhite": {
+      "name": "PearWhite",
+      "sha256": "21b8da3221d06426d55cbdeefe9e81dc9aaba8586df8b089ec18eeb19227917a",
+      "triangles": 170,
+      "openEdges": 0,
+      "nonManifoldEdges": 0,
+      "degenerateTriangles": 0,
+      "consistent": true,
+      "components": 1,
+      "volumeMm3": 29.56052915997133,
+      "sizeXYZmm": [
+        6.742403268814087,
+        3.066800117492676,
+        4.5808345079422
+      ]
+    },
+    "PearTeal": {
+      "name": "PearTeal",
+      "sha256": "6cb457f2f23c36dd4885e999f632b1fcc6dc3ec49bf8c70e7b07ef37f77cd748",
+      "triangles": 166,
+      "openEdges": 0,
+      "nonManifoldEdges": 0,
+      "degenerateTriangles": 0,
+      "consistent": true,
+      "components": 1,
+      "volumeMm3": 13.749200039893559,
+      "sizeXYZmm": [
+        5.225429832935333,
+        2.369800567626953,
+        3.550830215215683
+      ]
+    },
+    "Pave01": {
+      "name": "Pave01",
+      "sha256": "434aa19c1107654ef2c97e9d42807c952f9116afbfee98f91f946bbe6e261092",
+      "triangles": 348,
+      "openEdges": 0,
+      "nonManifoldEdges": 0,
+      "degenerateTriangles": 0,
+      "consistent": true,
+      "components": 1,
+      "volumeMm3": 0.2113201520514223,
+      "sizeXYZmm": [
+        0.8862552642822266,
+        0.6549654006958008,
+        1.0
+      ]
+    },
+    "Pave02": {
+      "name": "Pave02",
+      "sha256": "12247ad72eb3d598b9f4e0b51279e0d288c7a822def9ba7cdcb0a1cba047142f",
+      "triangles": 348,
+      "openEdges": 0,
+      "nonManifoldEdges": 0,
+      "degenerateTriangles": 0,
+      "consistent": true,
+      "components": 1,
+      "volumeMm3": 0.21132021391185352,
+      "sizeXYZmm": [
+        0.7852706909179688,
+        0.6652259826660156,
+        1.0
+      ]
+    },
+    "Pave03": {
+      "name": "Pave03",
+      "sha256": "d4ba77cfa77ff1851c232db0830b457937cf68aaa9b5daa247cfd4e5465b81b5",
+      "triangles": 348,
+      "openEdges": 0,
+      "nonManifoldEdges": 0,
+      "degenerateTriangles": 0,
+      "consistent": true,
+      "components": 1,
+      "volumeMm3": 0.21132030202931007,
+      "sizeXYZmm": [
+        0.6655402183532715,
+        0.7847299575805664,
+        0.9999998807907104
+      ]
+    },
+    "Pave04": {
+      "name": "Pave04",
+      "sha256": "48eca47e56ad9ddaad300dc1f529985fd7b127d57448e0e648e5e806ba08dba4",
+      "triangles": 348,
+      "openEdges": 0,
+      "nonManifoldEdges": 0,
+      "degenerateTriangles": 0,
+      "consistent": true,
+      "components": 1,
+      "volumeMm3": 0.21132013125361765,
+      "sizeXYZmm": [
+        0.6549406051635742,
+        0.8858499526977539,
+        1.0000001192092896
+      ]
+    },
+    "Pave05": {
+      "name": "Pave05",
+      "sha256": "3609b603c5086df883d633b5398ce6f44480680a4b08c4747573d9489e6df9a3",
+      "triangles": 348,
+      "openEdges": 0,
+      "nonManifoldEdges": 0,
+      "degenerateTriangles": 0,
+      "consistent": true,
+      "components": 1,
+      "volumeMm3": 0.21132036446564445,
+      "sizeXYZmm": [
+        0.6491594314575195,
+        0.9564516544342041,
+        0.9999999403953552
+      ]
+    }
+  },
+  "stones": [
+    {
+      "id": "PearWhite",
+      "label": "Бесцветная груша",
+      "strokeMm": 6,
+      "direction": [
+        0.0,
+        1.0,
+        4.440892098500627e-16
+      ],
+      "convexityExcessMm3": -3.552713678800501e-15,
+      "metalSweepMm3": {
+        "White": 6.091935865859985e-09,
+        "Champagne": 0.0
+      },
+      "peakStoneSweepMm3": 0.0,
+      "otherStones": {
+        "PearTeal": 0.0,
+        "Pave01": 0.0,
+        "Pave02": 0.0,
+        "Pave03": 0.0,
+        "Pave04": 0.0,
+        "Pave05": 0.0
+      },
+      "finalGapMm": 0.0,
+      "supportAlloy": "White",
+      "overtravelDepthMm": 0.025,
+      "overtravelVolumeMm3": 0.054911011979045354,
+      "supportContactIslands": 1,
+      "gapAtQuarterMm": 0.05200001266837374,
+      "maxUnsupportedAngleDeg": 40.993232079076776,
+      "prongs": {
+        "girdleMaxDiameterMm": 7.19999960573509,
+        "girdleMinCaliperMm": 4.353814228644552,
+        "upperGirdleOffsetMm": 0.04700012207031179,
+        "heightAboveOutlineMm": 0.2,
+        "tipHeightsAboveUpperGirdleMm": [
+          0.7799997329711896,
+          0.7799997329711896,
+          0.7799997329711914,
+          0.7799997329711914,
+          0.7799997329711914
+        ],
+        "minHeightMm": 0.7799997329711896,
+        "maxHeightMm": 0.7799997329711914,
+        "minWidthMm": 0.6420297751677086,
+        "measuredIslands": 5,
+        "widthsMm": [
+          0.7177803963464928,
+          0.6420297751677086,
+          0.6453343097687201,
+          0.6453343067528312,
+          0.6420298889509223
+        ],
+        "minGapInSectionMm": 2.283408601629089,
+        "minGapBetweenFreeCapsMm": 2.283408601629089
+      },
+      "routeOK": true,
+      "seatOK": true
+    },
+    {
+      "id": "PearTeal",
+      "label": "Индиголит",
+      "strokeMm": 6,
+      "direction": [
+        0.0,
+        1.0,
+        1.1102230246251565e-16
+      ],
+      "convexityExcessMm3": 0.0,
+      "metalSweepMm3": {
+        "White": 0.0,
+        "Champagne": 0.0
+      },
+      "peakStoneSweepMm3": 0.0,
+      "otherStones": {
+        "PearWhite": 0.0,
+        "Pave01": 0.0,
+        "Pave02": 0.0,
+        "Pave03": 0.0,
+        "Pave04": 0.0,
+        "Pave05": 0.0
+      },
+      "finalGapMm": 9.07512171177915e-08,
+      "supportAlloy": "Champagne",
+      "overtravelDepthMm": 0.025,
+      "overtravelVolumeMm3": 0.019273642070648273,
+      "supportContactIslands": 1,
+      "gapAtQuarterMm": 0.05199999091159008,
+      "maxUnsupportedAngleDeg": 40.00967823609193,
+      "prongs": {
+        "girdleMaxDiameterMm": 5.5999998980808146,
+        "girdleMinCaliperMm": 3.364178349433875,
+        "upperGirdleOffsetMm": 0.04700031280517436,
+        "heightAboveOutlineMm": 0.2,
+        "tipHeightsAboveUpperGirdleMm": [
+          0.7799997329711914,
+          0.7799997329711914,
+          0.7799997329711914,
+          0.7799997329711914,
+          0.7799997329711914
+        ],
+        "minHeightMm": 0.7799997329711914,
+        "maxHeightMm": 0.7799997329711914,
+        "minWidthMm": 0.6419816028478644,
+        "measuredIslands": 5,
+        "widthsMm": [
+          0.7177803753849195,
+          0.6419816028478644,
+          0.6452291436389599,
+          0.6452291717485752,
+          0.6445763528827071
+        ],
+        "minGapInSectionMm": 0.9817672301627018,
+        "minGapBetweenFreeCapsMm": 0.9817672301627018
+      },
+      "routeOK": true,
+      "seatOK": true
+    },
+    {
+      "id": "Pave01",
+      "label": "Паве 01",
+      "strokeMm": 3,
+      "direction": [
+        -0.484809620246337,
+        0.8746197071393959,
+        0.0
+      ],
+      "convexityExcessMm3": 2.4600511155936644e-08,
+      "metalSweepMm3": {
+        "White": 3.739721934659708e-08,
+        "Champagne": 0.0
+      },
+      "peakStoneSweepMm3": 0.0,
+      "otherStones": {
+        "PearWhite": 0.0,
+        "PearTeal": 0.0,
+        "Pave02": 0.0,
+        "Pave03": 0.0,
+        "Pave04": 0.0,
+        "Pave05": 0.0
+      },
+      "finalGapMm": 0.0,
+      "supportAlloy": "White",
+      "overtravelDepthMm": 0.025,
+      "overtravelVolumeMm3": 0.013275851719955385,
+      "supportContactIslands": 1,
+      "gapAtQuarterMm": 0.04494546678551351,
+      "maxUnsupportedAngleDeg": 5.150845774382134,
+      "prongs": {
+        "girdleMaxDiameterMm": 1.0000005876682532,
+        "girdleMinCaliperMm": 0.9987953595244686,
+        "upperGirdleOffsetMm": 0.012000120540525572,
+        "heightAboveOutlineMm": 0.14,
+        "tipHeightsAboveUpperGirdleMm": [
+          0.5500000437735721,
+          0.5500000437735721,
+          0.5500001922085556,
+          0.5500001922085556
+        ],
+        "minHeightMm": 0.5500000437735721,
+        "maxHeightMm": 0.5500001922085556,
+        "minWidthMm": 0.5264319218355096,
+        "measuredIslands": 4,
+        "widthsMm": [
+          0.5264322197128641,
+          0.5264323220793847,
+          0.5264319218355096,
+          0.5264319492241087
+        ],
+        "minGapInSectionMm": 0.3346201628446579,
+        "minGapBetweenFreeCapsMm": 0.3346201640738671
+      },
+      "routeOK": true,
+      "seatOK": true
+    },
+    {
+      "id": "Pave02",
+      "label": "Паве 02",
+      "strokeMm": 3,
+      "direction": [
+        -0.6380961466011305,
+        0.7699566920890997,
+        0.0
+      ],
+      "convexityExcessMm3": 1.5121236929260817e-08,
+      "metalSweepMm3": {
+        "White": 2.8777545829990726e-08,
+        "Champagne": 0.0
+      },
+      "peakStoneSweepMm3": 0.0,
+      "otherStones": {
+        "PearWhite": 0.0,
+        "PearTeal": 0.0,
+        "Pave01": 0.0,
+        "Pave03": 0.0,
+        "Pave04": 0.0,
+        "Pave05": 0.0
+      },
+      "finalGapMm": 0.0,
+      "supportAlloy": "White",
+      "overtravelDepthMm": 0.025,
+      "overtravelVolumeMm3": 0.013484595616027223,
+      "supportContactIslands": 1,
+      "gapAtQuarterMm": 0.044945612264836926,
+      "maxUnsupportedAngleDeg": 5.145749852205654,
+      "prongs": {
+        "girdleMaxDiameterMm": 1.0000003378198186,
+        "girdleMinCaliperMm": 0.9987955132732147,
+        "upperGirdleOffsetMm": 0.012000039958797615,
+        "heightAboveOutlineMm": 0.14,
+        "tipHeightsAboveUpperGirdleMm": [
+          0.5500001688838161,
+          0.5500001688838161,
+          0.5499998855985115,
+          0.5499998855985115
+        ],
+        "minHeightMm": 0.5499998855985115,
+        "maxHeightMm": 0.5500001688838161,
+        "minWidthMm": 0.5264321400159235,
+        "measuredIslands": 4,
+        "widthsMm": [
+          0.5264321400159235,
+          0.5264323109037976,
+          0.5264322076407228,
+          0.5264324584725921
+        ],
+        "minGapInSectionMm": 0.3346201181411743,
+        "minGapBetweenFreeCapsMm": 0.33462007758730306
+      },
+      "routeOK": true,
+      "seatOK": true
+    },
+    {
+      "id": "Pave03",
+      "label": "Паве 03",
+      "strokeMm": 3,
+      "direction": [
+        -0.7693995550468953,
+        0.6387678175155974,
+        0.0
+      ],
+      "convexityExcessMm3": 7.303279647707939e-09,
+      "metalSweepMm3": {
+        "White": 2.3416194706557676e-08,
+        "Champagne": 0.0
+      },
+      "peakStoneSweepMm3": 0.0,
+      "otherStones": {
+        "PearWhite": 0.0,
+        "PearTeal": 0.0,
+        "Pave01": 0.0,
+        "Pave02": 0.0,
+        "Pave04": 0.0,
+        "Pave05": 0.0
+      },
+      "finalGapMm": 0.0,
+      "supportAlloy": "White",
+      "overtravelDepthMm": 0.025,
+      "overtravelVolumeMm3": 0.013769508707284139,
+      "supportContactIslands": 1,
+      "gapAtQuarterMm": 0.044945599842787454,
+      "maxUnsupportedAngleDeg": 5.145794510509916,
+      "prongs": {
+        "girdleMaxDiameterMm": 1.000000264466129,
+        "girdleMinCaliperMm": 0.9987954355631454,
+        "upperGirdleOffsetMm": 0.012000010692622354,
+        "heightAboveOutlineMm": 0.14,
+        "tipHeightsAboveUpperGirdleMm": [
+          0.5500000038066801,
+          0.5500000038066801,
+          0.5499999493905747,
+          0.5499999493905747
+        ],
+        "minHeightMm": 0.5499999493905747,
+        "maxHeightMm": 0.5500000038066801,
+        "minWidthMm": 0.5264321811320136,
+        "measuredIslands": 4,
+        "widthsMm": [
+          0.5264322652530663,
+          0.5264322458113657,
+          0.5264322128755298,
+          0.5264321811320136
+        ],
+        "minGapInSectionMm": 0.3346201404929161,
+        "minGapBetweenFreeCapsMm": 0.3346199621196984
+      },
+      "routeOK": true,
+      "seatOK": true
+    },
+    {
+      "id": "Pave04",
+      "label": "Паве 04",
+      "strokeMm": 3,
+      "direction": [
+        -0.8741962979566852,
+        0.48557268522727526,
+        0.0
+      ],
+      "convexityExcessMm3": 4.256687555215244e-08,
+      "metalSweepMm3": {
+        "White": 3.3164830778112144e-08,
+        "Champagne": 0.0
+      },
+      "peakStoneSweepMm3": 0.0,
+      "otherStones": {
+        "PearWhite": 0.0,
+        "PearTeal": 0.0,
+        "Pave01": 0.0,
+        "Pave02": 0.0,
+        "Pave03": 0.0,
+        "Pave05": 0.0
+      },
+      "finalGapMm": 0.0,
+      "supportAlloy": "White",
+      "overtravelDepthMm": 0.025,
+      "overtravelVolumeMm3": 0.01397912215513409,
+      "supportContactIslands": 1,
+      "gapAtQuarterMm": 0.044945508764231853,
+      "maxUnsupportedAngleDeg": 5.150833086161981,
+      "prongs": {
+        "girdleMaxDiameterMm": 1.0000004537561147,
+        "girdleMinCaliperMm": 0.9987954441368943,
+        "upperGirdleOffsetMm": 0.012000011634199836,
+        "heightAboveOutlineMm": 0.14,
+        "tipHeightsAboveUpperGirdleMm": [
+          0.5499997516304482,
+          0.5499997516304482,
+          0.5500001923340676,
+          0.5500001923340676
+        ],
+        "minHeightMm": 0.5499997516304482,
+        "maxHeightMm": 0.5500001923340676,
+        "minWidthMm": 0.5264321823981293,
+        "measuredIslands": 4,
+        "widthsMm": [
+          0.526432223514155,
+          0.5264322416308658,
+          0.5264321958680467,
+          0.5264321823981293
+        ],
+        "minGapInSectionMm": 0.3346201404929161,
+        "minGapBetweenFreeCapsMm": 0.3346201445508843
+      },
+      "routeOK": true,
+      "seatOK": true
+    },
+    {
+      "id": "Pave05",
+      "label": "Паве 05",
+      "strokeMm": 3,
+      "direction": [
+        -0.9488760116444965,
+        0.31564903694710256,
+        0.0
+      ],
+      "convexityExcessMm3": 3.550531291196535e-08,
+      "metalSweepMm3": {
+        "White": 6.313517059748207e-08,
+        "Champagne": 0.0
+      },
+      "peakStoneSweepMm3": 0.0,
+      "otherStones": {
+        "PearWhite": 0.0,
+        "PearTeal": 0.0,
+        "Pave01": 0.0,
+        "Pave02": 0.0,
+        "Pave03": 0.0,
+        "Pave04": 0.0
+      },
+      "finalGapMm": 0.0,
+      "supportAlloy": "White",
+      "overtravelDepthMm": 0.025,
+      "overtravelVolumeMm3": 0.014055885976763376,
+      "supportContactIslands": 1,
+      "gapAtQuarterMm": 0.04494565479279158,
+      "maxUnsupportedAngleDeg": 5.150828844109417,
+      "prongs": {
+        "girdleMaxDiameterMm": 1.0000002427795052,
+        "girdleMinCaliperMm": 0.9987954803841854,
+        "upperGirdleOffsetMm": 0.011999849058543788,
+        "heightAboveOutlineMm": 0.14,
+        "tipHeightsAboveUpperGirdleMm": [
+          0.5500002486358948,
+          0.5500002486358948,
+          0.5499998697076656,
+          0.5499998697076656
+        ],
+        "minHeightMm": 0.5499998697076656,
+        "maxHeightMm": 0.5500002486358948,
+        "minWidthMm": 0.5264321283512727,
+        "measuredIslands": 4,
+        "widthsMm": [
+          0.5264322994343522,
+          0.5264322466566695,
+          0.5264321283512727,
+          0.5264321294885532
+        ],
+        "minGapInSectionMm": 0.3346201032400131,
+        "minGapBetweenFreeCapsMm": 0.3346200333021702
+      },
+      "routeOK": true,
+      "seatOK": true
+    }
+  ],
+  "joint": {
+    "enteringFacePairs": 0,
+    "firstContactOffsetMm": null,
+    "lastContactOffsetMm": null,
+    "axialToleranceMm": 1e-05,
+    "forwardChecksMm3": {
+      "0": 0.0,
+      "0.0001": 0.0,
+      "0.025": 0.0,
+      "0.15": 0.0,
+      "0.5": 0.0,
+      "1": 0.0,
+      "2": 0.0,
+      "4": 0.0,
+      "8": 0.0
+    },
+    "overtravelMm3": 0.18917742334599308,
+    "endGapMm": 0.0,
+    "pinsMeasured": [
+      {
+        "centerMm": [
+          -9.46,
+          1.05,
+          0.32
+        ],
+        "boreXYmm": [
+          0.9600000334611227,
+          0.8200000524520874
+        ],
+        "pinXYmm": [
+          0.7000007582522727,
+          0.6999999843308649
+        ],
+        "projectionMm": 0.7600000429153442,
+        "depthMm": 0.8800000476837158,
+        "metalOverSocketMm": 0.7799999713897705
+      },
+      {
+        "centerMm": [
+          9.46,
+          1.05,
+          0.32
+        ],
+        "boreXYmm": [
+          0.8199996901395004,
+          0.8200000487038933
+        ],
+        "pinXYmm": [
+          0.7000007582522727,
+          0.6999999843308649
+        ],
+        "projectionMm": 0.7600000429153442,
+        "depthMm": 0.8800000476837158,
+        "metalOverSocketMm": 0.7799999713897705
+      }
+    ],
+    "strokeMm": 8,
+    "ok": true
+  },
+  "glb": {
+    "White": {
+      "boundsDeltaMm": 1.862645149230957e-07,
+      "triangleDelta": 0
+    },
+    "Champagne": {
+      "boundsDeltaMm": 2.2351741790771484e-07,
+      "triangleDelta": 0
+    },
+    "PearWhite": {
+      "boundsDeltaMm": 3.3527612686157227e-07,
+      "triangleDelta": 0
+    },
+    "PearTeal": {
+      "boundsDeltaMm": 1.2293457984924316e-07,
+      "triangleDelta": 0
+    },
+    "Pave01": {
+      "boundsDeltaMm": 3.5762786865234375e-07,
+      "triangleDelta": 0
+    },
+    "Pave02": {
+      "boundsDeltaMm": 4.3213367462158203e-07,
+      "triangleDelta": 0
+    },
+    "Pave03": {
+      "boundsDeltaMm": 2.8312206268310547e-07,
+      "triangleDelta": 0
+    },
+    "Pave04": {
+      "boundsDeltaMm": 1.7881393432617188e-07,
+      "triangleDelta": 0
+    },
+    "Pave05": {
+      "boundsDeltaMm": 4.246830940246582e-07,
+      "triangleDelta": 0
+    }
+  },
+  "wallAudit": {
+    "method": "Inward normal from every STL face centroid; launch 0.0000001 mm inside, positive distance >0.0000001 mm, segment length 50 mm. Raw threshold strictly less than 0.45 mm. Opposed exit dot >= 0.5. Near crease when either endpoint less than 0.075 mm from an edge of dihedral angle >30 deg. All positive hits retained, including oblique and edge contacts.",
+    "byRevision": {
+      "R2": {
+        "White": {
+          "summary": {
+            "sha256": "614f695e2c121d282537441918e8673eed7ae1edde8aa5bcd4cf03390aa076e4",
+            "rays": 41618,
+            "noExit": 0,
+            "rawBelow045": 4077,
+            "min": {
+              "face": 34294,
+              "exitFace": 34260,
+              "lengthMm": 1.0725292882238836e-07,
+              "pointMm": [
+                0.889258881409963,
+                10.158681869506836,
+                -2.585855563481649
+              ],
+              "direction": [
+                0.8195261012110965,
+                1.1841174741027163e-05,
+                0.5730418564935084
+              ],
+              "endMm": [
+                0.8892589693065375,
+                10.158681869508106,
+                -2.5858555020212313
+              ],
+              "opposedCos": -0.9999999998803468,
+              "nearCrease": true
+            },
+            "rawClasses": {
+              "opposedAwayFromCrease": 951,
+              "opposedNearCrease": 2223,
+              "obliqueAwayFromCrease": 35,
+              "obliqueNearCrease": 868
+            },
+            "zones": {
+              "basket box": {
+                "facesInZone": 170,
+                "hits": 170,
+                "rawBelow045": 146,
+                "min": {
+                  "face": 34262,
+                  "exitFace": 34243,
+                  "lengthMm": 1.1013393686774177e-07,
+                  "pointMm": [
+                    0.837197740872701,
+                    10.216324806213379,
+                    -2.671067794164022
+                  ],
+                  "direction": [
+                    0.10040255478619162,
+                    -6.784782351015634e-07,
+                    -0.9949468965688297
+                  ],
+                  "endMm": [
+                    0.8371977519304297,
+                    10.216324806213304,
+                    -2.6710679037414407
+                  ],
+                  "opposedCos": -0.9999999999976021,
+                  "nearCrease": true
+                }
+              },
+              "basket detail": {
+                "facesInZone": 203,
+                "hits": 203,
+                "rawBelow045": 157,
+                "min": {
+                  "face": 34294,
+                  "exitFace": 34260,
+                  "lengthMm": 1.0725292882238836e-07,
+                  "pointMm": [
+                    0.889258881409963,
+                    10.158681869506836,
+                    -2.585855563481649
+                  ],
+                  "direction": [
+                    0.8195261012110965,
+                    1.1841174741027163e-05,
+                    0.5730418564935084
+                  ],
+                  "endMm": [
+                    0.8892589693065375,
+                    10.158681869508106,
+                    -2.5858555020212313
+                  ],
+                  "opposedCos": -0.9999999998803468,
+                  "nearCrease": true
+                }
+              },
+              "gallery shoulder": {
+                "facesInZone": 25,
+                "hits": 25,
+                "rawBelow045": 4,
+                "min": {
+                  "face": 34622,
+                  "exitFace": 33774,
+                  "lengthMm": 0.06186163189571481,
+                  "pointMm": [
+                    -3.1547672748565674,
+                    10.729999542236328,
+                    0.6221569577852885
+                  ],
+                  "direction": [
+                    0.0,
+                    1.0,
+                    -0.0
+                  ],
+                  "endMm": [
+                    -3.1547672748565674,
+                    10.791861174132043,
+                    0.6221569577852885
+                  ],
+                  "opposedCos": 0.73669569606675,
+                  "nearCrease": true
+                }
+              },
+              "bottom y < -8": {
+                "facesInZone": 2610,
+                "hits": 2610,
+                "rawBelow045": 0,
+                "min": {
+                  "face": 2623,
+                  "exitFace": 2711,
+                  "lengthMm": 1.3228782704470268,
+                  "pointMm": [
+                    -4.820701917012532,
+                    -8.529432932535807,
+                    -0.7655007839202881
+                  ],
+                  "direction": [
+                    0.4744247917499359,
+                    0.84852177036771,
+                    0.23437560066072843
+                  ],
+                  "endMm": [
+                    -4.193095669045186,
+                    -7.406941920515122,
+                    -0.45545039468324056
+                  ],
+                  "opposedCos": 0.940393716712254,
+                  "nearCrease": null
+                }
+              }
+            },
+            "witnesses": {
+              "basket 1": {
+                "face": 17755,
+                "exitFace": 12737,
+                "lengthMm": 1.402167236529391,
+                "pointMm": [
+                  0.5506538152694702,
+                  10.343804995218912,
+                  -2.098647435506185
+                ],
+                "direction": [
+                  0.2158900794222222,
+                  -0.965910406027711,
+                  0.1428585353923556
+                ],
+                "endMm": [
+                  0.8533678113270384,
+                  8.989437070464055,
+                  -1.8983358777204495
+                ],
+                "opposedCos": 0.9646545189699905,
+                "nearCrease": null,
+                "givenPointMm": [
+                  0.4,
+                  10.24,
+                  -2.25
+                ],
+                "centerDistanceMm": 0.2374439889037
+              },
+              "basket 2": {
+                "face": 17662,
+                "exitFace": 34288,
+                "lengthMm": 0.003914922735072375,
+                "pointMm": [
+                  0.9397356907526652,
+                  10.31161085764567,
+                  -2.6517256100972495
+                ],
+                "direction": [
+                  -0.5531960933024295,
+                  0.13278701516568872,
+                  -0.8223999580242675
+                ],
+                "endMm": [
+                  0.9375699707900421,
+                  10.312130708550264,
+                  -2.6549452423902413
+                ],
+                "opposedCos": 0.9246321629978759,
+                "nearCrease": true,
+                "givenPointMm": [
+                  0.94,
+                  10.31,
+                  -2.65
+                ],
+                "centerDistanceMm": 0.002375384587928497
+              },
+              "gallery shoulder 1": {
+                "face": 34622,
+                "exitFace": 33774,
+                "lengthMm": 0.06186163189571481,
+                "pointMm": [
+                  -3.1547672748565674,
+                  10.729999542236328,
+                  0.6221569577852885
+                ],
+                "direction": [
+                  0.0,
+                  1.0,
+                  -0.0
+                ],
+                "endMm": [
+                  -3.1547672748565674,
+                  10.791861174132043,
+                  0.6221569577852885
+                ],
+                "opposedCos": 0.73669569606675,
+                "nearCrease": true,
+                "givenPointMm": [
+                  -3.15,
+                  10.73,
+                  0.62
+                ],
+                "centerDistanceMm": 0.0052325306167402864
+              }
+            }
+          },
+          "selfIntersectingFacePairs": 160,
+          "noExitFaces": [],
+          "rawCsv": "audit/R2/White-wall-rays.csv.gz",
+          "rawSha256": "79527a60128d733dd24c0487d4605db78ffa6104828d58774817a7e2ad9bd66d"
+        },
+        "Champagne": {
+          "summary": {
+            "sha256": "0c102502c3e01f4a6148eaa375f233f6391ff764d0c7a494cdb8bc7ee9222847",
+            "rays": 20292,
+            "noExit": 0,
+            "rawBelow045": 2161,
+            "min": {
+              "face": 88,
+              "exitFace": 18026,
+              "lengthMm": 0.00028727319152851554,
+              "pointMm": [
+                -9.0712890625,
+                -0.46473636229832965,
+                0.3202304442723592
+              ],
+              "direction": [
+                -0.5363767107811799,
+                0.2622409607209271,
+                -0.8022030308168422
+              ],
+              "endMm": [
+                -9.071443149149568,
+                -0.46466102750059385,
+                0.3199999928474426
+              ],
+              "opposedCos": 0.8022030308168422,
+              "nearCrease": true
+            },
+            "rawClasses": {
+              "opposedAwayFromCrease": 453,
+              "opposedNearCrease": 1387,
+              "obliqueAwayFromCrease": 19,
+              "obliqueNearCrease": 302
+            },
+            "zones": {
+              "left toe": {
+                "facesInZone": 52,
+                "hits": 52,
+                "rawBelow045": 52,
+                "min": {
+                  "face": 1,
+                  "exitFace": 18002,
+                  "lengthMm": 0.00037878623797820636,
+                  "pointMm": [
+                    -9.363940238952637,
+                    -0.4785890380541484,
+                    0.3202304442723592
+                  ],
+                  "direction": [
+                    0.6877371004686779,
+                    0.39607314742841665,
+                    -0.6083943971841651
+                  ],
+                  "endMm": [
+                    -9.363679733603632,
+                    -0.47843901099666963,
+                    0.3199999928474426
+                  ],
+                  "opposedCos": 0.6083943971841651,
+                  "nearCrease": true
+                }
+              },
+              "right toe": {
+                "facesInZone": 66,
+                "hits": 66,
+                "rawBelow045": 66,
+                "min": {
+                  "face": 18165,
+                  "exitFace": 5679,
+                  "lengthMm": 0.0006225586637966796,
+                  "pointMm": [
+                    9.120857238769531,
+                    -0.6475511193275452,
+                    0.3199999928474426
+                  ],
+                  "direction": [
+                    0.0,
+                    0.0,
+                    1.0
+                  ],
+                  "endMm": [
+                    9.120857238769531,
+                    -0.6475511193275452,
+                    0.3206225515112393
+                  ],
+                  "opposedCos": 0.9233343026414932,
+                  "nearCrease": true
+                }
+              }
+            },
+            "witnesses": {
+              "left toe 1": {
+                "face": 8,
+                "exitFace": 17998,
+                "lengthMm": 0.02003336540450931,
+                "pointMm": [
+                  -9.314311027526855,
+                  -0.49550554156303406,
+                  0.3378993074099223
+                ],
+                "direction": [
+                  0.24714668503174692,
+                  0.37499418194380535,
+                  -0.8934751701004985
+                ],
+                "endMm": [
+                  -9.309359847677102,
+                  -0.48799314609158867,
+                  0.3199999928474426
+                ],
+                "opposedCos": 0.8934751701004985,
+                "nearCrease": true,
+                "givenPointMm": [
+                  -9.3,
+                  -0.48,
+                  0.32
+                ],
+                "centerDistanceMm": 0.027669704259212294
+              },
+              "right toe 1": {
+                "face": 5800,
+                "exitFace": 18204,
+                "lengthMm": 0.037043444269925035,
+                "pointMm": [
+                  9.339602788289389,
+                  -0.5071252385775248,
+                  0.3424128592014313
+                ],
+                "direction": [
+                  -0.6825745542594422,
+                  0.4098966728467967,
+                  -0.6050427220177514
+                ],
+                "endMm": [
+                  9.31431787582861,
+                  -0.49194125402049654,
+                  0.3199999928474426
+                ],
+                "opposedCos": 0.6050427220177514,
+                "nearCrease": true,
+                "givenPointMm": [
+                  9.3,
+                  -0.48,
+                  0.32
+                ],
+                "centerDistanceMm": 0.05297636893714877
+              }
+            }
+          },
+          "selfIntersectingFacePairs": 0,
+          "noExitFaces": [],
+          "rawCsv": "audit/R2/Champagne-wall-rays.csv.gz",
+          "rawSha256": "2d0189a69354dd7a4ce38f24546211bc19b711523201dcfca42225796235e984"
+        }
+      },
+      "R3": {
+        "White": {
+          "summary": {
+            "sha256": "8d2f7429211361dfe88a48426660779fe2e571def74a0760c1bd8177f65c7efe",
+            "rays": 39398,
+            "noExit": 0,
+            "rawBelow045": 810,
+            "min": {
+              "face": 33174,
+              "exitFace": 31518,
+              "lengthMm": 7.770373893123406e-05,
+              "pointMm": [
+                -3.6553266843159995,
+                10.670000076293945,
+                0.19547351201375326
+              ],
+              "direction": [
+                -0.0,
+                1.0,
+                0.0
+              ],
+              "endMm": [
+                -3.6553266843159995,
+                10.670077780032877,
+                0.19547351201375326
+              ],
+              "opposedCos": 0.7569986107936858,
+              "nearCrease": true
+            },
+            "rawClasses": {
+              "opposedAwayFromCrease": 51,
+              "opposedNearCrease": 177,
+              "obliqueAwayFromCrease": 13,
+              "obliqueNearCrease": 569
+            },
+            "zones": {
+              "basket box": {
+                "facesInZone": 4,
+                "hits": 4,
+                "rawBelow045": 0,
+                "min": {
+                  "face": 31718,
+                  "exitFace": 32802,
+                  "lengthMm": 0.5549999122967566,
+                  "pointMm": [
+                    0.9253785212834676,
+                    10.273637771606445,
+                    -2.6375102202097573
+                  ],
+                  "direction": [
+                    0.8195202140457674,
+                    -0.0,
+                    0.5730502759534977
+                  ],
+                  "endMm": [
+                    1.3802121682042876,
+                    10.273637771606445,
+                    -2.319467367313934
+                  ],
+                  "opposedCos": 0.9999999999998797,
+                  "nearCrease": null
+                }
+              },
+              "basket detail": {
+                "facesInZone": 12,
+                "hits": 12,
+                "rawBelow045": 8,
+                "min": {
+                  "face": 31720,
+                  "exitFace": 33926,
+                  "lengthMm": 0.21504632125246542,
+                  "pointMm": [
+                    0.9054603576660156,
+                    10.488876342773438,
+                    -2.609025239944458
+                  ],
+                  "direction": [
+                    0.8195197466617027,
+                    7.564353032024257e-07,
+                    0.5730509443591962
+                  ],
+                  "endMm": [
+                    1.0816950643793672,
+                    10.488876505442066,
+                    -2.4857927424697617
+                  ],
+                  "opposedCos": 0.34612601933307036,
+                  "nearCrease": true
+                }
+              },
+              "gallery shoulder": {
+                "facesInZone": 3,
+                "hits": 3,
+                "rawBelow045": 0,
+                "min": {
+                  "face": 31535,
+                  "exitFace": 32058,
+                  "lengthMm": 0.8773147902905314,
+                  "pointMm": [
+                    -3.3400683403015137,
+                    10.750130653381348,
+                    0.49229826033115387
+                  ],
+                  "direction": [
+                    -0.33724299732921165,
+                    -0.7308260405517896,
+                    0.59343109052678
+                  ],
+                  "endMm": [
+                    -3.6359366097803414,
+                    10.108966158875795,
+                    1.012924133068537
+                  ],
+                  "opposedCos": 0.627116914059261,
+                  "nearCrease": null
+                }
+              },
+              "bottom y < -8": {
+                "facesInZone": 2610,
+                "hits": 2610,
+                "rawBelow045": 0,
+                "min": {
+                  "face": 2650,
+                  "exitFace": 2727,
+                  "lengthMm": 1.3228782704470268,
+                  "pointMm": [
+                    -4.820701917012532,
+                    -8.529432932535807,
+                    -0.7655007839202881
+                  ],
+                  "direction": [
+                    0.4744247917499359,
+                    0.84852177036771,
+                    0.23437560066072843
+                  ],
+                  "endMm": [
+                    -4.193095669045186,
+                    -7.406941920515122,
+                    -0.45545039468324056
+                  ],
+                  "opposedCos": 0.940393716712254,
+                  "nearCrease": null
+                }
+              }
+            },
+            "witnesses": {
+              "basket 1": {
+                "face": 31721,
+                "exitFace": 32799,
+                "lengthMm": 0.5549999664281129,
+                "pointMm": [
+                  0.5451183716456095,
+                  10.243333180745443,
+                  -2.093699018160502
+                ],
+                "direction": [
+                  0.8195204667030918,
+                  5.996094409527726e-08,
+                  0.5730499146276377
+                ],
+                "endMm": [
+                  0.999952203152977,
+                  10.243333214023764,
+                  -1.77565633478053
+                ],
+                "opposedCos": 0.9999999999999925,
+                "nearCrease": null,
+                "givenPointMm": [
+                  0.4,
+                  10.24,
+                  -2.25
+                ],
+                "centerDistanceMm": 0.21330834209412936
+              },
+              "basket 2": {
+                "face": 31718,
+                "exitFace": 32802,
+                "lengthMm": 0.5549999122967566,
+                "pointMm": [
+                  0.9253785212834676,
+                  10.273637771606445,
+                  -2.6375102202097573
+                ],
+                "direction": [
+                  0.8195202140457674,
+                  -0.0,
+                  0.5730502759534977
+                ],
+                "endMm": [
+                  1.3802121682042876,
+                  10.273637771606445,
+                  -2.319467367313934
+                ],
+                "opposedCos": 0.9999999999998797,
+                "nearCrease": null,
+                "givenPointMm": [
+                  0.94,
+                  10.31,
+                  -2.65
+                ],
+                "centerDistanceMm": 0.04113385336692674
+              },
+              "gallery shoulder 1": {
+                "face": 31537,
+                "exitFace": 32096,
+                "lengthMm": 0.9575258352815958,
+                "pointMm": [
+                  -3.168912331263224,
+                  10.766118367513021,
+                  0.5879938105742136
+                ],
+                "direction": [
+                  -0.2109661957662022,
+                  -0.7366959532258035,
+                  0.642473607819544
+                ],
+                "endMm": [
+                  -3.3709179140804375,
+                  10.060712959551912,
+                  1.2031788885480026
+                ],
+                "opposedCos": 0.6739653386852412,
+                "nearCrease": null,
+                "givenPointMm": [
+                  -3.15,
+                  10.73,
+                  0.62
+                ],
+                "centerDistanceMm": 0.05183250820841008
+              }
+            }
+          },
+          "selfIntersectingFacePairs": 0,
+          "noExitFaces": [],
+          "rawCsv": "audit/R3/White-wall-rays.csv.gz",
+          "rawSha256": "01003c46f9354204c1d053859807bd12d03a92d248dcf3fc566779b39fa0ce83"
+        },
+        "Champagne": {
+          "summary": {
+            "sha256": "b17b066c114a59983286f2d1f5c6c11624e02f6e7fad2de75577fdae4be9413f",
+            "rays": 18446,
+            "noExit": 0,
+            "rawBelow045": 166,
+            "min": {
+              "face": 11438,
+              "exitFace": 7740,
+              "lengthMm": 3.0397484400003594e-06,
+              "pointMm": [
+                2.675621430079142,
+                9.53210163116455,
+                2.26090669631958
+              ],
+              "direction": [
+                0.4126572842903504,
+                -0.6905162254878291,
+                0.5940549705710358
+              ],
+              "endMm": [
+                2.6756226844534785,
+                9.532099532168932,
+                2.26090850209725
+              ],
+              "opposedCos": 0.5459409551427277,
+              "nearCrease": true
+            },
+            "rawClasses": {
+              "opposedAwayFromCrease": 25,
+              "opposedNearCrease": 68,
+              "obliqueAwayFromCrease": 15,
+              "obliqueNearCrease": 58
+            },
+            "zones": {
+              "left toe": {
+                "facesInZone": 15,
+                "hits": 15,
+                "rawBelow045": 0,
+                "min": {
+                  "face": 16257,
+                  "exitFace": 16293,
+                  "lengthMm": 0.5600000023841857,
+                  "pointMm": [
+                    -9.488303820292154,
+                    -0.5641579429308573,
+                    0.3199999928474426
+                  ],
+                  "direction": [
+                    -0.0,
+                    0.0,
+                    0.9999999999999999
+                  ],
+                  "endMm": [
+                    -9.488303820292154,
+                    -0.5641579429308573,
+                    0.8799999952316284
+                  ],
+                  "opposedCos": 0.9999999999999998,
+                  "nearCrease": null
+                }
+              },
+              "right toe": {
+                "facesInZone": 11,
+                "hits": 11,
+                "rawBelow045": 0,
+                "min": {
+                  "face": 17454,
+                  "exitFace": 17492,
+                  "lengthMm": 0.5600000023841857,
+                  "pointMm": [
+                    9.191696484883627,
+                    -0.5641579429308573,
+                    0.3199999928474426
+                  ],
+                  "direction": [
+                    -0.0,
+                    0.0,
+                    0.9999999999999999
+                  ],
+                  "endMm": [
+                    9.191696484883627,
+                    -0.5641579429308573,
+                    0.8799999952316284
+                  ],
+                  "opposedCos": 0.9999999999999998,
+                  "nearCrease": null
+                }
+              }
+            },
+            "witnesses": {
+              "left toe 1": {
+                "face": 16260,
+                "exitFace": 16296,
+                "lengthMm": 0.5600000023841858,
+                "pointMm": [
+                  -9.180392265319824,
+                  -0.5782962838808695,
+                  0.3199999928474426
+                ],
+                "direction": [
+                  -0.0,
+                  0.0,
+                  1.0
+                ],
+                "endMm": [
+                  -9.180392265319824,
+                  -0.5782962838808695,
+                  0.8799999952316284
+                ],
+                "opposedCos": 1.0,
+                "nearCrease": null,
+                "givenPointMm": [
+                  -9.3,
+                  -0.48,
+                  0.32
+                ],
+                "centerDistanceMm": 0.15481656765382715
+              },
+              "right toe 1": {
+                "face": 17453,
+                "exitFace": 17491,
+                "lengthMm": 0.5600000023841858,
+                "pointMm": [
+                  9.205940882364908,
+                  -0.5757662256558737,
+                  0.3199999928474426
+                ],
+                "direction": [
+                  -0.0,
+                  0.0,
+                  1.0
+                ],
+                "endMm": [
+                  9.205940882364908,
+                  -0.5757662256558737,
+                  0.8799999952316284
+                ],
+                "opposedCos": 1.0,
+                "nearCrease": null,
+                "givenPointMm": [
+                  9.3,
+                  -0.48,
+                  0.32
+                ],
+                "centerDistanceMm": 0.13423221515964015
+              }
+            }
+          },
+          "selfIntersectingFacePairs": 0,
+          "noExitFaces": [],
+          "rawCsv": "audit/R3/Champagne-wall-rays.csv.gz",
+          "rawSha256": "6b54a09bc68bce331ae7340fc3aac52b79dac371cab7504e85578930fb722040"
+        }
+      }
+    },
+    "retainedRiskSamples": {
+      "R2": {
+        "White": [
+          {
+            "face0": "34614",
+            "exitFace0": "33771",
+            "x": "-3.42818522",
+            "y": "10.7299995",
+            "z": "0.509802173",
+            "dx": "-0",
+            "dy": "1",
+            "dz": "-0",
+            "lengthMm": "0.075006324",
+            "exitCos": "0.730826543",
+            "nearCreaseIfThin": "0"
+          },
+          {
+            "face0": "34498",
+            "exitFace0": "33742",
+            "x": "-4.31207482",
+            "y": "10.7299995",
+            "z": "-1.41747443",
+            "dx": "0",
+            "dy": "1",
+            "dz": "-0",
+            "lengthMm": "0.0750063398",
+            "exitCos": "0.730826236",
+            "nearCreaseIfThin": "0"
+          },
+          {
+            "face0": "34371",
+            "exitFace0": "33712",
+            "x": "-2.77822717",
+            "y": "10.7299995",
+            "z": "-2.8432045",
+            "dx": "-0",
+            "dy": "1",
+            "dz": "-0",
+            "lengthMm": "0.10011762",
+            "exitCos": "0.640592265",
+            "nearCreaseIfThin": "0"
+          }
+        ],
+        "Champagne": [
+          {
+            "face0": "17997",
+            "exitFace0": "10",
+            "x": "-9.21899064",
+            "y": "-0.487915943",
+            "z": "0.319999993",
+            "dx": "-0",
+            "dy": "0",
+            "dz": "1",
+            "lengthMm": "0.0303516411",
+            "exitCos": "0.937429785",
+            "nearCreaseIfThin": "0"
+          },
+          {
+            "face0": "18172",
+            "exitFace0": "5686",
+            "x": "9.14093018",
+            "y": "-0.575017949",
+            "z": "0.319999993",
+            "dx": "-0",
+            "dy": "0",
+            "dz": "1",
+            "lengthMm": "0.0330050372",
+            "exitCos": "0.911573468",
+            "nearCreaseIfThin": "0"
+          },
+          {
+            "face0": "13413",
+            "exitFace0": "11977",
+            "x": "0.184069075",
+            "y": "10.215175",
+            "z": "1.9864316",
+            "dx": "-0.82360286",
+            "dy": "2.59110535e-07",
+            "dz": "-0.567166932",
+            "lengthMm": "0.13857999",
+            "exitCos": "0.964728031",
+            "nearCreaseIfThin": "0"
+          }
+        ]
+      },
+      "R3": {
+        "White": [
+          {
+            "face0": "31519",
+            "exitFace0": "33179",
+            "x": "-3.74120418",
+            "y": "10.8058987",
+            "z": "0.329632332",
+            "dx": "-0.433589878",
+            "dy": "-0.756998759",
+            "dz": "0.488827879",
+            "lengthMm": "0.17952287",
+            "exitCos": "0.756998759",
+            "nearCreaseIfThin": "0"
+          },
+          {
+            "face0": "33384",
+            "exitFace0": "31550",
+            "x": "-2.41316605",
+            "y": "10.6700001",
+            "z": "0.765056511",
+            "dx": "0",
+            "dy": "1",
+            "dz": "-0",
+            "lengthMm": "0.193424309",
+            "exitCos": "0.706597624",
+            "nearCreaseIfThin": "0"
+          },
+          {
+            "face0": "12612",
+            "exitFace0": "31741",
+            "x": "0.357813458",
+            "y": "9.71361605",
+            "z": "-2.93967136",
+            "dx": "-0.0962407235",
+            "dy": "-0.034542966",
+            "dz": "0.994758517",
+            "lengthMm": "0.339307557",
+            "exitCos": "0.676447608",
+            "nearCreaseIfThin": "0"
+          }
+        ],
+        "Champagne": [
+          {
+            "face0": "7541",
+            "exitFace0": "11418",
+            "x": "2.42758115",
+            "y": "9.63785585",
+            "z": "2.6071562",
+            "dx": "0.288817832",
+            "dy": "0.954061957",
+            "dz": "-0.0796871495",
+            "lengthMm": "0.122860413",
+            "exitCos": "0.616174393",
+            "nearCreaseIfThin": "0"
+          },
+          {
+            "face0": "7623",
+            "exitFace0": "11437",
+            "x": "3.04914943",
+            "y": "9.38757928",
+            "z": "2.03874628",
+            "dx": "0.378439115",
+            "dy": "0.925210016",
+            "dz": "0.0277536012",
+            "lengthMm": "0.378576142",
+            "exitCos": "0.512403652",
+            "nearCreaseIfThin": "0"
+          },
+          {
+            "face0": "14895",
+            "exitFace0": "11537",
+            "x": "2.91843494",
+            "y": "10.4074977",
+            "z": "-0.461894701",
+            "dx": "0.111315546",
+            "dy": "0.674809443",
+            "dz": "0.729548535",
+            "lengthMm": "0.442350959",
+            "exitCos": "0.674809443",
+            "nearCreaseIfThin": "0"
+          }
+        ]
+      }
+    },
+    "localMeasurements": {
+      "R2": {
+        "toeMinMm": 0.0010140554415389857,
+        "toeHits": 291,
+        "toeProbes": 510,
+        "lowerMinMm": 0.006028360748529061,
+        "upperMinMm": 0.31902153251345955,
+        "shoulderMinMm": 0.014072922821600997,
+        "shoulderHits": 73,
+        "shoulderBelow050": 50,
+        "centerShoulderYmm": 0.061908540513618604,
+        "namedBasketXmm": 0.7145414903028281,
+        "bottomRadialMm": 1.3593759536743164,
+        "bottomZmm": 2.396281281343616,
+        "alloyGapYAbove6mm": 0.15286875637073177,
+        "braceCaliperSamplesMinMm": {
+          "left": 0.454115153960033,
+          "right": 1.237162719167559
+        }
+      },
+      "R3": {
+        "toeMinMm": 0.5600000023841858,
+        "toeHits": 408,
+        "toeProbes": 510,
+        "lowerMinMm": 0.5549563495777401,
+        "upperMinMm": 0.664148562507091,
+        "shoulderMinMm": 0.9109914901127389,
+        "shoulderHits": 79,
+        "shoulderBelow050": 0,
+        "centerShoulderYmm": 0.9719086190119164,
+        "namedBasketXmm": 0.801311428382597,
+        "bottomRadialMm": 1.3593759536743164,
+        "bottomZmm": 2.396281281343616,
+        "alloyGapYAbove6mm": 0.11471955949142168,
+        "braceCaliperSamplesMinMm": {
+          "left": 0.6266787531143576,
+          "right": 1.237162719167559
+        }
+      }
+    }
+  },
+  "selfIntersectionAudit": {
+    "R2": {
+      "White": {
+        "sha256": "614f695e2c121d282537441918e8673eed7ae1edde8aa5bcd4cf03390aa076e4",
+        "faces": 41618,
+        "intersectingPairs": 160
+      },
+      "Champagne": {
+        "sha256": "0c102502c3e01f4a6148eaa375f233f6391ff764d0c7a494cdb8bc7ee9222847",
+        "faces": 20292,
+        "intersectingPairs": 0
+      }
+    },
+    "R3": {
+      "White": {
+        "sha256": "8d2f7429211361dfe88a48426660779fe2e571def74a0760c1bd8177f65c7efe",
+        "faces": 39398,
+        "intersectingPairs": 0
+      },
+      "Champagne": {
+        "sha256": "b17b066c114a59983286f2d1f5c6c11624e02f6e7fad2de75577fdae4be9413f",
+        "faces": 18446,
+        "intersectingPairs": 0
+      }
+    }
+  }
+}

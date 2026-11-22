@@ -1,0 +1,61 @@
+@font-face {
+  font-family: Atelier;
+  src: url("../catalog/assets/fonts/atelier-serif.woff") format("woff");
+  font-weight: 300 700;
+  font-display: swap;
+}
+:root {
+  color-scheme: light;
+  --paper: #f5f2eb;
+  --ink: #242720;
+  --line: #cac5b8;
+  --serif: Atelier, Georgia, serif;
+}
+* { box-sizing: border-box; }
+[hidden] { display: none !important; }
+body { margin: 0; color: var(--ink); background: var(--paper); font: 16px/1.55 "Segoe UI", Arial, sans-serif; }
+header { background: #1d201d; color: #eae6da; }
+.bar { min-height: 72px; max-width: 1800px; margin: auto; padding: 0 clamp(18px, 4vw, 72px); display: flex; align-items: center; justify-content: space-between; gap: 20px; }
+.bar img { object-fit: contain; }
+a { color: inherit; text-underline-offset: 5px; text-decoration-thickness: 1px; }
+.bar a { font-size: .9rem; text-decoration-color: #746e5e; }
+.product { display: grid; grid-template-columns: minmax(0, 1.5fr) minmax(320px, 1fr); min-height: calc(100svh - 72px); max-width: 1800px; margin: auto; }
+.visual { display: flex; flex-direction: column; min-width: 0; background: #282b28; color: #eceae3; }
+#stage { position: relative; flex: 1; min-height: 470px; background: radial-gradient(ellipse at 40% 35%, #62635c 0%, #3e4340 46%, #252a27 94%); overflow: hidden; }
+#model, #still { position: absolute; inset: 0; width: 100%; height: 100%; }
+#model { display: block; touch-action: none; cursor: grab; }
+#model:active { cursor: grabbing; }
+#still { object-fit: contain; background: #292b29; }
+#status { position: absolute; top: 14px; left: 16px; margin: 0; background: #262925da; padding: 6px 12px; font-size: .875rem; }
+.view-switch { display: flex; align-items: center; justify-content: center; gap: clamp(9px, 2.2vw, 35px); padding: 14px 10px; flex-wrap: wrap; }
+button { font: inherit; color: inherit; cursor: pointer; }
+.view-switch button { color: #d0d2c9; background: transparent; border: 0; border-bottom: 1px solid transparent; padding: 8px 0; font-size: .94rem; }
+.view-switch button[aria-pressed="true"] { border-color: #c8b28b; color: #fff; }
+.about { padding: clamp(30px, 5vw, 78px); align-self: center; }
+h1 { margin: 0 0 20px; font: 500 clamp(2.8rem, 4.6vw, 5.6rem)/.98 var(--serif); letter-spacing: -.035em; }
+.lead { margin: 0; max-width: 35em; }
+dl { margin: 24px 0; }
+dl div { display: flex; gap: 16px; justify-content: space-between; border-bottom: 1px solid var(--line); padding: 7px 0; }
+dt { color: #55574d; }
+dd { margin: 0; text-align: right; font-variant-numeric: tabular-nums; }
+fieldset { border: 0; padding: 0; margin: 0 0 22px; }
+legend { margin-bottom: 8px; padding: 0; }
+.tools, .documents { display: flex; flex-wrap: wrap; align-items: center; gap: 8px; }
+.tools button { padding: 7px 12px; border: 1px solid #b9b6aa; background: transparent; font-size: .9rem; min-height: 40px; }
+.tools button[aria-pressed="true"] { background: #41483e; border-color: #41483e; color: white; }
+.link { display: inline-block; border: 0; border-bottom: 1px solid #9d907a; text-decoration: none; background: transparent; padding: 4px 0; font-size: .92rem; }
+#reset { margin-top: 7px; }
+.documents { gap: 12px 20px; }
+.primary { color: white; background: #252a24; text-decoration: none; padding: 11px 18px; }
+.format { font-size: .875rem; color: #55574d; margin: 14px 0 0; }
+button:focus-visible, a:focus-visible, canvas:focus-visible { outline: 3px solid #a88655; outline-offset: 3px; }
+@media(max-width: 780px) {
+  .product { grid-template-columns: 1fr; }
+  .bar { min-height: 58px; }
+  .bar img { width: 120px; }
+  .bar a { font-size: .84rem; }
+  #stage { flex: none; height: clamp(310px, 56svh, 550px); min-height: 0; }
+  .view-switch { padding-block: 6px; }
+  .about { padding: 26px clamp(19px, 5vw, 40px) 40px; }
+  h1 { font-size: clamp(2.9rem, 9vw, 4.6rem); }
+}

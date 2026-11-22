@@ -1,0 +1,168 @@
+{
+  "units": "mm",
+  "edition": 1,
+  "glbSha256": "38461dcce0659301735cda47d2a8a5e3a78bc50231782702ec8e0a750b99fe24",
+  "files": {
+    "Metal": {
+      "sha256": "070082fc623c6d55201d88ce58088bef815f6ab0781e0a5906b0f7f6430c0ac8",
+      "faces": 22762,
+      "components": 1,
+      "boundaryEdges": 0,
+      "nonmanifoldEdges": 0,
+      "consistentWinding": true,
+      "selfIntersectingPairs": 0,
+      "extentsMm": [
+        20.441280364990234,
+        23.9656400680542,
+        6.579999923706055
+      ],
+      "volumeMm3": 272.7843093532989
+    },
+    "Stone": {
+      "sha256": "e17cab723fc0b16173cb796ada90dc9858532454be7df6e99a1d3b39eb8a07cf",
+      "faces": 284,
+      "components": 1,
+      "boundaryEdges": 0,
+      "nonmanifoldEdges": 0,
+      "consistentWinding": true,
+      "selfIntersectingPairs": 0,
+      "extentsMm": [
+        6.0,
+        3.530000686645508,
+        6.0
+      ],
+      "volumeMm3": 44.71661897692372
+    }
+  },
+  "insertion": {
+    "direction": [
+      0,
+      -1,
+      0
+    ],
+    "travelMm": 6,
+    "sweptOverlapMm3": 0.0,
+    "restOverlapMm3": 0.0,
+    "overlapAfterDownwardOvertravel0020mmMm3": 0.15657646215358784,
+    "toleranceMm3": 1e-06
+  },
+  "prongs": {
+    "count": 4,
+    "upperGirdleYmm": 13.029999732971191,
+    "sectionOffsetMm": 0.18,
+    "measurements": [
+      {
+        "planCenterMm": [
+          -2.45732,
+          -2.45732
+        ],
+        "heightAboveUpperGirdleMm": 0.7150001525878906,
+        "widthAtCheckSectionMm": 0.7736839977532206
+      },
+      {
+        "planCenterMm": [
+          -2.45732,
+          2.45732
+        ],
+        "heightAboveUpperGirdleMm": 0.7150001525878906,
+        "widthAtCheckSectionMm": 0.7736839977532206
+      },
+      {
+        "planCenterMm": [
+          2.45732,
+          -2.45732
+        ],
+        "heightAboveUpperGirdleMm": 0.7150001525878906,
+        "widthAtCheckSectionMm": 0.7736839977532206
+      },
+      {
+        "planCenterMm": [
+          2.45732,
+          2.45732
+        ],
+        "heightAboveUpperGirdleMm": 0.7150001525878906,
+        "widthAtCheckSectionMm": 0.7736839977532206
+      }
+    ]
+  },
+  "bore": {
+    "diameterMm": 17.00000437718404
+  },
+  "shankBottom": {
+    "radialThicknessMm": 1.7200002670288086,
+    "widthMm": 2.200000047683716
+  },
+  "lightWindow": {
+    "clearDiameterMm": 2.0399999618530273,
+    "clearDirectlyBelowCulet": true
+  },
+  "galleryRadialWalls": [
+    {
+      "heightYmm": 10.54,
+      "rays": 72,
+      "minMm": 0.7894849562073475,
+      "maxMm": 1.3402870128212152
+    },
+    {
+      "heightYmm": 12.31,
+      "rays": 72,
+      "minMm": 0.9109070602427977,
+      "maxMm": 1.3294175096755785
+    },
+    {
+      "heightYmm": 12.55,
+      "rays": 72,
+      "minMm": 0.7138026881956662,
+      "maxMm": 1.1859742352913927
+    },
+    {
+      "heightYmm": 12.66,
+      "rays": 72,
+      "minMm": 0.5897578414075548,
+      "maxMm": 1.118969970849089
+    }
+  ],
+  "estimatedMetalMass": {
+    "585": {
+      "densityGcm3": 13.5,
+      "grams": 3.6825881762695354
+    },
+    "750": {
+      "densityGcm3": 15.5,
+      "grams": 4.228156794976133
+    }
+  },
+  "wallAudit": {
+    "rays": 22762,
+    "noExit": 0,
+    "rawChordsBelow045mm": 0,
+    "opposedBelow045mm": 0,
+    "shortestSamples": []
+  },
+  "postChains": [
+    {
+      "azimuthDegrees": 45,
+      "solidInteriorSamples": 110,
+      "fromYmm": 10.28,
+      "toYmm": 13.37
+    },
+    {
+      "azimuthDegrees": 135,
+      "solidInteriorSamples": 110,
+      "fromYmm": 10.28,
+      "toYmm": 13.37
+    },
+    {
+      "azimuthDegrees": 225,
+      "solidInteriorSamples": 110,
+      "fromYmm": 10.28,
+      "toYmm": 13.37
+    },
+    {
+      "azimuthDegrees": 315,
+      "solidInteriorSamples": 110,
+      "fromYmm": 10.28,
+      "toYmm": 13.37
+    }
+  ]
+}
