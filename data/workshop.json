@@ -1,0 +1,114 @@
+[
+  {
+    "id": "classic-solitaire",
+    "group": "series",
+    "category": "Серия",
+    "title": "Классический солитер",
+    "image": "/assets/workshop/solitaire.webp",
+    "alt": "Солитер с круглой вставкой и открытой корзинкой на четырёх крапанах",
+    "metalPhoto": null,
+    "mass": "3,68 г (Au 585) / 4,23 г (Au 750), заготовка",
+    "stones": "Круглая вставка Ø 6,00 мм",
+    "wall": "Корзинка на высоте 12,66 мм — от 0,590 мм. Усадка по согласованию.",
+    "construction": "Четыре крапана до обжима, сквозное окно Ø 2,04 мм",
+    "heatmap": "/check/?stl=../solitaire/Metal.stl",
+    "report": "/solitaire/report.html",
+    "model": "/solitaire/"
+  },
+  {
+    "id": "duet-r4",
+    "group": "assembly",
+    "category": "Сборка из двух сплавов",
+    "title": "Дуэт R4",
+    "image": "/foundry/Duet-R4/cover.webp",
+    "alt": "Две золотые ленты «Дуэта» с бесцветной и сине-зелёной грушами",
+    "metalPhoto": null,
+    "mass": "3,83 г (Au 585) / 4,40 г (Au 750), обе заготовки",
+    "stones": "Две груши и пять круглых вставок паве",
+    "wall": "Галереи груш в семи сечениях — от 0,560 мм. Усадка по сплавам.",
+    "construction": "Два штифта Ø 0,70 мм под круглое и продолговатое гнёзда",
+    "heatmap": "/check/?stl=../foundry/Duet-R4/White.stl",
+    "report": "/foundry/Duet-R4/report.html",
+    "model": "/foundry/Duet-R4/report.html#model"
+  },
+  {
+    "id": "console-r3",
+    "group": "assembly",
+    "category": "Английский замок",
+    "title": "Консоль R3",
+    "image": "/console/pair.webp",
+    "alt": "Зеркальная пара серёг с английскими замками и узкими багетами",
+    "metalPhoto": null,
+    "mass": "3,80 г (Au 585), пара с камнями",
+    "stones": "Два багета по 4,60 × 1,80 мм",
+    "wall": "Корпус над гарпуном — от 0,72 мм. Усадка по согласованию.",
+    "construction": "Проём 10 × 7 мм, ось Ø 0,80 мм, раскрытие до 55,5°",
+    "heatmap": "/check/?stl=../console/L_Body_blank.stl",
+    "report": "/console/#workshop",
+    "model": "/console/#model"
+  },
+  {
+    "id": "two-lines-r2",
+    "group": "assembly",
+    "category": "Парная посадка",
+    "title": "Две линии R2",
+    "image": "/foundry/Two-Lines-R2/cover.webp",
+    "alt": "Овальная вставка в розовом кольце над седлом гранёной белой шинки",
+    "metalPhoto": null,
+    "mass": "7,61 г (Au 585) / 8,74 г (Au 750), обе заготовки",
+    "stones": "Овал 4,5 × 6,0 мм",
+    "wall": "Тыльная стенка каста на оси овала — 0,702 мм. Усадка по сплавам.",
+    "construction": "Зазор в седле 0,070–0,084 мм по 51 сечению",
+    "heatmap": "/check/?stl=../foundry/Two-Lines-R2/A_Rose.stl",
+    "report": "/foundry/Two-Lines-R2/report.html",
+    "model": "/foundry/Two-Lines-R2/report.html#model",
+    "secondary": {
+      "label": "Седло отдельно",
+      "url": "/foundry/Two-Lines-R2/report.html#saddle"
+    }
+  },
+  {
+    "id": "pause-r2",
+    "group": "assembly",
+    "category": "Механика",
+    "title": "Пауза в движении R2",
+    "image": "/foundry/Pause-R2/cover.webp",
+    "alt": "Сатиновая рамка серьги с жемчужиной и аквамарином на концах маятника",
+    "metalPhoto": null,
+    "mass": "4,16 г, одна серьга в сборе с фурнитурой и вставками",
+    "stones": "Аквамарин 4,0 × 5,4 мм, жемчуг Ø 3,60 мм",
+    "wall": "Под кромкой чашки жемчуга — от 0,599 мм. Усадка по согласованию.",
+    "construction": "Маятник на оси Ø 0,70 мм, ход ±16°",
+    "heatmap": "/check/?stl=../foundry/Pause-R2/Lever.stl",
+    "report": "/foundry/Pause-R2/report.html",
+    "model": "/foundry/Pause-R2/report.html#model"
+  },
+  {
+    "id": "light-solitaire",
+    "group": "series",
+    "planned": true,
+    "title": "Облегчённый солитер",
+    "brief": "Внутренняя выборка шинки. Цель — около 2,5 г в Au 585. Для сравнения, полнотелая заготовка в том же сплаве весит по расчёту 3,68 г."
+  },
+  {
+    "id": "pave-band",
+    "group": "series",
+    "planned": true,
+    "title": "Кольцо-дорожка с микропаве",
+    "brief": "Круглые вставки, корнеровая закрепка и сквозные окна для доступа с изнанки."
+  },
+  {
+    "id": "screw-studs",
+    "group": "series",
+    "planned": true,
+    "title": "Пусеты на винтовом замке",
+    "brief": "Низкая корзинка на четырёх крапанах, резьбовой штифт и съёмная гайка."
+  },
+  {
+    "id": "tennis-link",
+    "group": "assembly",
+    "planned": true,
+    "title": "Узел теннисного браслета",
+    "brief": "Три шарнирных звена, коробочный замок и боковая предохранительная восьмёрка."
+  }
+]

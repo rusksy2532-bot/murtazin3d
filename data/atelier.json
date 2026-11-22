@@ -1,0 +1,682 @@
+[
+  {
+    "id": "gran",
+    "title": "Грань",
+    "type": "Кольцо",
+    "image": "/assets/studio/gran.webp",
+    "description": "Квадратный фианит приподнят над белым золотом. Три тонкие дорожки огибают кольцо и ловят свет даже при лёгком повороте руки.",
+    "model": "/catalog/#work/gran",
+    "archive": true,
+    "featured": true
+  },
+  {
+    "id": "pause-in-motion",
+    "title": "Пауза в движении",
+    "type": "Серьги",
+    "image": "/foundry/Pause-R2/cover.webp",
+    "description": "Жемчужина и аквамарин качаются в узкой серебристой раме. Когда серьга приходит в движение, между ними вспыхивает полоска тёплого золота.",
+    "model": "/pause/",
+    "archive": false,
+    "featured": true
+  },
+  {
+    "id": "63-Mirage",
+    "title": "Мираж",
+    "type": "Брошь",
+    "image": "/assets/studio/63-Mirage.webp",
+    "description": "Два разомкнутых контура на миг складываются в один драгоценный восьмиугольник. Стоит сменить ракурс, и у рисунка появляется глубина.",
+    "model": "/catalog/#work/63-Mirage",
+    "archive": true,
+    "featured": true
+  },
+  {
+    "id": "62-Lumen",
+    "title": "Просвет",
+    "type": "Подвеска",
+    "image": "/assets/studio/62-Lumen.webp",
+    "description": "Две светлые дуги сходятся под голубым камнем. По одной пробегают искры, по другой скользит длинный блик.",
+    "model": "/catalog/#work/62-Lumen",
+    "archive": true,
+    "featured": true
+  },
+  {
+    "id": "64-Duet",
+    "title": "Дуэт",
+    "type": "Кольцо",
+    "image": "/assets/studio/64-Duet.webp",
+    "description": "Две золотые ленты несут встречные капли. Одна вставка бесцветная, другая напоминает морскую воду.",
+    "model": "/catalog/#work/64-Duet",
+    "archive": true,
+    "featured": true
+  },
+  {
+    "id": "59-Pavane",
+    "title": "Павана",
+    "type": "Брошь",
+    "image": "/assets/studio/59-Pavane.webp",
+    "description": "От эмалевого крыла павлина расходятся восемь ажурных перьев. В каждом золотом пёрышке мерцает свой оттенок синего или зелёного.",
+    "model": "/catalog/#work/59-Pavane",
+    "archive": true,
+    "featured": true
+  },
+  {
+    "id": "two-lines",
+    "title": "Две линии",
+    "type": "Кольцо",
+    "image": "/foundry/Two-Lines-R2/cover.webp",
+    "description": "Мягкая волна розового золота ложится в складку белого. Обе линии встречаются у прозрачного овала.",
+    "model": "/two-lines/",
+    "archive": false,
+    "featured": true
+  },
+  {
+    "id": "61-Parallax",
+    "title": "Параллакс",
+    "type": "Серьги",
+    "image": "/assets/studio/61-Parallax.webp",
+    "description": "Под бесцветным багетом две дуги обрамляют маленькое окно. Голубая капля внизу движется сама по себе.",
+    "model": "/catalog/#work/61-Parallax",
+    "archive": true,
+    "featured": true
+  },
+  {
+    "id": "52-Tidepool",
+    "title": "Вода в ладонях",
+    "type": "Кольцо",
+    "image": "/assets/studio/52-Tidepool.webp",
+    "description": "Волнистые лепестки белого золота обнимают аквамарин. Кажется, что в ладонях на мгновение задержалась вода.",
+    "model": "/catalog/#work/52-Tidepool",
+    "archive": true,
+    "featured": true
+  },
+  {
+    "id": "10-Ginkgo",
+    "title": "Письмо гинкго",
+    "type": "Брошь",
+    "image": "/assets/studio/10-Ginkgo.webp",
+    "description": "Золотые жилки разбегаются от турмалина по складкам листа гинкго. Между ними прячутся камни цвета бледной зелени.",
+    "model": "/catalog/#work/10-Ginkgo",
+    "archive": true,
+    "featured": true
+  },
+  {
+    "id": "55-Astrolabe",
+    "title": "Широта звезды",
+    "type": "Подвеска",
+    "image": "/assets/studio/55-Astrolabe.webp",
+    "description": "Тонкая стрелка пересекает золотую шкалу астролябии. Сапфир внутри похож на звезду, по которой сверяют путь.",
+    "model": "/catalog/#work/55-Astrolabe",
+    "archive": true,
+    "featured": true
+  },
+  {
+    "id": "04-Rosa",
+    "title": "До первой капли",
+    "type": "Серьги",
+    "image": "/assets/studio/04-Rosa.webp",
+    "description": "Розовое золото повторяет неровный силуэт барочных жемчужин. Каждая жемчужина чуть по-своему ловит свет.",
+    "model": "/catalog/#work/04-Rosa",
+    "archive": true,
+    "featured": true
+  },
+  {
+    "id": "60-Caesura",
+    "title": "Цезура",
+    "type": "Кольцо",
+    "image": "/assets/studio/60-Caesura.webp",
+    "description": "Аквамарин лежит по диагонали между золотыми плечами. С одной стороны его встречают строгие багеты, с другой — россыпь круглых камней.",
+    "model": "/catalog/#work/60-Caesura",
+    "archive": true,
+    "featured": true
+  },
+  {
+    "id": "53-Lantern",
+    "title": "Вечерние фонари",
+    "type": "Серьги",
+    "image": "/assets/studio/53-Lantern.webp",
+    "description": "За тонкими рёбрами золотого фонаря мерцает цветной камень. Ажурный пояс огибает нижний край.",
+    "model": "/catalog/#work/53-Lantern",
+    "archive": true,
+    "featured": true
+  },
+  {
+    "id": "51-Solstice",
+    "title": "Солнцестояние",
+    "type": "Кольцо",
+    "image": "/assets/studio/51-Solstice.webp",
+    "description": "Цитрин возвышается над двумя ярусами лучей. Шестнадцать розово-золотых дуг нижнего яруса открывают вид на зернь.",
+    "model": "/catalog/#work/51-Solstice",
+    "archive": true,
+    "featured": false
+  },
+  {
+    "id": "54-Pendulum",
+    "title": "Белый маятник",
+    "type": "Серьги",
+    "image": "/assets/studio/54-Pendulum.webp",
+    "description": "В вытянутой рамке из белого золота подвешена жемчужная капля. У основания проходит ряд из пяти багетов.",
+    "model": "/catalog/#work/54-Pendulum",
+    "archive": true,
+    "featured": false
+  },
+  {
+    "id": "56-Aperture",
+    "title": "Зрачок ночи",
+    "type": "Подвеска",
+    "image": "/assets/studio/56-Aperture.webp",
+    "description": "Семь золотых лопастей сходятся спиралью вокруг тёмного оникса. На внешнем крае каждой видна синяя вставка.",
+    "model": "/catalog/#work/56-Aperture",
+    "archive": true,
+    "featured": false
+  },
+  {
+    "id": "57-Equator",
+    "title": "За меридианом",
+    "type": "Браслет",
+    "image": "/assets/studio/57-Equator.webp",
+    "description": "Открытая манжета с сапфировыми концами соединена косыми перемычками. Между бортами проходит волнистая лента розового золота.",
+    "model": "/catalog/#work/57-Equator",
+    "archive": true,
+    "featured": false
+  },
+  {
+    "id": "58-Heron",
+    "title": "Цапля на отмели",
+    "type": "Брошь",
+    "image": "/assets/studio/58-Heron.webp",
+    "description": "У цапли изогнутая шея, гранатовый глаз и крыло из слоистых перьев. У плеча их перекрывают селадоновые плашки в золотой окантовке.",
+    "model": "/catalog/#work/58-Heron",
+    "archive": true,
+    "featured": false
+  },
+  {
+    "id": "01-Arkada",
+    "title": "Сады над водой",
+    "type": "Кольцо",
+    "image": "/assets/studio/01-Arkada.webp",
+    "description": "Восьмиугольный изумруд венчает три ступени зелёной эмали. Золотая кайма очерчивает каждую площадку.",
+    "model": "/catalog/#work/01-Arkada",
+    "archive": true,
+    "featured": false
+  },
+  {
+    "id": "44-Camellia",
+    "title": "Белая ложа",
+    "type": "Брошь",
+    "image": "/assets/studio/44-Camellia.webp",
+    "description": "Три яруса молочных эмалевых лепестков окружают золотые тычинки камелии. Розовые и бесцветные камни лежат ближе к сердцевине.",
+    "model": "/catalog/#work/44-Camellia",
+    "archive": true,
+    "featured": false
+  },
+  {
+    "id": "08-Priliv",
+    "title": "Кромка прилива",
+    "type": "Браслет",
+    "image": "/assets/studio/08-Priliv.webp",
+    "description": "Два синих кабошона завершают открытую серебряную манжету. Аквамарины расставлены вдоль волнистой кромки.",
+    "model": "/catalog/#work/08-Priliv",
+    "archive": true,
+    "featured": false
+  },
+  {
+    "id": "buton",
+    "title": "До рассвета",
+    "type": "Кольцо",
+    "image": "/assets/studio/buton.webp",
+    "description": "Четыре ажурных чашелистика розового золота окружают круглый камень. По каждому проходит тонкая серебристая жилка.",
+    "model": "/catalog/#work/buton",
+    "archive": true,
+    "featured": false
+  },
+  {
+    "id": "07-Prizma",
+    "title": "Янтарное окно",
+    "type": "Подвеска",
+    "image": "/assets/studio/07-Prizma.webp",
+    "description": "Заострённый цитрин окружён двумя контурами розового золота. Вытянутые бесцветные багеты отмечают вершины оправы.",
+    "model": "/catalog/#work/07-Prizma",
+    "archive": true,
+    "featured": false
+  },
+  {
+    "id": "02-Pereplet",
+    "title": "Три берега",
+    "type": "Кольцо",
+    "image": "/assets/studio/02-Pereplet.webp",
+    "description": "Три шинки разных оттенков переплетены между двумя поперечными обоймами. На каждой матовая полоса соседствует с двумя блестящими рёбрами.",
+    "model": "/catalog/#work/02-Pereplet",
+    "archive": true,
+    "featured": false
+  },
+  {
+    "id": "03-Pleyady",
+    "title": "Плеяды",
+    "type": "Кольцо",
+    "image": "/assets/studio/03-Pleyady.webp",
+    "description": "Сапфировую дорожку обрамляют две дуги золота цвета шампанского. В просветах видны мелкая зернь и поперечные мостики.",
+    "model": "/catalog/#work/03-Pleyady",
+    "archive": true,
+    "featured": false
+  },
+  {
+    "id": "05-Veer",
+    "title": "Синий партер",
+    "type": "Серьги",
+    "image": "/assets/studio/05-Veer.webp",
+    "description": "Волна синих маркизов проходит поперёк складок серебряного веера. Двойной кант подчёркивает его нижнюю дугу.",
+    "model": "/catalog/#work/05-Veer",
+    "archive": true,
+    "featured": false
+  },
+  {
+    "id": "06-Polumesyats",
+    "title": "Лунная пристань",
+    "type": "Подвеска",
+    "image": "/assets/studio/06-Polumesyats.webp",
+    "description": "Бриллиант помещён между концами сатинового золотого полумесяца. По широкой дуге рассыпаны три маленькие звезды.",
+    "model": "/catalog/#work/06-Polumesyats",
+    "archive": true,
+    "featured": false
+  },
+  {
+    "id": "09-Yakor",
+    "title": "До отплытия",
+    "type": "Браслет",
+    "image": "/assets/studio/09-Yakor.webp",
+    "description": "Овальные золотые звенья чередуются со светлыми перемычками. Синяя вставка видна на каждом торце поперечной застёжки.",
+    "model": "/catalog/#work/09-Yakor",
+    "archive": true,
+    "featured": false
+  },
+  {
+    "id": "11-Signet",
+    "title": "Ноктюрн",
+    "type": "Кольцо",
+    "image": "/assets/studio/11-Signet.webp",
+    "description": "Два ряда золотых шевронов сходятся на ступенчатом щитке с полированным ониксом. Между ними проходит узкая полоса чёрного.",
+    "model": "/catalog/#work/11-Signet",
+    "archive": true,
+    "featured": false
+  },
+  {
+    "id": "12-Meeting",
+    "title": "Без четверти восемь",
+    "type": "Кольцо",
+    "image": "/assets/studio/12-Meeting.webp",
+    "description": "Жемчужина и рубин встречаются на концах разомкнутой шинки. Под ними навстречу друг другу растут две ажурные ветви.",
+    "model": "/catalog/#work/12-Meeting",
+    "archive": true,
+    "featured": false
+  },
+  {
+    "id": "13-Navette",
+    "title": "Сиреневый челнок",
+    "type": "Кольцо",
+    "image": "/assets/studio/13-Navette.webp",
+    "description": "Аметист вытянут вдоль двух золотых петель. Острия огранки отмечены ажурными наконечниками.",
+    "model": "/catalog/#work/13-Navette",
+    "archive": true,
+    "featured": false
+  },
+  {
+    "id": "14-Chevron",
+    "title": "Сход лучей",
+    "type": "Кольцо",
+    "image": "/assets/studio/14-Chevron.webp",
+    "description": "Две линии шинки образуют встречные шевроны. Сквозные треугольники ведут к центральному бриллианту.",
+    "model": "/catalog/#work/14-Chevron",
+    "archive": true,
+    "featured": false
+  },
+  {
+    "id": "15-Cable",
+    "title": "Семь витков",
+    "type": "Кольцо",
+    "image": "/assets/studio/15-Cable.webp",
+    "description": "Три металлические пряди скручены в кольцо. Семь поперечных витков золотистого и серебристого оттенков охватывают перевязь.",
+    "model": "/catalog/#work/15-Cable",
+    "archive": true,
+    "featured": false
+  },
+  {
+    "id": "16-Daisy",
+    "title": "Второй венчик",
+    "type": "Кольцо",
+    "image": "/assets/studio/16-Daisy.webp",
+    "description": "Под бриллиантовой розеткой раскрываются восемь ажурных лепестков розового золота. Они особенно хорошо видны сбоку.",
+    "model": "/catalog/#work/16-Daisy",
+    "archive": true,
+    "featured": false
+  },
+  {
+    "id": "17-Lattice",
+    "title": "Галерея роз",
+    "type": "Кольцо",
+    "image": "/assets/studio/17-Lattice.webp",
+    "description": "Стрельчатые окна прорезают шинку между розовыми кромками. В пролётах чередуются десять четырёхлучевых розеток.",
+    "model": "/catalog/#work/17-Lattice",
+    "archive": true,
+    "featured": false
+  },
+  {
+    "id": "18-Reeds",
+    "title": "Партитура ветра",
+    "type": "Кольцо",
+    "image": "/assets/studio/18-Reeds.webp",
+    "description": "По сатиновым каннелюрам проходят две полированные волны. Шесть тёмных металлических бусин отмечают перегибы.",
+    "model": "/catalog/#work/18-Reeds",
+    "archive": true,
+    "featured": false
+  },
+  {
+    "id": "19-Lustre",
+    "title": "Три огня",
+    "type": "Серьги",
+    "image": "/assets/studio/19-Lustre.webp",
+    "description": "Под ажурной золотой траверсой каждой серьги висят три рубиновые капли. В центре верхней части проступает тонкий трилистник.",
+    "model": "/catalog/#work/19-Lustre",
+    "archive": true,
+    "featured": false
+  },
+  {
+    "id": "20-Huggie",
+    "title": "Синий час",
+    "type": "Серьги",
+    "image": "/assets/studio/20-Huggie.webp",
+    "description": "Вдоль золотых серёг-конго проходит гребень из синих и светлых вставок. Розовая линия огибает нижний край.",
+    "model": "/catalog/#work/20-Huggie",
+    "archive": true,
+    "featured": false
+  },
+  {
+    "id": "21-Mobile",
+    "title": "Равновесие",
+    "type": "Серьги",
+    "image": "/assets/studio/21-Mobile.webp",
+    "description": "Три серебряных овала повёрнуты в разных плоскостях. Аквамарины и тонкие диагонали подчёркивают смещение контуров.",
+    "model": "/catalog/#work/21-Mobile",
+    "archive": true,
+    "featured": false
+  },
+  {
+    "id": "22-Conch",
+    "title": "Секрет створки",
+    "type": "Серьги",
+    "image": "/assets/studio/22-Conch.webp",
+    "description": "Створки розового золота собраны веерными рёбрами. Дорожка аквамаринов проходит над жемчужиной у их основания.",
+    "model": "/catalog/#work/22-Conch",
+    "archive": true,
+    "featured": false
+  },
+  {
+    "id": "23-Violet",
+    "title": "Фиалковая тень",
+    "type": "Серьги",
+    "image": "/assets/studio/23-Violet.webp",
+    "description": "Пять гранёных аметистов окружают светлую сердцевину. Между фиолетовыми лепестками видны острые золотые листья нижнего венчика.",
+    "model": "/catalog/#work/23-Violet",
+    "archive": true,
+    "featured": false
+  },
+  {
+    "id": "24-Cascade",
+    "title": "Дождь с карниза",
+    "type": "Серьги",
+    "image": "/assets/studio/24-Cascade.webp",
+    "description": "От ажурного золотого гребня спускаются три цепочки разной длины. Каждую завершает жемчужная капля в чеканной чашечке.",
+    "model": "/catalog/#work/24-Cascade",
+    "archive": true,
+    "featured": false
+  },
+  {
+    "id": "25-Column",
+    "title": "Полночная лестница",
+    "type": "Серьги",
+    "image": "/assets/studio/25-Column.webp",
+    "description": "Золотая ступенчатая линия пересекает вытянутую тёмную вставку. Светлые багеты отмечают верх и низ строгой рамки.",
+    "model": "/catalog/#work/25-Column",
+    "archive": true,
+    "featured": false
+  },
+  {
+    "id": "26-Knot",
+    "title": "Памятный узел",
+    "type": "Серьги",
+    "image": "/assets/studio/26-Knot.webp",
+    "description": "Три изгиба полированного серебра образуют пространственный узел. Одна петля перевита золотой нитью.",
+    "model": "/catalog/#work/26-Knot",
+    "archive": true,
+    "featured": false
+  },
+  {
+    "id": "27-Locket",
+    "title": "Сад в кармане",
+    "type": "Подвеска",
+    "image": "/assets/studio/27-Locket.webp",
+    "description": "По выпуклой нефритовой крышке медальона идёт золотая ветвь. Светлые бутоны и рубин выделяются на зелёной поверхности.",
+    "model": "/catalog/#work/27-Locket",
+    "archive": true,
+    "featured": false
+  },
+  {
+    "id": "28-Compass",
+    "title": "Тихий север",
+    "type": "Подвеска",
+    "image": "/assets/studio/28-Compass.webp",
+    "description": "Восьмилучевая роза направлений заключена в двойной серебряный обод. Сапфировые наконечники чередуются с золотыми шевронами.",
+    "model": "/catalog/#work/28-Compass",
+    "archive": true,
+    "featured": false
+  },
+  {
+    "id": "29-Coeur",
+    "title": "Обратный адрес",
+    "type": "Подвеска",
+    "image": "/assets/studio/29-Coeur.webp",
+    "description": "В розово-золотом контуре сердца проходит вторая, меньшая петля. У нижнего изгиба встречаются рубин и светлая маркиза.",
+    "model": "/catalog/#work/29-Coeur",
+    "archive": true,
+    "featured": false
+  },
+  {
+    "id": "30-Willow",
+    "title": "Низкая ива",
+    "type": "Подвеска",
+    "image": "/assets/studio/30-Willow.webp",
+    "description": "Узкие листья зелёной эмали расходятся по изогнутому золотому побегу. На развилках видны прозрачные капли хризолита.",
+    "model": "/catalog/#work/30-Willow",
+    "archive": true,
+    "featured": false
+  },
+  {
+    "id": "31-Ocellus",
+    "title": "Око сада",
+    "type": "Подвеска",
+    "image": "/assets/studio/31-Ocellus.webp",
+    "description": "Золотые бородки расходятся вокруг сапфирового глаза на бирюзовом опахале. Синие и зелёные вставки продолжают рисунок пера.",
+    "model": "/catalog/#work/31-Ocellus",
+    "archive": true,
+    "featured": false
+  },
+  {
+    "id": "32-Solar",
+    "title": "Малое солнце",
+    "type": "Подвеска",
+    "image": "/assets/studio/32-Solar.webp",
+    "description": "Два ажурных венца окружают цитрин. Длинные лучи чередуются с короткими, на которых сидят светлые камни.",
+    "model": "/catalog/#work/32-Solar",
+    "archive": true,
+    "featured": false
+  },
+  {
+    "id": "33-Hourglass",
+    "title": "Антракт",
+    "type": "Подвеска",
+    "image": "/assets/studio/33-Hourglass.webp",
+    "description": "Два треугольных камня обращены вершинами друг к другу. Серебряные стойки и золотые муфты очерчивают силуэт песочных часов.",
+    "model": "/catalog/#work/33-Hourglass",
+    "archive": true,
+    "featured": false
+  },
+  {
+    "id": "34-Orrery",
+    "title": "Малая орбита",
+    "type": "Подвеска",
+    "image": "/assets/studio/34-Orrery.webp",
+    "description": "Золотые кольца охватывают светлую планету. Малый спутник вынесен на отдельную орбиту, а на меридиане видны три синие точки.",
+    "model": "/catalog/#work/34-Orrery",
+    "archive": true,
+    "featured": false
+  },
+  {
+    "id": "35-Riviere",
+    "title": "Русло",
+    "type": "Браслет",
+    "image": "/assets/studio/35-Riviere.webp",
+    "description": "Аквамарины образуют непрерывный ряд в отдельных оправах. Направление огранки меняется у застёжки с поперечным багетом.",
+    "model": "/catalog/#work/35-Riviere",
+    "archive": true,
+    "featured": false
+  },
+  {
+    "id": "36-Torc",
+    "title": "Канатная бухта",
+    "type": "Браслет",
+    "image": "/assets/studio/36-Torc.webp",
+    "description": "Витые пряди открытого торка сходятся в рифлёных воротниках. У концов соседствуют тёмные кабошоны и коньячные акценты.",
+    "model": "/catalog/#work/36-Torc",
+    "archive": true,
+    "featured": false
+  },
+  {
+    "id": "37-Pearls",
+    "title": "Счёт лилий",
+    "type": "Браслет",
+    "image": "/assets/studio/37-Pearls.webp",
+    "description": "Среди круглых жемчужин повторяются золотые чашечки лилий. У застёжки ряд заканчивается маленькой розеткой.",
+    "model": "/catalog/#work/37-Pearls",
+    "archive": true,
+    "featured": false
+  },
+  {
+    "id": "38-Honey",
+    "title": "Медовый квартал",
+    "type": "Браслет",
+    "image": "/assets/studio/38-Honey.webp",
+    "description": "Золотые шестигранники собраны в ленту. Сквозные ячейки перемежаются тёплыми медовыми вставками.",
+    "model": "/catalog/#work/38-Honey",
+    "archive": true,
+    "featured": false
+  },
+  {
+    "id": "39-Wave",
+    "title": "Два течения",
+    "type": "Браслет",
+    "image": "/assets/studio/39-Wave.webp",
+    "description": "Два обруча переплетаются на разной высоте. Над пересечениями выделяются седловидные детали с сапфирами.",
+    "model": "/catalog/#work/39-Wave",
+    "archive": true,
+    "featured": false
+  },
+  {
+    "id": "40-Station",
+    "title": "Пять причалов",
+    "type": "Браслет",
+    "image": "/assets/studio/40-Station.webp",
+    "description": "Пять цветных вставок в круглых оправах расположены между двумя тонкими цепочками. Дугообразные обрамления оставляют вокруг них просветы.",
+    "model": "/catalog/#work/40-Station",
+    "archive": true,
+    "featured": false
+  },
+  {
+    "id": "41-Ribbon",
+    "title": "Изнанка ленты",
+    "type": "Браслет",
+    "image": "/assets/studio/41-Ribbon.webp",
+    "description": "Сатиновый браслет образует полуповорот. Узкая инкрустация следует изгибу и оказывается на внутренней поверхности.",
+    "model": "/catalog/#work/41-Ribbon",
+    "archive": true,
+    "featured": false
+  },
+  {
+    "id": "42-Scarab",
+    "title": "Восемь садовников",
+    "type": "Браслет",
+    "image": "/assets/studio/42-Scarab.webp",
+    "description": "Восемь выпуклых нефритовых скарабеев соединены овальными звеньями. На надкрыльях расходятся золотые жилки.",
+    "model": "/catalog/#work/42-Scarab",
+    "archive": true,
+    "featured": false
+  },
+  {
+    "id": "43-Dragonfly",
+    "title": "Над камышами",
+    "type": "Брошь",
+    "image": "/assets/studio/43-Dragonfly.webp",
+    "description": "Четыре ажурных крыла с синей эмалью расходятся от сапфирового туловища стрекозы. Зелёная вставка отмечает голову.",
+    "model": "/catalog/#work/43-Dragonfly",
+    "archive": true,
+    "featured": false
+  },
+  {
+    "id": "45-Swift",
+    "title": "Перед грозой",
+    "type": "Брошь",
+    "image": "/assets/studio/45-Swift.webp",
+    "description": "Разделённые маховые перья задают силуэт летящего стрижа. Голубые шпинели пересекают крыло, гранат отмечает глаз.",
+    "model": "/catalog/#work/45-Swift",
+    "archive": true,
+    "featured": false
+  },
+  {
+    "id": "46-Fan",
+    "title": "Складки полудня",
+    "type": "Брошь",
+    "image": "/assets/studio/46-Fan.webp",
+    "description": "Золотые и бирюзовые панели складываются веером вокруг турмалина. По гребню идёт ряд отдельных светлых акцентов.",
+    "model": "/catalog/#work/46-Fan",
+    "archive": true,
+    "featured": false
+  },
+  {
+    "id": "47-Plume",
+    "title": "Почерк воды",
+    "type": "Брошь",
+    "image": "/assets/studio/47-Plume.webp",
+    "description": "Бородки серебряного пера отогнуты от ости под разными углами. Овальные голубые и бесцветные вставки бегут по его середине.",
+    "model": "/catalog/#work/47-Plume",
+    "archive": true,
+    "featured": false
+  },
+  {
+    "id": "48-Comet",
+    "title": "Третий след",
+    "type": "Брошь",
+    "image": "/assets/studio/48-Comet.webp",
+    "description": "За головным кристаллом тянутся три изогнутых хвоста разной длины. Голубые вставки окружают его раскрытую оправу.",
+    "model": "/catalog/#work/48-Comet",
+    "archive": true,
+    "featured": false
+  },
+  {
+    "id": "49-Bow",
+    "title": "После бала",
+    "type": "Брошь",
+    "image": "/assets/studio/49-Bow.webp",
+    "description": "Две объёмные петли розового золота собраны у рубинового узла. Светлые вставки идут вдоль верхнего края, эмаль отмечает отвороты.",
+    "model": "/catalog/#work/49-Bow",
+    "archive": true,
+    "featured": false
+  },
+  {
+    "id": "50-Iris",
+    "title": "Ирис в чернилах",
+    "type": "Брошь",
+    "image": "/assets/studio/50-Iris.webp",
+    "description": "Над золотыми отворотами поднимаются три лепестка аметистового цвета. У стебля спрятана маленькая селадоновая почка.",
+    "model": "/catalog/#work/50-Iris",
+    "archive": true,
+    "featured": false
+  }
+]
