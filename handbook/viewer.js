@@ -119,7 +119,8 @@ function materials() {
     gemstone(0xd6eaf6),
     new T.MeshStandardMaterial({color:0xd6e2e6,metalness:.96,roughness:.25}),
     gemstone(0x33a9ad),
-    new T.MeshPhysicalMaterial({color:0xecdfc9,metalness:.10,roughness:.24,clearcoat:.45,iridescence:.3})
+    new T.MeshPhysicalMaterial({color:0xecdfc9,metalness:.10,roughness:.24,clearcoat:.45,iridescence:.3}),
+    new T.MeshPhysicalMaterial({color:0xdce5e3,roughness:.6,opacity:.66,transparent:true,depthWrite:false})
   ];
 }
 function unpack(buf, mats, file) {
@@ -144,7 +145,8 @@ function unpack(buf, mats, file) {
       const xyz=new Float32Array(buf,pos,verts*9);pos+=verts*36;
       g.setAttribute('position',new T.BufferAttribute(xyz,3)); g.computeVertexNormals();
     }
-    const m=new T.Mesh(g,mats[type]);m.userData.stone=[1,3,4].includes(type);
+    const silicone=file==='pause'&&i===2;
+    const m=new T.Mesh(g,mats[silicone?5:type]);m.userData.stone=!silicone&&[1,3,4].includes(type);
     if(file==='thread'&&i===2)m.position.set(3.9,0,-8.7);
     group.add(m);
   }
