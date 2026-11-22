@@ -3,7 +3,20 @@ const one=s=>document.querySelector(s), many=s=>Array.from(document.querySelecto
 const all=window.jewels, byId=new Map(all.map(p=>[p.id,p]));
 const highlights=['gran','64-Duet','63-Mirage','59-Pavane'];
 let featured=0, filtered=all, limit=8, current=null, revision=0, run=null, viewerScript=null, originHash='';
-const picture=(p,kind)=>'assets/'+kind+'/'+p.id+(kind==='studio'?'.webp':'.jpg');
+const macroVersions={
+ "05-Veer": "7a3bd0935f28",
+ "12-Meeting": "9417e0b19f8f",
+ "20-Huggie": "fc1d4ca3a845",
+ "28-Compass": "6b6dc45b1d5f",
+ "31-Ocellus": "2805b7bcad4b",
+ "41-Ribbon": "d854bef85851",
+ "43-Dragonfly": "cca0f3573e1e",
+ "57-Equator": "d935b93155b8"
+};
+function picture(p,kind){
+ const file='assets/'+kind+'/'+p.id+(kind==='studio'?'.webp':'.jpg');
+ return kind==='macro' && macroVersions[p.id] ? file+'?v='+macroVersions[p.id] : file;
+}
 function feature(n){
  featured=n;
  const p=byId.get(highlights[n]),hero=one('#heroImg');
