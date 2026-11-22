@@ -48,6 +48,7 @@
         notice.textContent='Не удалось открыть ролик. Проверьте соединение и скопируйте ссылку из сообщения целиком.';
       }
     }
+    window.addEventListener('hashchange', () => location.reload());
     openFilm();
   </script>
 </body>
