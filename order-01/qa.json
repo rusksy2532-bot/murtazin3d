@@ -1,5 +1,5 @@
 {
-  "revision": "01",
+  "revision": "01.1",
   "units": "mm",
   "shrinkCompensationPercent": 0,
   "densityGPerCm3": {
@@ -10,17 +10,17 @@
   },
   "rings": {
     "16": {
-      "started": "2026-11-22T19:11:36+03:00",
+      "started": "2026-11-22T19:39:20+03:00",
       "size": 16,
       "density585gCm3": 13.15,
-      "volumeMm3": 180.63571119501316,
-      "mass585g": 2.375359602214423,
-      "faces": 76324,
+      "volumeMm3": 180.6358534419072,
+      "mass585g": 2.3753614727610795,
+      "faces": 73420,
       "shells": 1,
       "openEdges": 0,
       "nonManifoldEdges": 0,
       "selfIntersections": 0,
-      "sha256": "24fdde1e83ebd10f424423940c46813c46130bb56bcf829f48a356ef3811aca4",
+      "sha256": "17d87377e7fe95ac0f8bde4cff8e71be6371fcf5d91c8fab4ad99b9bbb42e62c",
       "stones": [
         {
           "id": "Center",
@@ -47,7 +47,7 @@
           "sweepMm": 2.5,
           "sweptOverlapMm3": 0.0,
           "seatedOverlapMm3": 0.0,
-          "overtravel0020Mm3": 0.0005663703611980643,
+          "overtravel0020Mm3": 0.0005664300557792224,
           "axialHeightMm": 0.7780006161716866
         },
         {
@@ -61,7 +61,7 @@
           "sweepMm": 2.5,
           "sweptOverlapMm3": 0.0,
           "seatedOverlapMm3": 0.0,
-          "overtravel0020Mm3": 0.0005663715918765299,
+          "overtravel0020Mm3": 0.0005664519011203523,
           "axialHeightMm": 0.7780006810979891
         },
         {
@@ -75,7 +75,7 @@
           "sweepMm": 2.5,
           "sweptOverlapMm3": 0.0,
           "seatedOverlapMm3": 0.0,
-          "overtravel0020Mm3": 0.0005663755915874164,
+          "overtravel0020Mm3": 0.0005667224942425645,
           "axialHeightMm": 0.7780005309634266
         },
         {
@@ -89,7 +89,7 @@
           "sweepMm": 2.5,
           "sweptOverlapMm3": 0.0,
           "seatedOverlapMm3": 0.0,
-          "overtravel0020Mm3": 0.0005663713385772318,
+          "overtravel0020Mm3": 0.000566718246532697,
           "axialHeightMm": 0.7780002974457982
         },
         {
@@ -103,7 +103,7 @@
           "sweepMm": 2.5,
           "sweptOverlapMm3": 0.0,
           "seatedOverlapMm3": 0.0,
-          "overtravel0020Mm3": 0.0005663776722709539,
+          "overtravel0020Mm3": 0.000566457989872996,
           "axialHeightMm": 0.7780007055564937
         },
         {
@@ -117,7 +117,7 @@
           "sweepMm": 2.5,
           "sweptOverlapMm3": 0.0,
           "seatedOverlapMm3": 0.0,
-          "overtravel0020Mm3": 0.0005663710275410687,
+          "overtravel0020Mm3": 0.0005664307309267664,
           "axialHeightMm": 0.7780006173685621
         },
         {
@@ -131,7 +131,7 @@
           "sweepMm": 2.5,
           "sweptOverlapMm3": 0.0,
           "seatedOverlapMm3": 0.0,
-          "overtravel0020Mm3": 0.0005663699611791672,
+          "overtravel0020Mm3": 0.000566429655760327,
           "axialHeightMm": 0.7780006161716866
         },
         {
@@ -145,7 +145,7 @@
           "sweepMm": 2.5,
           "sweptOverlapMm3": 0.0,
           "seatedOverlapMm3": 0.0,
-          "overtravel0020Mm3": 0.0005663717732752616,
+          "overtravel0020Mm3": 0.0005664520825190836,
           "axialHeightMm": 0.7780006810979891
         },
         {
@@ -159,7 +159,7 @@
           "sweepMm": 2.5,
           "sweptOverlapMm3": 0.0,
           "seatedOverlapMm3": 0.0,
-          "overtravel0020Mm3": 0.0005663755956310486,
+          "overtravel0020Mm3": 0.000566722498286197,
           "axialHeightMm": 0.7780005309634266
         },
         {
@@ -173,7 +173,7 @@
           "sweepMm": 2.5,
           "sweptOverlapMm3": 0.0,
           "seatedOverlapMm3": 0.0,
-          "overtravel0020Mm3": 0.0005663713164446224,
+          "overtravel0020Mm3": 0.0005667182244000876,
           "axialHeightMm": 0.7780002974457982
         },
         {
@@ -187,7 +187,7 @@
           "sweepMm": 2.5,
           "sweptOverlapMm3": 0.0,
           "seatedOverlapMm3": 0.0,
-          "overtravel0020Mm3": 0.00056637759939928,
+          "overtravel0020Mm3": 0.0005664575954300415,
           "axialHeightMm": 0.7780007055564937
         },
         {
@@ -201,7 +201,7 @@
           "sweepMm": 2.5,
           "sweptOverlapMm3": 0.0,
           "seatedOverlapMm3": 0.0,
-          "overtravel0020Mm3": 0.0005663711583913435,
+          "overtravel0020Mm3": 0.0005664308617770415,
           "axialHeightMm": 0.7780006173685621
         }
       ],
@@ -214,11 +214,11 @@
             0.0,
             9.402296043223927
           ],
-          "upperRadiusMm": 0.499984985566691,
-          "upperSideWallMm": 0.4982315125440281,
+          "upperRadiusMm": 0.4999844693979243,
+          "upperSideWallMm": 0.4982320287127948,
           "exitRadiusMm": 0.3774066535388899,
           "exitSideWallMm": 0.6081548894919241,
-          "upperBridgeMm": 0.45003035911184025,
+          "upperBridgeMm": 0.4500303745152812,
           "adjacentStoneGapMm": 0.19999978473845556,
           "exitBridgeMm": 0.8118121634585569
         },
@@ -234,7 +234,7 @@
           "upperSideWallMm": 0.4982211937327015,
           "exitRadiusMm": 0.3776439866430774,
           "exitSideWallMm": 0.6108191589994179,
-          "upperBridgeMm": 0.4500305756839181,
+          "upperBridgeMm": 0.4500313153639125,
           "adjacentStoneGapMm": 0.19999991763425976,
           "exitBridgeMm": 0.7256346593660193
         },
@@ -266,7 +266,7 @@
           "upperSideWallMm": 0.49821537482781153,
           "exitRadiusMm": 0.377881328597143,
           "exitSideWallMm": 0.611952663186017,
-          "upperBridgeMm": 0.45003023216423615,
+          "upperBridgeMm": 0.4500309710774942,
           "adjacentStoneGapMm": 0.19999991763425976,
           "exitBridgeMm": 0.7256385297552451
         },
@@ -282,7 +282,7 @@
           "upperSideWallMm": 0.498220454181099,
           "exitRadiusMm": 0.3776439915704002,
           "exitSideWallMm": 0.6108509343354315,
-          "upperBridgeMm": 0.4500295378970914,
+          "upperBridgeMm": 0.45002955323034655,
           "adjacentStoneGapMm": 0.19999991762240873,
           "exitBridgeMm": 0.8118502195687505
         },
@@ -294,8 +294,8 @@
             0.0,
             4.645868083042751
           ],
-          "upperRadiusMm": 0.49998502292674396,
-          "upperSideWallMm": 0.49822954094734173,
+          "upperRadiusMm": 0.49998453570879414,
+          "upperSideWallMm": 0.49823002816529155,
           "exitRadiusMm": 0.3774066523015704,
           "exitSideWallMm": 0.6082682170608613
         },
@@ -307,11 +307,11 @@
             0.0,
             9.402296043223927
           ],
-          "upperRadiusMm": 0.4999849855666915,
-          "upperSideWallMm": 0.49823037467232995,
+          "upperRadiusMm": 0.4999844913363969,
+          "upperSideWallMm": 0.4982308689026246,
           "exitRadiusMm": 0.37740665256132133,
           "exitSideWallMm": 0.6081548790797039,
-          "upperBridgeMm": 0.45003035911184025,
+          "upperBridgeMm": 0.4500303745152812,
           "adjacentStoneGapMm": 0.19999978473845556,
           "exitBridgeMm": 0.8118121634585569
         },
@@ -327,7 +327,7 @@
           "upperSideWallMm": 0.4982205445279239,
           "exitRadiusMm": 0.37764398628518997,
           "exitSideWallMm": 0.6108191769267131,
-          "upperBridgeMm": 0.4500305756839181,
+          "upperBridgeMm": 0.4500313153639125,
           "adjacentStoneGapMm": 0.19999991763425976,
           "exitBridgeMm": 0.7256346593660193
         },
@@ -359,7 +359,7 @@
           "upperSideWallMm": 0.4982161193838944,
           "exitRadiusMm": 0.37788132772552024,
           "exitSideWallMm": 0.6119528371147205,
-          "upperBridgeMm": 0.45003023216423615,
+          "upperBridgeMm": 0.4500309710774942,
           "adjacentStoneGapMm": 0.19999991763425976,
           "exitBridgeMm": 0.7256385297552451
         },
@@ -375,7 +375,7 @@
           "upperSideWallMm": 0.4982210925306175,
           "exitRadiusMm": 0.3776439909160499,
           "exitSideWallMm": 0.6108508712536833,
-          "upperBridgeMm": 0.4500295378970914,
+          "upperBridgeMm": 0.45002955323034655,
           "adjacentStoneGapMm": 0.19999991762240873,
           "exitBridgeMm": 0.8118502195687505
         },
@@ -387,8 +387,8 @@
             0.0,
             4.645868083042751
           ],
-          "upperRadiusMm": 0.49998502292701297,
-          "upperSideWallMm": 0.49823065874907935,
+          "upperRadiusMm": 0.4999845192616631,
+          "upperSideWallMm": 0.4982311624144292,
           "exitRadiusMm": 0.37740665230063214,
           "exitSideWallMm": 0.6082681194971495
         }
@@ -457,7 +457,7 @@
           16.000038010714906
         ]
       },
-      "finished": "2026-11-22T19:11:38+03:00",
+      "finished": "2026-11-22T19:39:29+03:00",
       "centralGauges": {
         "seatPlaneZmm": 11.605,
         "innerSeatDiameterRangeMm": [
@@ -514,8 +514,8 @@
             0.7560000280013417
           ],
           "deckDiameterRangeMm": [
-            0.9999697567902737,
-            0.9999700650005212
+            0.9999689607343212,
+            0.9999700587310956
           ]
         },
         {
@@ -532,12 +532,12 @@
             7.23718129609179
           ],
           "exitOrthogonalDiameterRangeMm": [
-            0.7559998878115207,
+            0.7559985652996797,
             0.7560001163838451
           ],
           "deckDiameterRangeMm": [
-            0.9999694695686485,
-            0.9999703629852088
+            0.9999694541652075,
+            0.999970239175123
           ]
         },
         {
@@ -558,8 +558,8 @@
             0.7560001743169342
           ],
           "deckDiameterRangeMm": [
-            0.9999695921808257,
-            0.9999701301651887
+            0.9999688525008312,
+            0.9999700408861043
           ]
         },
         {
@@ -580,8 +580,8 @@
             0.7560001440742901
           ],
           "deckDiameterRangeMm": [
-            0.9999698471653136,
-            0.9999701586980861
+            0.999968912003391,
+            0.9999700699371535
           ]
         },
         {
@@ -598,12 +598,12 @@
             4.383324519983083
           ],
           "exitOrthogonalDiameterRangeMm": [
-            0.755999822814731,
+            0.755998784782803,
             0.7560001110218637
           ],
           "deckDiameterRangeMm": [
-            0.9999698265721593,
-            0.9999701340000878
+            0.9999694503447131,
+            0.9999700978395804
           ]
         },
         {
@@ -624,8 +624,8 @@
             0.7560001769667632
           ],
           "deckDiameterRangeMm": [
-            0.9999698515524854,
-            0.9999706307908065
+            0.9999690549704572,
+            0.9999706235802017
           ]
         },
         {
@@ -646,8 +646,8 @@
             0.7560000280013417
           ],
           "deckDiameterRangeMm": [
-            0.9999697567902737,
-            0.9999700650005212
+            0.9999689607343212,
+            0.9999700587310956
           ]
         },
         {
@@ -664,12 +664,12 @@
             7.23718129609179
           ],
           "exitOrthogonalDiameterRangeMm": [
-            0.7559998878133708,
+            0.7559985786100403,
             0.7560001163838451
           ],
           "deckDiameterRangeMm": [
-            0.9999694695686485,
-            0.9999703629852088
+            0.9999694541652075,
+            0.999970239175123
           ]
         },
         {
@@ -690,8 +690,8 @@
             0.7560001743169342
           ],
           "deckDiameterRangeMm": [
-            0.9999695921808257,
-            0.9999701301651887
+            0.9999688525008312,
+            0.9999700408861043
           ]
         },
         {
@@ -712,8 +712,8 @@
             0.7560001440742901
           ],
           "deckDiameterRangeMm": [
-            0.9999698471653136,
-            0.9999701586980861
+            0.999968912003391,
+            0.9999700699371535
           ]
         },
         {
@@ -734,8 +734,8 @@
             0.7560001110218637
           ],
           "deckDiameterRangeMm": [
-            0.9999698265721593,
-            0.9999701340000878
+            0.9999694503447131,
+            0.9999700978395804
           ]
         },
         {
@@ -756,8 +756,8 @@
             0.7560001769667632
           ],
           "deckDiameterRangeMm": [
-            0.9999698515524854,
-            0.9999706307908065
+            0.9999690549704572,
+            0.9999706235802017
           ]
         }
       ],
@@ -822,7 +822,7 @@
           "hand": 1,
           "flank": -1,
           "samples": 61,
-          "minLigamentFromHoleMm": 0.48249455372979677,
+          "minLigamentFromHoleMm": 0.48249601453648855,
           "outerNotchDepthMm": 0.4195847787811132
         },
         {
@@ -921,7 +921,7 @@
           "hand": -1,
           "flank": 1,
           "samples": 61,
-          "minLigamentFromHoleMm": 0.4824945323097557,
+          "minLigamentFromHoleMm": 0.48249599188682724,
           "outerNotchDepthMm": 0.4195846001931889
         },
         {
@@ -1029,7 +1029,7 @@
           "hand": -1,
           "flank": 1,
           "samples": 61,
-          "minLigamentFromHoleMm": 0.48249455372979677,
+          "minLigamentFromHoleMm": 0.48249601453648855,
           "outerNotchDepthMm": 0.4195847787811132
         },
         {
@@ -1146,7 +1146,7 @@
           "hand": 1,
           "flank": -1,
           "samples": 61,
-          "minLigamentFromHoleMm": 0.4824945323097557,
+          "minLigamentFromHoleMm": 0.48249599188682724,
           "outerNotchDepthMm": 0.4195846001931889
         },
         {
@@ -1195,20 +1195,20 @@
           "outerNotchDepthMm": 0.41958485360445674
         }
       ],
-      "completedGaugeTime": "2026-11-22T19:12:51+03:00"
+      "completedGaugeTime": "2026-11-22T19:40:01+03:00"
     },
     "17": {
-      "started": "2026-11-22T19:11:34+03:00",
+      "started": "2026-11-22T19:39:12+03:00",
       "size": 17,
       "density585gCm3": 13.15,
-      "volumeMm3": 189.09901906317512,
-      "mass585g": 2.486652100680753,
-      "faces": 75198,
+      "volumeMm3": 189.09917114996986,
+      "mass585g": 2.4866541006221037,
+      "faces": 72502,
       "shells": 1,
       "openEdges": 0,
       "nonManifoldEdges": 0,
       "selfIntersections": 0,
-      "sha256": "0bb39b9b33d41f6e86ec3c91488561d4a34c58832bed2cb3c8a58d07a70150e2",
+      "sha256": "01505e4ae44c90f8caf29a6c5c39205097a52a98cf1d60f2f083c2d6556b57d7",
       "stones": [
         {
           "id": "Center",
@@ -1235,7 +1235,7 @@
           "sweepMm": 2.5,
           "sweptOverlapMm3": 0.0,
           "seatedOverlapMm3": 0.0,
-          "overtravel0020Mm3": 0.0005663737389583821,
+          "overtravel0020Mm3": 0.0005664390785706473,
           "axialHeightMm": 0.7780003927231718
         },
         {
@@ -1249,7 +1249,7 @@
           "sweepMm": 2.5,
           "sweptOverlapMm3": 0.0,
           "seatedOverlapMm3": 0.0,
-          "overtravel0020Mm3": 0.0005663727748071868,
+          "overtravel0020Mm3": 0.0005664633902661505,
           "axialHeightMm": 0.7780006644088111
         },
         {
@@ -1263,7 +1263,7 @@
           "sweepMm": 2.5,
           "sweptOverlapMm3": 0.0,
           "seatedOverlapMm3": 0.0,
-          "overtravel0020Mm3": 0.0005663763675153895,
+          "overtravel0020Mm3": 0.000566735606577561,
           "axialHeightMm": 0.7780004875185647
         },
         {
@@ -1277,7 +1277,7 @@
           "sweepMm": 2.5,
           "sweptOverlapMm3": 0.0,
           "seatedOverlapMm3": 0.0,
-          "overtravel0020Mm3": 0.0005663766923534793,
+          "overtravel0020Mm3": 0.0005667358045754157,
           "axialHeightMm": 0.7780001276449937
         },
         {
@@ -1291,7 +1291,7 @@
           "sweepMm": 2.5,
           "sweptOverlapMm3": 0.0,
           "seatedOverlapMm3": 0.0,
-          "overtravel0020Mm3": 0.0005663776901937197,
+          "overtravel0020Mm3": 0.0005664682965297394,
           "axialHeightMm": 0.7780005691314376
         },
         {
@@ -1305,7 +1305,7 @@
           "sweepMm": 2.5,
           "sweptOverlapMm3": 0.0,
           "seatedOverlapMm3": 0.0,
-          "overtravel0020Mm3": 0.0005663737123357679,
+          "overtravel0020Mm3": 0.0005664390677895185,
           "axialHeightMm": 0.7780005897052806
         },
         {
@@ -1319,7 +1319,7 @@
           "sweepMm": 2.5,
           "sweptOverlapMm3": 0.0,
           "seatedOverlapMm3": 0.0,
-          "overtravel0020Mm3": 0.0005663735086990902,
+          "overtravel0020Mm3": 0.000566438848311355,
           "axialHeightMm": 0.7780003927231718
         },
         {
@@ -1333,7 +1333,7 @@
           "sweepMm": 2.5,
           "sweptOverlapMm3": 0.0,
           "seatedOverlapMm3": 0.0,
-          "overtravel0020Mm3": 0.0005663730354643955,
+          "overtravel0020Mm3": 0.0005664636461387921,
           "axialHeightMm": 0.7780006644088111
         },
         {
@@ -1347,7 +1347,7 @@
           "sweepMm": 2.5,
           "sweptOverlapMm3": 0.0,
           "seatedOverlapMm3": 0.0,
-          "overtravel0020Mm3": 0.0005663767093437016,
+          "overtravel0020Mm3": 0.0005667359484058726,
           "axialHeightMm": 0.7780004875185647
         },
         {
@@ -1361,7 +1361,7 @@
           "sweepMm": 2.5,
           "sweptOverlapMm3": 0.0,
           "seatedOverlapMm3": 0.0,
-          "overtravel0020Mm3": 0.0005663770065521264,
+          "overtravel0020Mm3": 0.0005667361187740627,
           "axialHeightMm": 0.7780001276449937
         },
         {
@@ -1375,7 +1375,7 @@
           "sweepMm": 2.5,
           "sweptOverlapMm3": 0.0,
           "seatedOverlapMm3": 0.0,
-          "overtravel0020Mm3": 0.000566377773224074,
+          "overtravel0020Mm3": 0.0005664683845704189,
           "axialHeightMm": 0.7780005691314376
         },
         {
@@ -1389,7 +1389,7 @@
           "sweepMm": 2.5,
           "sweptOverlapMm3": 0.0,
           "seatedOverlapMm3": 0.0,
-          "overtravel0020Mm3": 0.0005663735889751171,
+          "overtravel0020Mm3": 0.000566438944428868,
           "axialHeightMm": 0.7780005897052806
         }
       ],
@@ -1402,11 +1402,11 @@
             0.0,
             9.779650833335314
           ],
-          "upperRadiusMm": 0.4999850014365136,
-          "upperSideWallMm": 0.4982290748873013,
-          "exitRadiusMm": 0.3774415508628785,
-          "exitSideWallMm": 0.6086722916956688,
-          "upperBridgeMm": 0.45002958932895915,
+          "upperRadiusMm": 0.49998446264894253,
+          "upperSideWallMm": 0.49822961367487234,
+          "exitRadiusMm": 0.37742755069749806,
+          "exitSideWallMm": 0.6086862918610492,
+          "upperBridgeMm": 0.4500296059695629,
           "adjacentStoneGapMm": 0.20000023046800744,
           "exitBridgeMm": 0.7975230356131756
         },
@@ -1422,7 +1422,7 @@
           "upperSideWallMm": 0.4982208480768654,
           "exitRadiusMm": 0.3776649187691585,
           "exitSideWallMm": 0.6108345525057313,
-          "upperBridgeMm": 0.45003018534878125,
+          "upperBridgeMm": 0.45003095960064526,
           "adjacentStoneGapMm": 0.19999996467570014,
           "exitBridgeMm": 0.7222326721976705
         },
@@ -1454,7 +1454,7 @@
           "upperSideWallMm": 0.49821549356704575,
           "exitRadiusMm": 0.37788830093331977,
           "exitSideWallMm": 0.6118829673753443,
-          "upperBridgeMm": 0.4500298957421352,
+          "upperBridgeMm": 0.4500306712979778,
           "adjacentStoneGapMm": 0.20000023046726306,
           "exitBridgeMm": 0.7222363830274291
         },
@@ -1470,7 +1470,7 @@
           "upperSideWallMm": 0.49821955448622973,
           "exitRadiusMm": 0.3776649288421306,
           "exitSideWallMm": 0.6109921675067815,
-          "upperBridgeMm": 0.4500295305005191,
+          "upperBridgeMm": 0.4500295471269733,
           "adjacentStoneGapMm": 0.19999991762240873,
           "exitBridgeMm": 0.7975013759265355
         },
@@ -1482,8 +1482,8 @@
             0.0,
             5.023222873154137
           ],
-          "upperRadiusMm": 0.49998499721723333,
-          "upperSideWallMm": 0.49822867000749715,
+          "upperRadiusMm": 0.4999844894344499,
+          "upperSideWallMm": 0.4982291777902806,
           "exitRadiusMm": 0.37744155324859685,
           "exitSideWallMm": 0.6086779165480245
         },
@@ -1495,11 +1495,11 @@
             0.0,
             9.779650833335314
           ],
-          "upperRadiusMm": 0.4999850014365651,
-          "upperSideWallMm": 0.4982280413274931,
+          "upperRadiusMm": 0.499984485008137,
+          "upperSideWallMm": 0.4982285577559212,
           "exitRadiusMm": 0.3774415510853137,
           "exitSideWallMm": 0.6086721227085599,
-          "upperBridgeMm": 0.45002958932895915,
+          "upperBridgeMm": 0.4500296059695629,
           "adjacentStoneGapMm": 0.20000023046800744,
           "exitBridgeMm": 0.7975230356131756
         },
@@ -1515,7 +1515,7 @@
           "upperSideWallMm": 0.4982202341436773,
           "exitRadiusMm": 0.3776649196571147,
           "exitSideWallMm": 0.6108345496858011,
-          "upperBridgeMm": 0.45003018534878125,
+          "upperBridgeMm": 0.45003095960064526,
           "adjacentStoneGapMm": 0.19999996467570014,
           "exitBridgeMm": 0.7222326721976705
         },
@@ -1547,7 +1547,7 @@
           "upperSideWallMm": 0.49821619513119214,
           "exitRadiusMm": 0.37788830098968323,
           "exitSideWallMm": 0.6118829761451474,
-          "upperBridgeMm": 0.4500298957421352,
+          "upperBridgeMm": 0.4500306712979778,
           "adjacentStoneGapMm": 0.20000023046726306,
           "exitBridgeMm": 0.7222363830274291
         },
@@ -1563,7 +1563,7 @@
           "upperSideWallMm": 0.4982201542634068,
           "exitRadiusMm": 0.37766492841795196,
           "exitSideWallMm": 0.610992106100612,
-          "upperBridgeMm": 0.4500295305005191,
+          "upperBridgeMm": 0.4500295471269733,
           "adjacentStoneGapMm": 0.19999991762240873,
           "exitBridgeMm": 0.7975013759265355
         },
@@ -1575,8 +1575,8 @@
             0.0,
             5.023222873154137
           ],
-          "upperRadiusMm": 0.49998499721762174,
-          "upperSideWallMm": 0.49822974084735056,
+          "upperRadiusMm": 0.49998447457803724,
+          "upperSideWallMm": 0.49823026348693505,
           "exitRadiusMm": 0.37744155370997295,
           "exitSideWallMm": 0.6086779193848517
         }
@@ -1645,7 +1645,7 @@
           17.00003964324401
         ]
       },
-      "finished": "2026-11-22T19:11:36+03:00",
+      "finished": "2026-11-22T19:39:20+03:00",
       "centralGauges": {
         "seatPlaneZmm": 12.105,
         "innerSeatDiameterRangeMm": [
@@ -1698,12 +1698,12 @@
             8.180619085499956
           ],
           "exitOrthogonalDiameterRangeMm": [
-            0.7559998532538524,
+            0.7559451030261168,
             0.7560001002883127
           ],
           "deckDiameterRangeMm": [
-            0.9999696129448272,
-            0.9999704509646211
+            0.9999689476570796,
+            0.9999704367536314
           ]
         },
         {
@@ -1724,8 +1724,8 @@
             0.7560000848708213
           ],
           "deckDiameterRangeMm": [
-            0.9999698520315182,
-            0.9999702391366738
+            0.999969386069411,
+            0.9999702224960713
           ]
         },
         {
@@ -1746,7 +1746,7 @@
             0.7560001923269863
           ],
           "deckDiameterRangeMm": [
-            0.9999698291608131,
+            0.999968956185297,
             0.9999701431390723
           ]
         },
@@ -1768,8 +1768,8 @@
             0.7560001126195083
           ],
           "deckDiameterRangeMm": [
-            0.9999695781507236,
-            0.999970133017043
+            0.9999687169143235,
+            0.999969994190626
           ]
         },
         {
@@ -1790,8 +1790,8 @@
             0.756000168193663
           ],
           "deckDiameterRangeMm": [
-            0.9999698335271345,
-            0.9999706083813473
+            0.9999693658447754,
+            0.9999705917548937
           ]
         },
         {
@@ -1812,8 +1812,8 @@
             0.7560001134471336
           ],
           "deckDiameterRangeMm": [
-            0.9999697887925353,
-            0.9999702982784604
+            0.9999689640124871,
+            0.9999702912520075
           ]
         },
         {
@@ -1830,12 +1830,12 @@
             8.180619085499956
           ],
           "exitOrthogonalDiameterRangeMm": [
-            0.7559998532538524,
+            0.7559451030261168,
             0.7560001002883127
           ],
           "deckDiameterRangeMm": [
-            0.9999696129448272,
-            0.9999704509646211
+            0.9999689476570796,
+            0.9999704367536314
           ]
         },
         {
@@ -1856,8 +1856,8 @@
             0.7560000848708213
           ],
           "deckDiameterRangeMm": [
-            0.9999698520315182,
-            0.9999702391366738
+            0.999969386069411,
+            0.9999702224960713
           ]
         },
         {
@@ -1878,7 +1878,7 @@
             0.7560001923269863
           ],
           "deckDiameterRangeMm": [
-            0.9999698291608131,
+            0.999968956185297,
             0.9999701431390723
           ]
         },
@@ -1900,8 +1900,8 @@
             0.7560001126195083
           ],
           "deckDiameterRangeMm": [
-            0.9999695781507236,
-            0.999970133017043
+            0.9999687169143235,
+            0.999969994190626
           ]
         },
         {
@@ -1922,8 +1922,8 @@
             0.756000168193663
           ],
           "deckDiameterRangeMm": [
-            0.9999698335271345,
-            0.999970608381346
+            0.9999693658447754,
+            0.9999705917548918
           ]
         },
         {
@@ -1944,8 +1944,8 @@
             0.7560001134471336
           ],
           "deckDiameterRangeMm": [
-            0.9999697887925353,
-            0.9999702982784604
+            0.9999689640124871,
+            0.9999702912520075
           ]
         }
       ],
@@ -1974,7 +1974,7 @@
           "hand": 1,
           "flank": -1,
           "samples": 61,
-          "minLigamentFromHoleMm": 0.482494510909701,
+          "minLigamentFromHoleMm": 0.48249456708589195,
           "outerNotchDepthMm": 0.4195850573035348
         },
         {
@@ -2010,7 +2010,7 @@
           "hand": 1,
           "flank": -1,
           "samples": 61,
-          "minLigamentFromHoleMm": 0.4824945287147386,
+          "minLigamentFromHoleMm": 0.48249618138965694,
           "outerNotchDepthMm": 0.41958492785485424
         },
         {
@@ -2109,7 +2109,7 @@
           "hand": -1,
           "flank": 1,
           "samples": 61,
-          "minLigamentFromHoleMm": 0.4824945030191031,
+          "minLigamentFromHoleMm": 0.48249615485025715,
           "outerNotchDepthMm": 0.41958470943048554
         },
         {
@@ -2145,7 +2145,7 @@
           "hand": -1,
           "flank": 1,
           "samples": 61,
-          "minLigamentFromHoleMm": 0.48249452111878866,
+          "minLigamentFromHoleMm": 0.482494577421421,
           "outerNotchDepthMm": 0.41958490310462004
         },
         {
@@ -2181,7 +2181,7 @@
           "hand": -1,
           "flank": 1,
           "samples": 61,
-          "minLigamentFromHoleMm": 0.482494510909701,
+          "minLigamentFromHoleMm": 0.48249456708589195,
           "outerNotchDepthMm": 0.4195850573035348
         },
         {
@@ -2217,7 +2217,7 @@
           "hand": -1,
           "flank": 1,
           "samples": 61,
-          "minLigamentFromHoleMm": 0.4824945287147386,
+          "minLigamentFromHoleMm": 0.48249618138965694,
           "outerNotchDepthMm": 0.41958492785485424
         },
         {
@@ -2334,7 +2334,7 @@
           "hand": 1,
           "flank": -1,
           "samples": 61,
-          "minLigamentFromHoleMm": 0.4824945030191031,
+          "minLigamentFromHoleMm": 0.48249615485025715,
           "outerNotchDepthMm": 0.41958470943048554
         },
         {
@@ -2370,7 +2370,7 @@
           "hand": 1,
           "flank": -1,
           "samples": 61,
-          "minLigamentFromHoleMm": 0.48249452111878866,
+          "minLigamentFromHoleMm": 0.482494577421421,
           "outerNotchDepthMm": 0.41958490310462004
         },
         {
@@ -2383,20 +2383,20 @@
           "outerNotchDepthMm": 0.41958490310462004
         }
       ],
-      "completedGaugeTime": "2026-11-22T19:12:50+03:00"
+      "completedGaugeTime": "2026-11-22T19:40:05+03:00"
     },
     "18": {
-      "started": "2026-11-22T19:11:38+03:00",
+      "started": "2026-11-22T19:39:30+03:00",
       "size": 18,
       "density585gCm3": 13.15,
-      "volumeMm3": 197.58274737527503,
-      "mass585g": 2.5982131279848666,
-      "faces": 75504,
+      "volumeMm3": 197.58289836410253,
+      "mass585g": 2.5982151134879485,
+      "faces": 72748,
       "shells": 1,
       "openEdges": 0,
       "nonManifoldEdges": 0,
       "selfIntersections": 0,
-      "sha256": "087463067ba6e1c9cbcc33ffaa740b9e739fd4193b07c5e31a607e05f98810ac",
+      "sha256": "d6e8ee027192db9439161c7b5ef3b3bc42823fd4425ebed4556e081fafb5d0c7",
       "stones": [
         {
           "id": "Center",
@@ -2423,7 +2423,7 @@
           "sweepMm": 2.5,
           "sweptOverlapMm3": 0.0,
           "seatedOverlapMm3": 0.0,
-          "overtravel0020Mm3": 0.0005663809806833443,
+          "overtravel0020Mm3": 0.000566450954259569,
           "axialHeightMm": 0.7780005827959364
         },
         {
@@ -2437,7 +2437,7 @@
           "sweepMm": 2.5,
           "sweptOverlapMm3": 0.0,
           "seatedOverlapMm3": 0.0,
-          "overtravel0020Mm3": 0.0005663721832735517,
+          "overtravel0020Mm3": 0.0005664614237253954,
           "axialHeightMm": 0.7780006161716884
         },
         {
@@ -2451,7 +2451,7 @@
           "sweepMm": 2.5,
           "sweptOverlapMm3": 0.0,
           "seatedOverlapMm3": 0.0,
-          "overtravel0020Mm3": 0.0005663715356270672,
+          "overtravel0020Mm3": 0.0005667418272354961,
           "axialHeightMm": 0.7780004151122117
         },
         {
@@ -2465,7 +2465,7 @@
           "sweepMm": 2.5,
           "sweptOverlapMm3": 0.0,
           "seatedOverlapMm3": 0.0,
-          "overtravel0020Mm3": 0.0005663747797918752,
+          "overtravel0020Mm3": 0.0005667450814157588,
           "axialHeightMm": 0.7780003975154344
         },
         {
@@ -2479,7 +2479,7 @@
           "sweepMm": 2.5,
           "sweptOverlapMm3": 0.0,
           "seatedOverlapMm3": 0.0,
-          "overtravel0020Mm3": 0.0005663704369968627,
+          "overtravel0020Mm3": 0.0005664597015572687,
           "axialHeightMm": 0.7780006102791219
         },
         {
@@ -2493,7 +2493,7 @@
           "sweepMm": 2.5,
           "sweptOverlapMm3": 0.0,
           "seatedOverlapMm3": 0.0,
-          "overtravel0020Mm3": 0.0005663747696364546,
+          "overtravel0020Mm3": 0.0005664447914572851,
           "axialHeightMm": 0.7780004839231776
         },
         {
@@ -2507,7 +2507,7 @@
           "sweepMm": 2.5,
           "sweptOverlapMm3": 0.0,
           "seatedOverlapMm3": 0.0,
-          "overtravel0020Mm3": 0.0005663809548123385,
+          "overtravel0020Mm3": 0.0005664509283885638,
           "axialHeightMm": 0.7780005827959364
         },
         {
@@ -2521,7 +2521,7 @@
           "sweepMm": 2.5,
           "sweptOverlapMm3": 0.0,
           "seatedOverlapMm3": 0.0,
-          "overtravel0020Mm3": 0.0005663723230959334,
+          "overtravel0020Mm3": 0.0005664615633748974,
           "axialHeightMm": 0.7780006161716884
         },
         {
@@ -2535,7 +2535,7 @@
           "sweepMm": 2.5,
           "sweptOverlapMm3": 0.0,
           "seatedOverlapMm3": 0.0,
-          "overtravel0020Mm3": 0.0005663718137572606,
+          "overtravel0020Mm3": 0.0005667421053656891,
           "axialHeightMm": 0.7780004151122117
         },
         {
@@ -2549,7 +2549,7 @@
           "sweepMm": 2.5,
           "sweptOverlapMm3": 0.0,
           "seatedOverlapMm3": 0.0,
-          "overtravel0020Mm3": 0.0005663749798214597,
+          "overtravel0020Mm3": 0.0005667452814453427,
           "axialHeightMm": 0.7780003975154344
         },
         {
@@ -2563,7 +2563,7 @@
           "sweepMm": 2.5,
           "sweptOverlapMm3": 0.0,
           "seatedOverlapMm3": 0.0,
-          "overtravel0020Mm3": 0.000566370108728965,
+          "overtravel0020Mm3": 0.0005664593905047027,
           "axialHeightMm": 0.7780006102791219
         },
         {
@@ -2577,7 +2577,7 @@
           "sweepMm": 2.5,
           "sweptOverlapMm3": 0.0,
           "seatedOverlapMm3": 0.0,
-          "overtravel0020Mm3": 0.000566374453116323,
+          "overtravel0020Mm3": 0.000566444474937153,
           "axialHeightMm": 0.7780004839231776
         }
       ],
@@ -2590,11 +2590,11 @@
             0.0,
             10.157005623446699
           ],
-          "upperRadiusMm": 0.4999850016143417,
-          "upperSideWallMm": 0.4982278739652579,
+          "upperRadiusMm": 0.49998444888844945,
+          "upperSideWallMm": 0.49822842669115014,
           "exitRadiusMm": 0.37747258057729355,
           "exitSideWallMm": 0.6090504424444154,
-          "upperBridgeMm": 0.45002958162261075,
+          "upperBridgeMm": 0.45002959990877484,
           "adjacentStoneGapMm": 0.1999996048013333,
           "exitBridgeMm": 0.7857706667699412
         },
@@ -2610,7 +2610,7 @@
           "upperSideWallMm": 0.4982198346506963,
           "exitRadiusMm": 0.37768354630594336,
           "exitSideWallMm": 0.6110139736709504,
-          "upperBridgeMm": 0.450029606953236,
+          "upperBridgeMm": 0.4500304156461694,
           "adjacentStoneGapMm": 0.2000002304644532,
           "exitBridgeMm": 0.7193819584161321
         },
@@ -2642,7 +2642,7 @@
           "upperSideWallMm": 0.498215572526102,
           "exitRadiusMm": 0.3778945114031506,
           "exitSideWallMm": 0.6119071448580371,
-          "upperBridgeMm": 0.4500298883174456,
+          "upperBridgeMm": 0.4500306962186594,
           "adjacentStoneGapMm": 0.19999991763425976,
           "exitBridgeMm": 0.7193713895786709
         },
@@ -2658,7 +2658,7 @@
           "upperSideWallMm": 0.4982193054604872,
           "exitRadiusMm": 0.37768354232415813,
           "exitSideWallMm": 0.6110810631383975,
-          "upperBridgeMm": 0.4500302495814096,
+          "upperBridgeMm": 0.45003026703591975,
           "adjacentStoneGapMm": 0.19999991763384753,
           "exitBridgeMm": 0.7857897981430341
         },
@@ -2670,8 +2670,8 @@
             0.0,
             5.400577663265523
           ],
-          "upperRadiusMm": 0.49998500528219436,
-          "upperSideWallMm": 0.49822649636807703,
+          "upperRadiusMm": 0.4999844714126801,
+          "upperSideWallMm": 0.4982270302375913,
           "exitRadiusMm": 0.37747257977316817,
           "exitSideWallMm": 0.6090846061485947
         },
@@ -2683,11 +2683,11 @@
             0.0,
             10.157005623446699
           ],
-          "upperRadiusMm": 0.4999850016142323,
-          "upperSideWallMm": 0.4982268815872286,
+          "upperRadiusMm": 0.49998446794084533,
+          "upperSideWallMm": 0.4982274152606156,
           "exitRadiusMm": 0.3774725819764846,
           "exitSideWallMm": 0.6090503998049819,
-          "upperBridgeMm": 0.45002958162261075,
+          "upperBridgeMm": 0.45002959990877484,
           "adjacentStoneGapMm": 0.1999996048013333,
           "exitBridgeMm": 0.7857706667699412
         },
@@ -2703,7 +2703,7 @@
           "upperSideWallMm": 0.4982192653536094,
           "exitRadiusMm": 0.37768354541744736,
           "exitSideWallMm": 0.611013997733004,
-          "upperBridgeMm": 0.450029606953236,
+          "upperBridgeMm": 0.4500304156461694,
           "adjacentStoneGapMm": 0.2000002304644532,
           "exitBridgeMm": 0.7193819584161321
         },
@@ -2735,7 +2735,7 @@
           "upperSideWallMm": 0.4982162842272673,
           "exitRadiusMm": 0.37789451105552135,
           "exitSideWallMm": 0.6119070815692791,
-          "upperBridgeMm": 0.4500298883174456,
+          "upperBridgeMm": 0.4500306962186594,
           "adjacentStoneGapMm": 0.19999991763425976,
           "exitBridgeMm": 0.7193713895786709
         },
@@ -2751,7 +2751,7 @@
           "upperSideWallMm": 0.49821986710768285,
           "exitRadiusMm": 0.37768354245529895,
           "exitSideWallMm": 0.6110810475606838,
-          "upperBridgeMm": 0.4500302495814096,
+          "upperBridgeMm": 0.45003026703591975,
           "adjacentStoneGapMm": 0.19999991763384753,
           "exitBridgeMm": 0.7857897981430341
         },
@@ -2763,8 +2763,8 @@
             0.0,
             5.400577663265523
           ],
-          "upperRadiusMm": 0.49998500528210493,
-          "upperSideWallMm": 0.49822748043619086,
+          "upperRadiusMm": 0.49998445211026515,
+          "upperSideWallMm": 0.49822803360803064,
           "exitRadiusMm": 0.3774725801117899,
           "exitSideWallMm": 0.6090845926638868
         }
@@ -2833,7 +2833,7 @@
           18.000042197328977
         ]
       },
-      "finished": "2026-11-22T19:11:40+03:00",
+      "finished": "2026-11-22T19:39:38+03:00",
       "centralGauges": {
         "seatPlaneZmm": 12.605,
         "innerSeatDiameterRangeMm": [
@@ -2886,12 +2886,12 @@
             8.59527014229316
           ],
           "exitOrthogonalDiameterRangeMm": [
-            0.7559813682060488,
+            0.755962759223101,
             0.7560000812849116
           ],
           "deckDiameterRangeMm": [
-            0.9999696394793894,
-            0.9999702720455537
+            0.9999689168292948,
+            0.999970264310619
           ]
         },
         {
@@ -2908,12 +2908,12 @@
             8.017983706705383
           ],
           "exitOrthogonalDiameterRangeMm": [
-            0.755999875492626,
+            0.7559984415240015,
             0.7560002340562343
           ],
           "deckDiameterRangeMm": [
-            0.9999697885738992,
-            0.9999704575486797
+            0.9999691493355463,
+            0.9999704368332223
           ]
         },
         {
@@ -2934,8 +2934,8 @@
             0.7560002012485404
           ],
           "deckDiameterRangeMm": [
-            0.99996985560919,
-            0.9999702219376322
+            0.999968965232199,
+            0.9999700968025604
           ]
         },
         {
@@ -2956,8 +2956,8 @@
             0.7560000212249107
           ],
           "deckDiameterRangeMm": [
-            0.9999698322345755,
-            0.9999702509213142
+            0.9999689113411547,
+            0.9999701256347279
           ]
         },
         {
@@ -2974,12 +2974,12 @@
             5.1641269305966775
           ],
           "exitOrthogonalDiameterRangeMm": [
-            0.7559999034674485,
+            0.7559982005112199,
             0.7560001965488872
           ],
           "deckDiameterRangeMm": [
-            0.99996960381468,
-            0.9999704845842671
+            0.9999693509937166,
+            0.9999704641454183
           ]
         },
         {
@@ -3000,8 +3000,8 @@
             0.7560002028042692
           ],
           "deckDiameterRangeMm": [
-            0.9999696136085636,
-            0.9999701218685951
+            0.9999689235229452,
+            0.9999700909691717
           ]
         },
         {
@@ -3018,12 +3018,12 @@
             8.59527014229316
           ],
           "exitOrthogonalDiameterRangeMm": [
-            0.7559813682060488,
+            0.755962759223101,
             0.7560000812849116
           ],
           "deckDiameterRangeMm": [
-            0.9999696394793894,
-            0.9999702720455537
+            0.9999689168292948,
+            0.999970264310619
           ]
         },
         {
@@ -3040,12 +3040,12 @@
             8.017983706705383
           ],
           "exitOrthogonalDiameterRangeMm": [
-            0.755999875492626,
+            0.7559984415240015,
             0.7560002340562343
           ],
           "deckDiameterRangeMm": [
-            0.9999697885738992,
-            0.9999704575486797
+            0.9999691493355463,
+            0.9999704368332223
           ]
         },
         {
@@ -3066,8 +3066,8 @@
             0.7560002012485404
           ],
           "deckDiameterRangeMm": [
-            0.99996985560919,
-            0.9999702219376322
+            0.999968965232199,
+            0.9999700968025604
           ]
         },
         {
@@ -3088,8 +3088,8 @@
             0.7560000212249107
           ],
           "deckDiameterRangeMm": [
-            0.9999698322345755,
-            0.9999702509213142
+            0.9999689113411547,
+            0.9999701256347279
           ]
         },
         {
@@ -3106,12 +3106,12 @@
             5.1641269305966775
           ],
           "exitOrthogonalDiameterRangeMm": [
-            0.7559999034676029,
+            0.7559982005112199,
             0.7560001965488872
           ],
           "deckDiameterRangeMm": [
-            0.99996960381468,
-            0.9999704845842671
+            0.9999693509937166,
+            0.9999704641454183
           ]
         },
         {
@@ -3132,8 +3132,8 @@
             0.7560002028042692
           ],
           "deckDiameterRangeMm": [
-            0.9999696136085636,
-            0.9999701218685951
+            0.9999689235229452,
+            0.9999700909691717
           ]
         }
       ],
@@ -3162,7 +3162,7 @@
           "hand": 1,
           "flank": -1,
           "samples": 61,
-          "minLigamentFromHoleMm": 0.4824945476313025,
+          "minLigamentFromHoleMm": 0.4824947318356423,
           "outerNotchDepthMm": 0.4195844806478966
         },
         {
@@ -3198,7 +3198,7 @@
           "hand": 1,
           "flank": -1,
           "samples": 61,
-          "minLigamentFromHoleMm": 0.48249443620421173,
+          "minLigamentFromHoleMm": 0.48249627074714385,
           "outerNotchDepthMm": 0.41958497735055855
         },
         {
@@ -3297,7 +3297,7 @@
           "hand": -1,
           "flank": 1,
           "samples": 61,
-          "minLigamentFromHoleMm": 0.4824945082154381,
+          "minLigamentFromHoleMm": 0.4824963431180935,
           "outerNotchDepthMm": 0.41958498628921925
         },
         {
@@ -3333,7 +3333,7 @@
           "hand": -1,
           "flank": 1,
           "samples": 61,
-          "minLigamentFromHoleMm": 0.48249449080778134,
+          "minLigamentFromHoleMm": 0.48249467486989533,
           "outerNotchDepthMm": 0.4195848200891158
         },
         {
@@ -3369,7 +3369,7 @@
           "hand": -1,
           "flank": 1,
           "samples": 61,
-          "minLigamentFromHoleMm": 0.4824945476313025,
+          "minLigamentFromHoleMm": 0.4824947318356423,
           "outerNotchDepthMm": 0.4195844806478966
         },
         {
@@ -3405,7 +3405,7 @@
           "hand": -1,
           "flank": 1,
           "samples": 61,
-          "minLigamentFromHoleMm": 0.48249443620421173,
+          "minLigamentFromHoleMm": 0.48249627074714385,
           "outerNotchDepthMm": 0.41958497735055855
         },
         {
@@ -3522,7 +3522,7 @@
           "hand": 1,
           "flank": -1,
           "samples": 61,
-          "minLigamentFromHoleMm": 0.4824945082154381,
+          "minLigamentFromHoleMm": 0.4824963431180935,
           "outerNotchDepthMm": 0.41958498628921925
         },
         {
@@ -3558,7 +3558,7 @@
           "hand": 1,
           "flank": -1,
           "samples": 61,
-          "minLigamentFromHoleMm": 0.48249449080778134,
+          "minLigamentFromHoleMm": 0.48249467486989533,
           "outerNotchDepthMm": 0.4195848200891158
         },
         {
@@ -3571,7 +3571,7 @@
           "outerNotchDepthMm": 0.4195848200891158
         }
       ],
-      "completedGaugeTime": "2026-11-22T19:12:52+03:00"
+      "completedGaugeTime": "2026-11-22T19:40:09+03:00"
     }
   },
   "studs": {
@@ -7166,7 +7166,7 @@
         ]
       }
     ],
-    "completed": "2026-11-22T19:17:05+03:00"
+    "completed": "2026-11-22T19:40:00+03:00"
   },
   "zoneScreen": {
     "Ring16": {
@@ -7176,7 +7176,7 @@
         1.043926,
         9.085
       ],
-      "below070InsideBounds": 28318,
+      "below070InsideBounds": 27978,
       "below070OutsideBounds": []
     },
     "Ring17": {
@@ -7186,7 +7186,7 @@
         1.043926,
         9.585
       ],
-      "below070InsideBounds": 28188,
+      "below070InsideBounds": 27856,
       "below070OutsideBounds": []
     },
     "Ring18": {
@@ -7196,10 +7196,186 @@
         -1.778771,
         12.449486
       ],
-      "below070InsideBounds": 28270,
+      "below070InsideBounds": 27936,
       "below070OutsideBounds": []
     },
     "scope": "Face-centre normals with a valid opposing hit. Shoulder boxes: abs(t)<=4.8 and -2.3<=h<=0.60. t=abs(x)*cos(41deg)-z*sin(41deg); h=abs(x)*sin(41deg)+z*cos(41deg)-boreRadius-1.15. This geometric screen is additional to the direct cross-section gauges."
+  },
+  "edgeAudit": {
+    "Ring16.stl": {
+      "before": {
+        "sha256": "24fdde1e83ebd10f424423940c46813c46130bb56bcf829f48a356ef3811aca4",
+        "triangles": 76324,
+        "minimumEdgeMm": 6.3358898061399115e-06,
+        "volumeMm3": 180.63571119501316,
+        "uniqueEdgesBelow0001mm": 1513,
+        "uniqueEdgesBelow00001mm": 180,
+        "topology": {
+          "None": {
+            "collapsed": 0,
+            "open": 0,
+            "nonManifold": 0,
+            "inconsistent": 0
+          },
+          "0.0001": {
+            "collapsed": 48,
+            "open": 0,
+            "nonManifold": 48,
+            "inconsistent": 0
+          },
+          "0.001": {
+            "collapsed": 1902,
+            "open": 0,
+            "nonManifold": 1792,
+            "inconsistent": 0
+          }
+        }
+      },
+      "after": {
+        "sha256": "17d87377e7fe95ac0f8bde4cff8e71be6371fcf5d91c8fab4ad99b9bbb42e62c",
+        "triangles": 73420,
+        "minimumEdgeMm": 0.0010301861168522729,
+        "volumeMm3": 180.6358534419072,
+        "uniqueEdgesBelow0001mm": 0,
+        "uniqueEdgesBelow00001mm": 0,
+        "topology": {
+          "None": {
+            "collapsed": 0,
+            "open": 0,
+            "nonManifold": 0,
+            "inconsistent": 0
+          },
+          "0.0001": {
+            "collapsed": 0,
+            "open": 0,
+            "nonManifold": 0,
+            "inconsistent": 0
+          },
+          "0.001": {
+            "collapsed": 0,
+            "open": 0,
+            "nonManifold": 0,
+            "inconsistent": 0
+          }
+        }
+      }
+    },
+    "Ring17.stl": {
+      "before": {
+        "sha256": "0bb39b9b33d41f6e86ec3c91488561d4a34c58832bed2cb3c8a58d07a70150e2",
+        "triangles": 75198,
+        "minimumEdgeMm": 2.4586915969848633e-07,
+        "volumeMm3": 189.09901906317512,
+        "uniqueEdgesBelow0001mm": 1402,
+        "uniqueEdgesBelow00001mm": 108,
+        "topology": {
+          "None": {
+            "collapsed": 0,
+            "open": 0,
+            "nonManifold": 0,
+            "inconsistent": 0
+          },
+          "0.0001": {
+            "collapsed": 64,
+            "open": 0,
+            "nonManifold": 64,
+            "inconsistent": 0
+          },
+          "0.001": {
+            "collapsed": 1660,
+            "open": 0,
+            "nonManifold": 1590,
+            "inconsistent": 0
+          }
+        }
+      },
+      "after": {
+        "sha256": "01505e4ae44c90f8caf29a6c5c39205097a52a98cf1d60f2f083c2d6556b57d7",
+        "triangles": 72502,
+        "minimumEdgeMm": 0.0010207899904102827,
+        "volumeMm3": 189.09917114996986,
+        "uniqueEdgesBelow0001mm": 0,
+        "uniqueEdgesBelow00001mm": 0,
+        "topology": {
+          "None": {
+            "collapsed": 0,
+            "open": 0,
+            "nonManifold": 0,
+            "inconsistent": 0
+          },
+          "0.0001": {
+            "collapsed": 0,
+            "open": 0,
+            "nonManifold": 0,
+            "inconsistent": 0
+          },
+          "0.001": {
+            "collapsed": 0,
+            "open": 0,
+            "nonManifold": 0,
+            "inconsistent": 0
+          }
+        }
+      }
+    },
+    "Ring18.stl": {
+      "before": {
+        "sha256": "087463067ba6e1c9cbcc33ffaa740b9e739fd4193b07c5e31a607e05f98810ac",
+        "triangles": 75504,
+        "minimumEdgeMm": 5.286705403393948e-06,
+        "volumeMm3": 197.58274737527503,
+        "uniqueEdgesBelow0001mm": 1444,
+        "uniqueEdgesBelow00001mm": 92,
+        "topology": {
+          "None": {
+            "collapsed": 0,
+            "open": 0,
+            "nonManifold": 0,
+            "inconsistent": 0
+          },
+          "0.0001": {
+            "collapsed": 36,
+            "open": 0,
+            "nonManifold": 36,
+            "inconsistent": 0
+          },
+          "0.001": {
+            "collapsed": 1600,
+            "open": 0,
+            "nonManifold": 1544,
+            "inconsistent": 0
+          }
+        }
+      },
+      "after": {
+        "sha256": "d6e8ee027192db9439161c7b5ef3b3bc42823fd4425ebed4556e081fafb5d0c7",
+        "triangles": 72748,
+        "minimumEdgeMm": 0.0010343980005030758,
+        "volumeMm3": 197.58289836410253,
+        "uniqueEdgesBelow0001mm": 0,
+        "uniqueEdgesBelow00001mm": 0,
+        "topology": {
+          "None": {
+            "collapsed": 0,
+            "open": 0,
+            "nonManifold": 0,
+            "inconsistent": 0
+          },
+          "0.0001": {
+            "collapsed": 0,
+            "open": 0,
+            "nonManifold": 0,
+            "inconsistent": 0
+          },
+          "0.001": {
+            "collapsed": 0,
+            "open": 0,
+            "nonManifold": 0,
+            "inconsistent": 0
+          }
+        }
+      }
+    }
   },
   "stoneMeasurements": {
     "16": {
@@ -9440,7 +9616,7 @@
     }
   },
   "workshopNotes": {
-    "revision": "01",
+    "revision": "01.1",
     "ring": [
       "Во всех трёх размерах пересчитано тело шинки. Камни и их посадки заданы в миллиметрах. На каждом плоском плече расположены шесть параллельных посадок с межцентровым шагом 1,450 мм. Просвет между соседними рундистами составляет 0,200 мм.",
       "От каждой посадки до боковых V-подрезов остаётся от 0,482 мм. Верхняя перемычка между соседними ажурами — от 0,450 мм, перемычка по изнанке — от 0,698 мм. Верхний боковой бортик — от 0,498 мм. Это рабочая зона микропаве. У каждого из 12 камней выполнены четыре боковых V-подреза, всего 48 на кольцо.",
@@ -9455,12 +9631,14 @@
     "findings": [
       "У пяти STL по одной замкнутой металлической оболочке. Открытых рёбер, неманифолдных рёбер, самопересечений и красных граней штатного инспектора Au 585 — ноль. Жёлто-оранжевые отметки сохранены в полной карте.",
       "Усиленная наклонная ножка центрального каста имеет минимум 0,754 мм по контрольным сечениям. По 18 384 замера на размер охватывают все четыре ноги. Вне габаритов двух плеч паве на всех трёх картах нет измеренных хорд короче 0,70 мм. Для заготовок пусеты и барашка кратчайшие встречные замеры составляют 0,740 и 0,837 мм.",
-      "Проверены все 39 траекторий вставки в размерном ряду и траектория камня пусеты. При вводе не обнаружено объёмного пересечения с оправой и соседними камнями. Ход винтовой пары проверен по обработанным поверхностям. Усилие затяжки, поведение сплава при обжиме и технологический выход определяют на пробной отливке."
+      "Проверены все 39 траекторий вставки в размерном ряду и траектория камня пусеты. При вводе не обнаружено объёмного пересечения с оправой и соседними камнями. Ход винтовой пары проверен по обработанным поверхностям. Усилие затяжки, поведение сплава при обжиме и технологический выход определяют на пробной отливке.",
+      "Ревизия 1.1. После очистки у всех трёх колец 0 рёбер короче 0,001 мм. Округление координат вершин на сетках 0,0001 и 0,001 мм сохраняет замкнутость и согласованность всех граней."
     ],
     "thread": [
       "Высота каста до края металла 3,370 мм, до площадки установленного камня — 3,530 мм от плоскости мочки. Гладкий литой штифт Ø 1,00 мм длиной 9,80 мм оставлен с припуском 0,05 мм на сторону. В барашке выполнено сквозное пилотное отверстие Ø 0,60 мм.",
       "После литья обработать штифт до Ø 0,90 мм и нарезать правую мелкую резьбу с шагом 0,35 мм. Нестандартный усечённый профиль 60°, наружный диаметр по впадинам 0,740 мм. У гайки малый диаметр 0,780 мм, большой 0,940 мм. Входная фаска и заходы видны на эталонах обработанной пары в архиве.",
-      "Средние диаметры наружной и внутренней резьбы — 0,820 и 0,860 мм. Номинальный диаметральный зазор 0,040 мм. Профиль и инструмент согласовать под парную деталь. В 121 цифровом положении за 10 оборотов при подаче 3,50 мм объём пересечения равен нулю. Отдельный поворот на 180° без подачи даёт пересечение 0,1623 мм³."
+      "Средние диаметры наружной и внутренней резьбы — 0,820 и 0,860 мм. Номинальный диаметральный зазор 0,040 мм. Профиль и инструмент согласовать под парную деталь. В 121 цифровом положении за 10 оборотов при подаче 3,50 мм объём пересечения равен нулю. Отдельный поворот на 180° без подачи даёт пересечение 0,1623 мм³.",
+      "По запросу мастерской возможен корпус с глухим гнездом Ø 0,92 мм под впайку тянутого резьбового штифта. Глубину и посадку согласуем по фактическому штифту. В этом комплекте дана заготовка с литым штифтом."
     ],
     "photos": [
       [
@@ -9494,11 +9672,11 @@
   "check": {
     "Ring16": {
       "name": "Ring16.stl",
-      "sha256": "24fdde1e83ebd10f424423940c46813c46130bb56bcf829f48a356ef3811aca4",
-      "started": "2026-11-22T16:15:39.056Z",
-      "completed": "2026-11-22T16:15:42.975Z",
+      "sha256": "17d87377e7fe95ac0f8bde4cff8e71be6371fcf5d91c8fab4ad99b9bbb42e62c",
+      "started": "2026-11-22T16:40:43.196Z",
+      "completed": "2026-11-22T16:40:48.982Z",
       "metrics": {
-        "triCount": 76324,
+        "triCount": 73420,
         "openEdges": 0,
         "nonManifold": 0,
         "inconsistent": 0,
@@ -9506,24 +9684,24 @@
         "watertight": true,
         "reliable": true,
         "inverted": false,
-        "volumeMm3": 180.63571119501484,
-        "volumeCm3": 0.18063571119501484,
-        "areaMm2": 548.9434587491901
+        "volumeMm3": 180.63585344190858,
+        "volumeCm3": 0.18063585344190858,
+        "areaMm2": 548.9420457661311
       },
       "red": 0,
-      "warning": 18273,
-      "missing": 2315,
-      "min": 0.4623885452747345,
-      "minFace": 25503,
-      "ui": "Крит. 0.0% · Риск 24.7%"
+      "warning": 18141,
+      "missing": 2181,
+      "min": 0.4623938798904419,
+      "minFace": 24945,
+      "ui": "Крит. 0.0% · Риск 25.5%"
     },
     "Ring17": {
       "name": "Ring17.stl",
-      "sha256": "0bb39b9b33d41f6e86ec3c91488561d4a34c58832bed2cb3c8a58d07a70150e2",
-      "started": "2026-11-22T16:15:33.633Z",
-      "completed": "2026-11-22T16:15:38.190Z",
+      "sha256": "01505e4ae44c90f8caf29a6c5c39205097a52a98cf1d60f2f083c2d6556b57d7",
+      "started": "2026-11-22T16:40:49.775Z",
+      "completed": "2026-11-22T16:40:53.632Z",
       "metrics": {
-        "triCount": 75198,
+        "triCount": 72502,
         "openEdges": 0,
         "nonManifold": 0,
         "inconsistent": 0,
@@ -9531,24 +9709,24 @@
         "watertight": true,
         "reliable": true,
         "inverted": false,
-        "volumeMm3": 189.09901906317813,
-        "volumeCm3": 0.18909901906317814,
-        "areaMm2": 569.1954276370539
+        "volumeMm3": 189.09917114997208,
+        "volumeCm3": 0.18909917114997207,
+        "areaMm2": 569.1937064426753
       },
       "red": 0,
-      "warning": 18326,
-      "missing": 2233,
-      "min": 0.4624301493167877,
-      "minFace": 51225,
-      "ui": "Крит. 0.0% · Риск 25.1%"
+      "warning": 18198,
+      "missing": 2139,
+      "min": 0.4624364972114563,
+      "minFace": 24805,
+      "ui": "Крит. 0.0% · Риск 25.9%"
     },
     "Ring18": {
       "name": "Ring18.stl",
-      "sha256": "087463067ba6e1c9cbcc33ffaa740b9e739fd4193b07c5e31a607e05f98810ac",
-      "started": "2026-11-22T16:15:43.877Z",
-      "completed": "2026-11-22T16:15:47.939Z",
+      "sha256": "d6e8ee027192db9439161c7b5ef3b3bc42823fd4425ebed4556e081fafb5d0c7",
+      "started": "2026-11-22T16:40:54.251Z",
+      "completed": "2026-11-22T16:40:57.965Z",
       "metrics": {
-        "triCount": 75504,
+        "triCount": 72748,
         "openEdges": 0,
         "nonManifold": 0,
         "inconsistent": 0,
@@ -9556,16 +9734,16 @@
         "watertight": true,
         "reliable": true,
         "inverted": false,
-        "volumeMm3": 197.58274737527725,
-        "volumeCm3": 0.19758274737527726,
-        "areaMm2": 589.6779646690493
+        "volumeMm3": 197.58289836410512,
+        "volumeCm3": 0.19758289836410511,
+        "areaMm2": 589.6764698596996
       },
       "red": 0,
-      "warning": 18336,
-      "missing": 2353,
-      "min": 0.46247541904449463,
-      "minFace": 28834,
-      "ui": "Крит. 0.0% · Риск 25.1%"
+      "warning": 18212,
+      "missing": 2183,
+      "min": 0.4624820649623871,
+      "minFace": 27903,
+      "ui": "Крит. 0.0% · Риск 25.8%"
     },
     "Stud": {
       "name": "Stud.stl",

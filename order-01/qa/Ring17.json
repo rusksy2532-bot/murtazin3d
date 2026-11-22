@@ -1,10 +1,10 @@
 {
   "name": "Ring17.stl",
-  "sha256": "0bb39b9b33d41f6e86ec3c91488561d4a34c58832bed2cb3c8a58d07a70150e2",
-  "started": "2026-11-22T16:15:33.633Z",
-  "completed": "2026-11-22T16:15:38.190Z",
+  "sha256": "01505e4ae44c90f8caf29a6c5c39205097a52a98cf1d60f2f083c2d6556b57d7",
+  "started": "2026-11-22T16:40:49.775Z",
+  "completed": "2026-11-22T16:40:53.632Z",
   "metrics": {
-    "triCount": 75198,
+    "triCount": 72502,
     "openEdges": 0,
     "nonManifold": 0,
     "inconsistent": 0,
@@ -12,14 +12,14 @@
     "watertight": true,
     "reliable": true,
     "inverted": false,
-    "volumeMm3": 189.09901906317813,
-    "volumeCm3": 0.18909901906317814,
-    "areaMm2": 569.1954276370539
+    "volumeMm3": 189.09917114997208,
+    "volumeCm3": 0.18909917114997207,
+    "areaMm2": 569.1937064426753
   },
   "red": 0,
-  "warning": 18326,
-  "missing": 2233,
-  "min": 0.4624301493167877,
-  "minFace": 51225,
-  "ui": "Крит. 0.0% · Риск 25.1%"
+  "warning": 18198,
+  "missing": 2139,
+  "min": 0.4624364972114563,
+  "minFace": 24805,
+  "ui": "Крит. 0.0% · Риск 25.9%"
 }

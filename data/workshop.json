@@ -1,5 +1,22 @@
 [
   {
+    "id": "order-01",
+    "group": "series",
+    "category": "Серия · заказ № 1",
+    "title": "Солитер с микропаве и пусеты на винте",
+    "image": "/order-01/whole.webp",
+    "alt": "Кольцо с двумя дорожками паве и пара пусет с винтовыми замками",
+    "metalPhoto": null,
+    "mass": "Au 585 · кольцо размера 17 — 2,487 г, пара пусет до обработки — 1,745 г",
+    "stones": "Кольцо — Ø 5,0 мм и 12 × Ø 1,25 мм. Пусеты — 2 × Ø 4,5 мм",
+    "wall": "Боковина выборки 0,790 мм, дно 0,860 мм. Заготовки в номинальном размере.",
+    "construction": "Размеры 16, 17 и 18. Пять STL, сечения и протокол проверки посадок.",
+    "heatmap": "/check/?stl=../order-01/Ring17.stl&alloy=au585",
+    "report": "/order-01/",
+    "model": "/order-01/",
+    "secondary": {"label": "Паспорт PDF", "url": "/order-01/passport.pdf"}
+  },
+  {
     "id": "classic-solitaire",
     "group": "series",
     "category": "Серия",
@@ -118,13 +135,6 @@
     "heatmap": "/check/?stl=../foundry/Pause-R2/Lever.stl",
     "report": "/foundry/Pause-R2/report.html",
     "model": "/foundry/Pause-R2/report.html#model"
-  },
-  {
-    "id": "screw-studs",
-    "group": "series",
-    "planned": true,
-    "title": "Пусеты на винтовом замке",
-    "brief": "Низкая корзинка на четырёх крапанах, резьбовой штифт и съёмная гайка."
   },
   {
     "id": "tennis-link",

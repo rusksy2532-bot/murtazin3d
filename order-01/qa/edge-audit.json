@@ -1,0 +1,176 @@
+{
+  "Ring16.stl": {
+    "before": {
+      "sha256": "24fdde1e83ebd10f424423940c46813c46130bb56bcf829f48a356ef3811aca4",
+      "triangles": 76324,
+      "minimumEdgeMm": 6.3358898061399115e-06,
+      "volumeMm3": 180.63571119501316,
+      "uniqueEdgesBelow0001mm": 1513,
+      "uniqueEdgesBelow00001mm": 180,
+      "topology": {
+        "None": {
+          "collapsed": 0,
+          "open": 0,
+          "nonManifold": 0,
+          "inconsistent": 0
+        },
+        "0.0001": {
+          "collapsed": 48,
+          "open": 0,
+          "nonManifold": 48,
+          "inconsistent": 0
+        },
+        "0.001": {
+          "collapsed": 1902,
+          "open": 0,
+          "nonManifold": 1792,
+          "inconsistent": 0
+        }
+      }
+    },
+    "after": {
+      "sha256": "17d87377e7fe95ac0f8bde4cff8e71be6371fcf5d91c8fab4ad99b9bbb42e62c",
+      "triangles": 73420,
+      "minimumEdgeMm": 0.0010301861168522729,
+      "volumeMm3": 180.6358534419072,
+      "uniqueEdgesBelow0001mm": 0,
+      "uniqueEdgesBelow00001mm": 0,
+      "topology": {
+        "None": {
+          "collapsed": 0,
+          "open": 0,
+          "nonManifold": 0,
+          "inconsistent": 0
+        },
+        "0.0001": {
+          "collapsed": 0,
+          "open": 0,
+          "nonManifold": 0,
+          "inconsistent": 0
+        },
+        "0.001": {
+          "collapsed": 0,
+          "open": 0,
+          "nonManifold": 0,
+          "inconsistent": 0
+        }
+      }
+    }
+  },
+  "Ring17.stl": {
+    "before": {
+      "sha256": "0bb39b9b33d41f6e86ec3c91488561d4a34c58832bed2cb3c8a58d07a70150e2",
+      "triangles": 75198,
+      "minimumEdgeMm": 2.4586915969848633e-07,
+      "volumeMm3": 189.09901906317512,
+      "uniqueEdgesBelow0001mm": 1402,
+      "uniqueEdgesBelow00001mm": 108,
+      "topology": {
+        "None": {
+          "collapsed": 0,
+          "open": 0,
+          "nonManifold": 0,
+          "inconsistent": 0
+        },
+        "0.0001": {
+          "collapsed": 64,
+          "open": 0,
+          "nonManifold": 64,
+          "inconsistent": 0
+        },
+        "0.001": {
+          "collapsed": 1660,
+          "open": 0,
+          "nonManifold": 1590,
+          "inconsistent": 0
+        }
+      }
+    },
+    "after": {
+      "sha256": "01505e4ae44c90f8caf29a6c5c39205097a52a98cf1d60f2f083c2d6556b57d7",
+      "triangles": 72502,
+      "minimumEdgeMm": 0.0010207899904102827,
+      "volumeMm3": 189.09917114996986,
+      "uniqueEdgesBelow0001mm": 0,
+      "uniqueEdgesBelow00001mm": 0,
+      "topology": {
+        "None": {
+          "collapsed": 0,
+          "open": 0,
+          "nonManifold": 0,
+          "inconsistent": 0
+        },
+        "0.0001": {
+          "collapsed": 0,
+          "open": 0,
+          "nonManifold": 0,
+          "inconsistent": 0
+        },
+        "0.001": {
+          "collapsed": 0,
+          "open": 0,
+          "nonManifold": 0,
+          "inconsistent": 0
+        }
+      }
+    }
+  },
+  "Ring18.stl": {
+    "before": {
+      "sha256": "087463067ba6e1c9cbcc33ffaa740b9e739fd4193b07c5e31a607e05f98810ac",
+      "triangles": 75504,
+      "minimumEdgeMm": 5.286705403393948e-06,
+      "volumeMm3": 197.58274737527503,
+      "uniqueEdgesBelow0001mm": 1444,
+      "uniqueEdgesBelow00001mm": 92,
+      "topology": {
+        "None": {
+          "collapsed": 0,
+          "open": 0,
+          "nonManifold": 0,
+          "inconsistent": 0
+        },
+        "0.0001": {
+          "collapsed": 36,
+          "open": 0,
+          "nonManifold": 36,
+          "inconsistent": 0
+        },
+        "0.001": {
+          "collapsed": 1600,
+          "open": 0,
+          "nonManifold": 1544,
+          "inconsistent": 0
+        }
+      }
+    },
+    "after": {
+      "sha256": "d6e8ee027192db9439161c7b5ef3b3bc42823fd4425ebed4556e081fafb5d0c7",
+      "triangles": 72748,
+      "minimumEdgeMm": 0.0010343980005030758,
+      "volumeMm3": 197.58289836410253,
+      "uniqueEdgesBelow0001mm": 0,
+      "uniqueEdgesBelow00001mm": 0,
+      "topology": {
+        "None": {
+          "collapsed": 0,
+          "open": 0,
+          "nonManifold": 0,
+          "inconsistent": 0
+        },
+        "0.0001": {
+          "collapsed": 0,
+          "open": 0,
+          "nonManifold": 0,
+          "inconsistent": 0
+        },
+        "0.001": {
+          "collapsed": 0,
+          "open": 0,
+          "nonManifold": 0,
+          "inconsistent": 0
+        }
+      }
+    }
+  }
+}
