@@ -58,7 +58,6 @@ h1,h2,h3,.card strong,em{font-family:var(--serif);font-weight:500;font-kerning:n
 .family-photo img {
   display: block;
   width: 100%;
-  aspect-ratio: auto;
   height: auto;
   object-fit: cover;
   object-position: center 62%;
@@ -72,5 +71,5 @@ h1,h2,h3,.card strong,em{font-family:var(--serif);font-weight:500;font-kerning:n
 .family-links a:hover { color: #e6cfab; }
 @media (max-width: 760px) {
   .family { grid-template-columns: 1fr; gap: 1.65rem; }
-  .family-photo img { aspect-ratio: auto; object-position: center 56%; }
+  .family-photo img { object-position: center 56%; }
 }

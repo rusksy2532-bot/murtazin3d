@@ -17,18 +17,55 @@ function feature(n){
  one('#heroText').textContent=p.id==='gran'?'Квадратная «принцесса» над тремя рядами паве. Четыре опоры из белого золота открывают вид на нижние грани камня.':duet?'Две груши обращены остриём в разные стороны. Между лентами белого золота и золота цвета шампанского остаётся тонкий просвет.':p.id==='60-Caesura'?'Голубой восьмигранник над открытой галереей. Четыре багета ведут взгляд по одному плечу, семь круглых вставок — по другому.':pavane?'Восемь ажурных перьев расходятся веером от эмалевого крыла. Сапфиры, изумруды и аквамарины мерцают в золотой скани.':p.detail;
  many('.dots button').forEach((b,i)=>b.setAttribute('aria-pressed',i===n));
 }
-highlights.forEach((id,i)=>{const b=document.createElement('button');b.setAttribute('aria-label','Показать «'+byId.get(id).title+'»');b.textContent=byId.get(id).title;b.onclick=()=>feature(i);one('.dots').append(b)});feature(0);
+function choiceButton(container,index){
+ if(container.children[index]) return container.children[index];
+ const button=document.createElement('button');
+ container.append(button);
+ return button;
+}
+highlights.forEach((id,i)=>{const b=choiceButton(one('.dots'),i);b.setAttribute('aria-label','Показать «'+byId.get(id).title+'»');b.textContent=byId.get(id).title;b.onclick=()=>feature(i)});feature(0);
 one('#heroOpen').onclick=()=>openPiece(highlights[featured]);
 const filters={'Все':'','Преломление':'capsule','Новинки':'new','Кольца':'Кольцо','Серьги':'Серьги','Подвески':'Подвеска','Браслеты':'Браслет','Броши':'Брошь'};
-function render(){
- one('#grid').replaceChildren(...filtered.slice(0,limit).map(p=>{
- const b=document.createElement('button');b.className='card';b.onclick=()=>openPiece(p.id);
- const wrap=document.createElement('div');wrap.className='photo';const pic=new Image();pic.alt='';pic.loading='lazy';pic.src=picture(p,'studio');wrap.append(pic);
- const kind=document.createElement('span');kind.className='kind';kind.textContent=p.type;const title=document.createElement('strong');title.textContent=p.title;b.append(wrap,kind,title);return b;
- }));one('#more').hidden=filtered.length<=limit;one('#count').textContent='Показано '+Math.min(limit,filtered.length)+' из '+filtered.length;
+function createCard(p){
+ const card=document.createElement('button');
+ card.className='card';
+ card.dataset.piece=p.id;
+ const wrap=document.createElement('div');
+ wrap.className='photo';
+ const pic=new Image();
+ pic.alt='';
+ pic.loading='lazy';
+ pic.decoding='async';
+ pic.src=picture(p,'studio');
+ wrap.append(pic);
+ const kind=document.createElement('span');
+ kind.className='kind';
+ kind.textContent=p.type;
+ const title=document.createElement('strong');
+ title.textContent=p.title;
+ card.append(wrap,kind,title);
+ return card;
 }
-for(const [label,type] of Object.entries(filters)){const b=document.createElement('button');b.textContent=label;b.setAttribute('aria-pressed',!type);b.onclick=()=>{filtered=type==='capsule'?all.filter(p=>p.edition===3):type==='new'?all.filter(p=>p.edition>=2):type?all.filter(x=>x.type===type):all;limit=8;many('.filters button').forEach(f=>f.setAttribute('aria-pressed',f===b));render()};one('.filters').append(b)}
-one('#more').onclick=()=>{const previous=limit;limit+=12;render();one('#grid').children[previous]?.focus({preventScroll:true})};render();
+function render(start=0){
+ const grid=one('#grid');
+ if(start===0) grid.replaceChildren();
+ grid.append(...filtered.slice(start,limit).map(createCard));
+ one('#more').hidden=filtered.length<=limit;
+ one('#count').textContent='Показано '+grid.childElementCount+' из '+filtered.length;
+}
+Object.entries(filters).forEach(([label,type],i)=>{const b=choiceButton(one('.filters'),i);b.textContent=label;b.setAttribute('aria-pressed',!type);b.onclick=()=>{filtered=type==='capsule'?all.filter(p=>p.edition===3):type==='new'?all.filter(p=>p.edition>=2):type?all.filter(x=>x.type===type):all;limit=8;many('.filters button').forEach(f=>f.setAttribute('aria-pressed',f===b));render()}});
+one('#grid').addEventListener('click',event=>{
+ const card=event.target.closest('button[data-piece]');
+ if(card) openPiece(card.dataset.piece);
+});
+one('#more').onclick=()=>{
+ const firstNew=one('#grid').childElementCount;
+ limit+=12;
+ render(firstNew);
+ one('#grid').children[firstNew]?.focus({preventScroll:true});
+};
+const initial=Array.from(one('#grid').children);
+if(initial.length!==limit || !initial.every((card,i)=>card.dataset.piece===all[i].id)) render();
 const modal=one('#piece'),photo=one('#pieceImg'),canvas=one('#canvas'),message=one('.status');
 let shownMode='studio';
 const gestures='Тяните, чтобы вращать. Колесо мыши или жест двумя пальцами меняет масштаб. Двойной щелчок приближает выбранную деталь.';
