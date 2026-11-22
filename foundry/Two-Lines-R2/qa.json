@@ -1,0 +1,594 @@
+{
+  "units": "mm",
+  "axes": "Z up, Y finger axis",
+  "parts": {
+    "A_Rose": {
+      "sha256": "5cb836edb800fc1e33537e64408727640365991739c9ad873dc5bd6996cdf511",
+      "facets": 103692,
+      "volumeMm3": 268.29840053886505,
+      "open": 0,
+      "nonManifold": 0,
+      "degenerate": 0,
+      "consistent": true,
+      "solidStatus": "Error.NoError",
+      "shells": 1
+    },
+    "B_White": {
+      "sha256": "11d30c5d9fb4454879a1f1ce7d5e7d71554b3d282812a74ce857330c42632896",
+      "facets": 196044,
+      "volumeMm3": 295.7018488905656,
+      "open": 0,
+      "nonManifold": 0,
+      "degenerate": 0,
+      "consistent": true,
+      "solidStatus": "Error.NoError",
+      "shells": 1
+    },
+    "Oval": {
+      "sha256": "e49df5ed144b8cff802a5da614d43f9c5c1733e5b925c8bdb00df884f8c1ff48",
+      "facets": 284,
+      "volumeMm3": 25.184247142128097,
+      "open": 0,
+      "nonManifold": 0,
+      "degenerate": 0,
+      "consistent": true,
+      "solidStatus": "Error.NoError",
+      "shells": 1
+    }
+  },
+  "stoneApproachOverlapMm3": 0.0,
+  "overtravel002mmMm3": 0.0002086812108056533,
+  "stoneWhiteDistanceMm": 0.3599996566772461,
+  "minimumMetalClearanceMm": 0.0695428935794766,
+  "rearWallAtGirdleMm": {
+    "12.31": 0.70154,
+    "12.345": 0.7019199999999999,
+    "12.38": 0.7029000000000001,
+    "12.6": 0.70147
+  },
+  "bearingVerticalGapsMm": [
+    [
+      -2.0,
+      0.4,
+      0.08365
+    ],
+    [
+      -2.0,
+      1.0,
+      0.08412
+    ],
+    [
+      -2.0,
+      1.7,
+      0.08376
+    ],
+    [
+      -2.0,
+      2.2,
+      0.0838
+    ],
+    [
+      -1.75,
+      0.4,
+      0.08049
+    ],
+    [
+      -1.75,
+      1.0,
+      0.08035
+    ],
+    [
+      -1.75,
+      1.7,
+      0.0805
+    ],
+    [
+      -1.75,
+      2.2,
+      0.08025
+    ],
+    [
+      -1.5,
+      0.4,
+      0.07653
+    ],
+    [
+      -1.5,
+      1.0,
+      0.07631
+    ],
+    [
+      -1.5,
+      1.7,
+      0.0765
+    ],
+    [
+      -1.5,
+      2.2,
+      0.07642
+    ],
+    [
+      -1.25,
+      0.4,
+      0.07497
+    ],
+    [
+      -1.25,
+      1.0,
+      0.07453
+    ],
+    [
+      -1.25,
+      1.7,
+      0.07464
+    ],
+    [
+      -1.25,
+      2.2,
+      0.07478
+    ],
+    [
+      -1.0,
+      0.4,
+      0.07334
+    ],
+    [
+      -1.0,
+      1.0,
+      0.07328
+    ],
+    [
+      -1.0,
+      1.7,
+      0.07349
+    ],
+    [
+      -1.0,
+      2.2,
+      0.07285
+    ],
+    [
+      -0.75,
+      0.4,
+      0.07154
+    ],
+    [
+      -0.75,
+      1.7,
+      0.07241
+    ],
+    [
+      -0.75,
+      2.2,
+      0.0718
+    ],
+    [
+      -0.5,
+      2.2,
+      0.0707
+    ],
+    [
+      -0.25,
+      2.2,
+      0.07
+    ],
+    [
+      0.0,
+      2.2,
+      0.07
+    ],
+    [
+      0.25,
+      2.2,
+      0.07
+    ],
+    [
+      0.5,
+      2.2,
+      0.07085
+    ],
+    [
+      0.75,
+      0.4,
+      0.07169
+    ],
+    [
+      0.75,
+      1.7,
+      0.07147
+    ],
+    [
+      0.75,
+      2.2,
+      0.07152
+    ],
+    [
+      1.0,
+      0.4,
+      0.07291
+    ],
+    [
+      1.0,
+      1.0,
+      0.07329
+    ],
+    [
+      1.0,
+      1.7,
+      0.07348
+    ],
+    [
+      1.0,
+      2.2,
+      0.07302
+    ],
+    [
+      1.25,
+      0.4,
+      0.07418
+    ],
+    [
+      1.25,
+      1.0,
+      0.07429
+    ],
+    [
+      1.25,
+      1.7,
+      0.07424
+    ],
+    [
+      1.25,
+      2.2,
+      0.07481
+    ],
+    [
+      1.5,
+      0.4,
+      0.07715
+    ],
+    [
+      1.5,
+      1.0,
+      0.07706
+    ],
+    [
+      1.5,
+      1.7,
+      0.07681
+    ],
+    [
+      1.5,
+      2.2,
+      0.07623
+    ],
+    [
+      1.75,
+      0.4,
+      0.07987
+    ],
+    [
+      1.75,
+      1.0,
+      0.08009
+    ],
+    [
+      1.75,
+      1.7,
+      0.08029
+    ],
+    [
+      1.75,
+      2.2,
+      0.0803
+    ],
+    [
+      2.0,
+      0.4,
+      0.08344
+    ],
+    [
+      2.0,
+      1.0,
+      0.08319
+    ],
+    [
+      2.0,
+      1.7,
+      0.08313
+    ],
+    [
+      2.0,
+      2.2,
+      0.08387
+    ]
+  ],
+  "slide": {
+    "0": 0.0,
+    "0.02": 0.0,
+    "0.05": 0.0,
+    "0.1": 0.0,
+    "0.2": 0.0,
+    "0.35": 0.0,
+    "0.5": 0.0,
+    "0.75": 0.0,
+    "1": 0.0,
+    "1.5": 0.0,
+    "2": 0.0,
+    "3": 0.0,
+    "5": 0.0,
+    "7": 0.0,
+    "10": 0.0
+  },
+  "walls": {
+    "A_Rose": {
+      "rays": 103692,
+      "valid": 103692,
+      "minSampleMm": 0.01841579132692935,
+      "below045": 586,
+      "opposedAwayFromCrease": 5,
+      "rawClasses": {
+        "opposedAwayFromCrease": 5,
+        "opposedNearCrease": 229,
+        "obliqueAwayFromCrease": 104,
+        "obliqueNearCrease": 248
+      },
+      "retained": [
+        {
+          "face": 94719,
+          "exitFace": 94746,
+          "originMm": [
+            0.0747288390994072,
+            -0.7840610146522522,
+            -8.584754943847656
+          ],
+          "endMm": [
+            -0.008658932843374406,
+            -0.5199999809265137,
+            -8.584754943847656
+          ],
+          "lengthMm": 0.27691469813263253
+        },
+        {
+          "face": 94746,
+          "exitFace": 94729,
+          "originMm": [
+            -0.011407663424809427,
+            -0.5199999809265137,
+            -8.581725120544434
+          ],
+          "endMm": [
+            -0.011407663424809427,
+            -0.7900000214576721,
+            -8.581725120544434
+          ],
+          "lengthMm": 0.27000004053115845
+        },
+        {
+          "face": 94756,
+          "exitFace": 94724,
+          "originMm": [
+            0.06658717741568883,
+            -0.5243053833643595,
+            -8.584050814310709
+          ],
+          "endMm": [
+            0.01597870272455803,
+            -0.7900000214576721,
+            -8.584050814310709
+          ],
+          "lengthMm": 0.2704715482672793
+        },
+        {
+          "face": 94764,
+          "exitFace": 4595,
+          "originMm": [
+            0.11782634754975636,
+            -0.18796383837858835,
+            -8.583932876586914
+          ],
+          "endMm": [
+            0.15045191674623293,
+            -0.016679617346551517,
+            -8.583932876586914
+          ],
+          "lengthMm": 0.17436373516286502
+        },
+        {
+          "face": 94771,
+          "exitFace": 4381,
+          "originMm": [
+            0.28009945650895435,
+            -0.2188730090856552,
+            -8.580263137817383
+          ],
+          "endMm": [
+            0.3184606977499817,
+            -0.017476503412540867,
+            -8.580263137817383
+          ],
+          "lengthMm": 0.2050174073753082
+        }
+      ],
+      "criteria": {
+        "lengthBelowMm": 0.45,
+        "minimumExitCos": 0.5,
+        "creaseAngleAboveDeg": 30,
+        "creaseDistanceBelowMm": 0.075
+      },
+      "retainedZones": {
+        "inside lettering": 5
+      }
+    },
+    "B_White": {
+      "rays": 196044,
+      "valid": 196044,
+      "minSampleMm": 0.00361801485515892,
+      "below045": 214,
+      "opposedAwayFromCrease": 0,
+      "rawClasses": {
+        "opposedAwayFromCrease": 0,
+        "opposedNearCrease": 177,
+        "obliqueAwayFromCrease": 0,
+        "obliqueNearCrease": 37
+      },
+      "retained": [],
+      "criteria": {
+        "lengthBelowMm": 0.45,
+        "minimumExitCos": 0.5,
+        "creaseAngleAboveDeg": 30,
+        "creaseDistanceBelowMm": 0.075
+      },
+      "retainedZones": {}
+    }
+  },
+  "engraving": {
+    "A_Rose": {
+      "method": "Radial ray to groove floor from R=8.50; two tangential rays in opposite directions at 0.085 mm depth.",
+      "nominalDepthMm": 0.17,
+      "nominalStrokeWidthMm": 0.34,
+      "measurements": [
+        {
+          "mark": "R",
+          "pointMm": [
+            -0.48,
+            -1.2,
+            -8.486436236725048
+          ],
+          "radialDepthMm": 0.16974956758493276,
+          "tangentStrokeWidthMm": 0.34054339141466194
+        },
+        {
+          "mark": "R",
+          "pointMm": [
+            -0.13,
+            -0.35,
+            -8.499005824212617
+          ],
+          "radialDepthMm": 0.16962207888367314,
+          "tangentStrokeWidthMm": 0.3399999737739563
+        },
+        {
+          "mark": "R",
+          "pointMm": [
+            0.391,
+            -0.64,
+            -8.491002237663114
+          ],
+          "radialDepthMm": 0.16957676298779836,
+          "tangentStrokeWidthMm": 0.34036029546421975
+        },
+        {
+          "mark": "R",
+          "pointMm": [
+            0.245,
+            -1.185,
+            -8.496468383981664
+          ],
+          "radialDepthMm": 0.16998593206066565,
+          "tangentStrokeWidthMm": 0.3400706927353251
+        }
+      ],
+      "minDepthMm": 0.16957676298779836,
+      "maxDepthMm": 0.16998593206066565,
+      "minStrokeMm": 0.3399999737739563,
+      "maxStrokeMm": 0.34054339141466194
+    },
+    "B_White": {
+      "method": "Radial ray to groove floor from R=8.50; two tangential rays in opposite directions at 0.085 mm depth.",
+      "nominalDepthMm": 0.17,
+      "nominalStrokeWidthMm": 0.34,
+      "measurements": [
+        {
+          "mark": "&",
+          "pointMm": [
+            -1.1099999999999999,
+            1.8250000000000002,
+            -8.427211875822275
+          ],
+          "radialDepthMm": 0.16952929810949144,
+          "tangentStrokeWidthMm": 0.3396789679818447
+        },
+        {
+          "mark": "&",
+          "pointMm": [
+            -1.325,
+            1.01,
+            -8.396092841316133
+          ],
+          "radialDepthMm": 0.16998684496954178,
+          "tangentStrokeWidthMm": 0.3479803988663954
+        },
+        {
+          "mark": "&",
+          "pointMm": [
+            -0.415,
+            1.246,
+            -8.489863073100768
+          ],
+          "radialDepthMm": 0.16981206471440266,
+          "tangentStrokeWidthMm": 0.7044004240983671
+        },
+        {
+          "mark": "R",
+          "pointMm": [
+            0.37,
+            1.03,
+            -8.49194324050744
+          ],
+          "radialDepthMm": 0.16833320762730247,
+          "tangentStrokeWidthMm": 0.3403225946297712
+        },
+        {
+          "mark": "R",
+          "pointMm": [
+            0.72,
+            1.8800000000000001,
+            -8.469450985748722
+          ],
+          "radialDepthMm": 0.1699112907867269,
+          "tangentStrokeWidthMm": 0.3399999141693115
+        },
+        {
+          "mark": "R",
+          "pointMm": [
+            1.241,
+            1.59,
+            -8.408919014950733
+          ],
+          "radialDepthMm": 0.16981940195679485,
+          "tangentStrokeWidthMm": 0.34368261429332847
+        },
+        {
+          "mark": "R",
+          "pointMm": [
+            1.095,
+            1.0450000000000002,
+            -8.429174040201092
+          ],
+          "radialDepthMm": 0.16947908744273146,
+          "tangentStrokeWidthMm": 0.3414224639669253
+        }
+      ],
+      "minDepthMm": 0.16833320762730247,
+      "maxDepthMm": 0.16998684496954178,
+      "minStrokeMm": 0.3396789679818447,
+      "maxStrokeMm": 0.7044004240983671
+    }
+  },
+  "shoulderMacro": {
+    "originalMacroSize": [
+      820,
+      690
+    ],
+    "rectPixels": [
+      88,
+      444,
+      138,
+      474
+    ],
+    "samples": 416,
+    "maximumOutwardDeviationFromBareShankMm": 0.0015925450527518592,
+    "centralWitnessMm": 0.0008158946179577242
+  }
+}

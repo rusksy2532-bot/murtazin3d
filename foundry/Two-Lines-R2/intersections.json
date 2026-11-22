@@ -1,0 +1,18 @@
+{
+  "A_Rose": {
+    "sha256": "5cb836edb800fc1e33537e64408727640365991739c9ad873dc5bd6996cdf511",
+    "faces": 103692,
+    "vertices": 51844,
+    "closed": true,
+    "intersectingPairs": 0,
+    "pairs": []
+  },
+  "B_White": {
+    "sha256": "11d30c5d9fb4454879a1f1ce7d5e7d71554b3d282812a74ce857330c42632896",
+    "faces": 196044,
+    "vertices": 98022,
+    "closed": true,
+    "intersectingPairs": 0,
+    "pairs": []
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "Oval": {
+    "boundsErrorMm": 6.188917787142145e-07,
+    "checkedVertices": 720,
+    "maxVertexDistanceMm": 6.319428242164715e-07
+  },
+  "B_White": {
+    "boundsErrorMm": 5.391354989114916e-07,
+    "checkedVertices": 4166,
+    "maxVertexDistanceMm": 5.573796872110527e-07
+  },
+  "A_Rose": {
+    "boundsErrorMm": 6.150919844571945e-07,
+    "checkedVertices": 4072,
+    "maxVertexDistanceMm": 6.533181827361711e-07
+  }
+}

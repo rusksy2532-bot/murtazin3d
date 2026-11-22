@@ -1,0 +1,18 @@
+{
+  "casting/Frame": {
+    "sha256": "7d1f314fff094d270102c94d331b4162ff3b4b6fca3a74c07ed68fea0c9a60ae",
+    "faces": 102556,
+    "vertices": 51266,
+    "closed": true,
+    "intersectingPairs": 0,
+    "pairs": []
+  },
+  "casting/Lever": {
+    "sha256": "b7f94b4131670496bb5c7c7b16a4937d52526e23cd424a521f13d57089bf3719",
+    "faces": 43538,
+    "vertices": 21767,
+    "closed": true,
+    "intersectingPairs": 0,
+    "pairs": []
+  }
+}

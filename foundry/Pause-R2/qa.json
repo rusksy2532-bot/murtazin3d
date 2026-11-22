@@ -1,0 +1,375 @@
+{
+  "units": "mm",
+  "parts": {
+    "Frame": {
+      "sha256": "2e032d88401fed675f244a4e4e8cca61f2e4d8bbcb321e242542a90d0793225b",
+      "facets": 64600,
+      "volumeMm3": 138.89336159935917,
+      "open": 0,
+      "nonManifold": 0,
+      "degenerate": 0,
+      "consistent": true,
+      "solidStatus": "Error.NoError",
+      "shells": 1
+    },
+    "Lever": {
+      "sha256": "8faa6815e9f0c3ebebb816c45022508ccf3ff9afbd6abd5651f92df65085d384",
+      "facets": 29934,
+      "volumeMm3": 94.92333324403013,
+      "open": 0,
+      "nonManifold": 0,
+      "degenerate": 0,
+      "consistent": true,
+      "solidStatus": "Error.NoError",
+      "shells": 1
+    },
+    "Axle": {
+      "sha256": "3d257b768166ef9bfdd88a41efa950bfe52c21d3fad5e2bf622b278925705d39",
+      "facets": 456,
+      "volumeMm3": 1.4347581511775502,
+      "open": 0,
+      "nonManifold": 0,
+      "degenerate": 0,
+      "consistent": true,
+      "solidStatus": "Error.NoError",
+      "shells": 1
+    },
+    "Stop": {
+      "sha256": "20d4b4a2d7721e1930edfbbf5d7b8696a454f63faf15bf17cae654ee9fee88c9",
+      "facets": 456,
+      "volumeMm3": 0.24138980838385315,
+      "open": 0,
+      "nonManifold": 0,
+      "degenerate": 0,
+      "consistent": true,
+      "solidStatus": "Error.NoError",
+      "shells": 1
+    },
+    "Inlay": {
+      "sha256": "bc2853c221dad409b9de5a47c25749d101034a8d5b0c081986f5fb981bf6af6b",
+      "facets": 708,
+      "volumeMm3": 8.819061909367845,
+      "open": 0,
+      "nonManifold": 0,
+      "degenerate": 0,
+      "consistent": true,
+      "solidStatus": "Error.NoError",
+      "shells": 1
+    },
+    "Pearl": {
+      "sha256": "77035d1ea7b02d131dd7e82f9a92a89d55d223cb543f4d454126f07f717f7f59",
+      "facets": 6758,
+      "volumeMm3": 23.79157787045982,
+      "open": 0,
+      "nonManifold": 0,
+      "degenerate": 0,
+      "consistent": true,
+      "solidStatus": "Error.NoError",
+      "shells": 1
+    },
+    "Aquamarine": {
+      "sha256": "9d62465be1ed243ef1cf5c226fb2426ec8daf862a2f19104be59bb83e4245395",
+      "facets": 236,
+      "volumeMm3": 15.012189198111741,
+      "open": 0,
+      "nonManifold": 0,
+      "degenerate": 0,
+      "consistent": true,
+      "solidStatus": "Error.NoError",
+      "shells": 1
+    },
+    "Post": {
+      "sha256": "a996ef7639218394ab0cb3effcdcfe42a376430d6d84d8bc51ab7799ff0076ea",
+      "facets": 3698,
+      "volumeMm3": 6.196837198685777,
+      "open": 0,
+      "nonManifold": 0,
+      "degenerate": 0,
+      "consistent": true,
+      "solidStatus": "Error.NoError",
+      "shells": 1
+    },
+    "Clutch": {
+      "sha256": "5947f977e671c9035595674969d9ee6b8c4e3feb60a3a79489347bddc0992581",
+      "facets": 4348,
+      "volumeMm3": 27.316723450118626,
+      "open": 0,
+      "nonManifold": 0,
+      "degenerate": 0,
+      "consistent": true,
+      "solidStatus": "Error.NoError",
+      "shells": 1
+    },
+    "ClutchCap": {
+      "sha256": "03328d986d42b356f3335985932ce9cfbe1dc5b141ecd833a6b6894e6e77df95",
+      "facets": 1710,
+      "volumeMm3": 1.2084744385841815,
+      "open": 0,
+      "nonManifold": 0,
+      "degenerate": 0,
+      "consistent": true,
+      "solidStatus": "Error.NoError",
+      "shells": 1
+    }
+  },
+  "casting": {
+    "Frame": {
+      "sha256": "7d1f314fff094d270102c94d331b4162ff3b4b6fca3a74c07ed68fea0c9a60ae",
+      "facets": 102556,
+      "volumeMm3": 139.99263187638883,
+      "open": 0,
+      "nonManifold": 0,
+      "degenerate": 0,
+      "consistent": true,
+      "solidStatus": "Error.NoError",
+      "shells": 1
+    },
+    "Lever": {
+      "sha256": "b7f94b4131670496bb5c7c7b16a4937d52526e23cd424a521f13d57089bf3719",
+      "facets": 43538,
+      "volumeMm3": 95.11357604847349,
+      "open": 0,
+      "nonManifold": 0,
+      "degenerate": 0,
+      "consistent": true,
+      "solidStatus": "Error.NoError",
+      "shells": 1
+    }
+  },
+  "bezelAtGirdle": {
+    "-0.72": [
+      0.64032,
+      0.64011
+    ],
+    "-0.755": [
+      0.64027,
+      0.64006
+    ],
+    "-0.79": [
+      0.64021,
+      0.64007
+    ]
+  },
+  "stoneEntryMm3": 6.367211250742193e-08,
+  "stoneOvertravel002mmMm3": 0.04536428106415966,
+  "kinematics": {
+    "-16": {
+      "overlapMm3": 1.4558949982272814e-07,
+      "leverFrameMm": 0.1600000262260437,
+      "leverInlayMm": 0.4003341183643379
+    },
+    "-15": {
+      "overlapMm3": 0.0,
+      "leverFrameMm": 0.1600000262260437,
+      "leverInlayMm": 0.4003339358205267
+    },
+    "-14": {
+      "overlapMm3": 0.0,
+      "leverFrameMm": 0.1600000262260437,
+      "leverInlayMm": 0.40033399887045534
+    },
+    "-13": {
+      "overlapMm3": 0.0,
+      "leverFrameMm": 0.1600000262260437,
+      "leverInlayMm": 0.4003341602161916
+    },
+    "-12": {
+      "overlapMm3": 0.0,
+      "leverFrameMm": 0.1600000262260437,
+      "leverInlayMm": 0.4003339457455743
+    },
+    "-11": {
+      "overlapMm3": 0.0,
+      "leverFrameMm": 0.1600000262260437,
+      "leverInlayMm": 0.4003339766602783
+    },
+    "-10": {
+      "overlapMm3": 0.0,
+      "leverFrameMm": 0.1600000262260437,
+      "leverInlayMm": 0.4003342062002877
+    },
+    "-9": {
+      "overlapMm3": 0.0,
+      "leverFrameMm": 0.1600000262260437,
+      "leverInlayMm": 0.40033395982835945
+    },
+    "-8": {
+      "overlapMm3": 0.0,
+      "leverFrameMm": 0.1600000262260437,
+      "leverInlayMm": 0.40033395863993476
+    },
+    "-7": {
+      "overlapMm3": 0.0,
+      "leverFrameMm": 0.1600000262260437,
+      "leverInlayMm": 0.40033420435129924
+    },
+    "-6": {
+      "overlapMm3": 0.0,
+      "leverFrameMm": 0.1600000262260437,
+      "leverInlayMm": 0.4003339780804376
+    },
+    "-5": {
+      "overlapMm3": 0.0,
+      "leverFrameMm": 0.1600000262260437,
+      "leverInlayMm": 0.4003339448302374
+    },
+    "-4": {
+      "overlapMm3": 0.0,
+      "leverFrameMm": 0.1600000262260437,
+      "leverInlayMm": 0.3806792432714317
+    },
+    "-3": {
+      "overlapMm3": 0.0,
+      "leverFrameMm": 0.1600000262260437,
+      "leverInlayMm": 0.30936623064932456
+    },
+    "-2": {
+      "overlapMm3": 0.0,
+      "leverFrameMm": 0.1600000262260437,
+      "leverInlayMm": 0.2674191880383191
+    },
+    "-1": {
+      "overlapMm3": 0.0,
+      "leverFrameMm": 0.1600000262260437,
+      "leverInlayMm": 0.2560623839106653
+    },
+    "0": {
+      "overlapMm3": 0.0,
+      "leverFrameMm": 0.1600000262260437,
+      "leverInlayMm": 0.2528481234831274
+    },
+    "1": {
+      "overlapMm3": 0.0,
+      "leverFrameMm": 0.1600000262260437,
+      "leverInlayMm": 0.25555173000252546
+    },
+    "2": {
+      "overlapMm3": 0.0,
+      "leverFrameMm": 0.1600000262260437,
+      "leverInlayMm": 0.2679970457806675
+    },
+    "3": {
+      "overlapMm3": 0.0,
+      "leverFrameMm": 0.1600000262260437,
+      "leverInlayMm": 0.30968229646079437
+    },
+    "4": {
+      "overlapMm3": 0.0,
+      "leverFrameMm": 0.1600000262260437,
+      "leverInlayMm": 0.3810599504737245
+    },
+    "5": {
+      "overlapMm3": 0.0,
+      "leverFrameMm": 0.1600000262260437,
+      "leverInlayMm": 0.4003340452408293
+    },
+    "6": {
+      "overlapMm3": 0.0,
+      "leverFrameMm": 0.1600000262260437,
+      "leverInlayMm": 0.4003340927906887
+    },
+    "7": {
+      "overlapMm3": 0.0,
+      "leverFrameMm": 0.1600000262260437,
+      "leverInlayMm": 0.40033393153675767
+    },
+    "8": {
+      "overlapMm3": 0.0,
+      "leverFrameMm": 0.1600000262260437,
+      "leverInlayMm": 0.4003340160191312
+    },
+    "9": {
+      "overlapMm3": 0.0,
+      "leverFrameMm": 0.1600000262260437,
+      "leverInlayMm": 0.4003341318619094
+    },
+    "10": {
+      "overlapMm3": 0.0,
+      "leverFrameMm": 0.1600000262260437,
+      "leverInlayMm": 0.40033393866503
+    },
+    "11": {
+      "overlapMm3": 0.0,
+      "leverFrameMm": 0.1600000262260437,
+      "leverInlayMm": 0.40033399099163
+    },
+    "12": {
+      "overlapMm3": 0.0,
+      "leverFrameMm": 0.1600000262260437,
+      "leverInlayMm": 0.4003341750684143
+    },
+    "13": {
+      "overlapMm3": 0.0,
+      "leverFrameMm": 0.1600000262260437,
+      "leverInlayMm": 0.4003339499644382
+    },
+    "14": {
+      "overlapMm3": 0.0,
+      "leverFrameMm": 0.1600000262260437,
+      "leverInlayMm": 0.4003339701777949
+    },
+    "15": {
+      "overlapMm3": 0.0,
+      "leverFrameMm": 0.1600000262260437,
+      "leverInlayMm": 0.4003342224398766
+    },
+    "16": {
+      "overlapMm3": 1.4558949982267136e-07,
+      "leverFrameMm": 0.1600000262260437,
+      "leverInlayMm": 0.4003339654457663
+    }
+  },
+  "stopBeyondLimitMm3": {
+    "-16.8": 0.0030081357765894055,
+    "16.8": 0.0030081357765894055
+  },
+  "pearlCup": {
+    "export": "casting/Lever.stl",
+    "radialRimSections": {
+      "15.55": {
+        "azimuths": 72,
+        "minMm": 0.75311,
+        "maxMm": 0.7538500000000001
+      },
+      "15.58": {
+        "azimuths": 72,
+        "minMm": 0.7432199999999998,
+        "maxMm": 0.7436200000000002
+      },
+      "15.595": {
+        "azimuths": 72,
+        "minMm": 0.7382900000000001,
+        "maxMm": 0.7384700000000002
+      }
+    },
+    "normalWallBand": {
+      "samples": 216,
+      "minMm": 0.5990500000000001,
+      "maxMm": 0.6003599999999998
+    }
+  },
+  "rearLightWindow": {
+    "nominalFrameBoreMm": 1.6,
+    "clearGaugeDiameterMm": 1.4,
+    "axisStartMm": [
+      0,
+      -3,
+      -16.7
+    ],
+    "axisEndMm": [
+      0,
+      5,
+      -16.7
+    ],
+    "neutralOverlapMm3": {
+      "Lever": 0.0,
+      "Frame": 0.0,
+      "Inlay": 0.0
+    },
+    "diameter150OverlapMm3": {
+      "Lever": 0.004820760960457737,
+      "Frame": 0.0,
+      "Inlay": 0.0
+    }
+  }
+}

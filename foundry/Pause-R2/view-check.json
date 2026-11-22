@@ -1,0 +1,52 @@
+{
+  "Stop": {
+    "boundsErrorMm": 9.356998043053011e-08,
+    "checkedVertices": 460,
+    "maxVertexDistanceMm": 1.1397211269700685e-07
+  },
+  "Post": {
+    "boundsErrorMm": 6.359755335694217e-07,
+    "checkedVertices": 1966,
+    "maxVertexDistanceMm": 7.156311759349883e-07
+  },
+  "Pearl": {
+    "boundsErrorMm": 8.834526141754395e-07,
+    "checkedVertices": 3611,
+    "maxVertexDistanceMm": 8.849719129805403e-07
+  },
+  "Lever": {
+    "boundsErrorMm": 9.531182811883809e-07,
+    "checkedVertices": 4622,
+    "maxVertexDistanceMm": 9.550767793405097e-07
+  },
+  "Inlay": {
+    "boundsErrorMm": 7.362104952335358e-07,
+    "checkedVertices": 714,
+    "maxVertexDistanceMm": 7.405669117208049e-07
+  },
+  "Frame": {
+    "boundsErrorMm": 9.974464774131775e-07,
+    "checkedVertices": 4318,
+    "maxVertexDistanceMm": 1.0007318507312373e-06
+  },
+  "ClutchCap": {
+    "boundsErrorMm": 5.81680346556368e-07,
+    "checkedVertices": 1248,
+    "maxVertexDistanceMm": 6.864708093539199e-07
+  },
+  "Clutch": {
+    "boundsErrorMm": 5.633197552867841e-07,
+    "checkedVertices": 2577,
+    "maxVertexDistanceMm": 6.864708093539199e-07
+  },
+  "Axle": {
+    "boundsErrorMm": 1.0544434303483285e-07,
+    "checkedVertices": 460,
+    "maxVertexDistanceMm": 1.0674675856897823e-07
+  },
+  "Aquamarine": {
+    "boundsErrorMm": 9.214505354293578e-07,
+    "checkedVertices": 600,
+    "maxVertexDistanceMm": 9.22214217978625e-07
+  }
+}

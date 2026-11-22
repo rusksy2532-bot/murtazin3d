@@ -1,0 +1,47 @@
+{
+  "PearWhite": {
+    "boundsErrorMm": 3.3527612686157227e-07,
+    "checkedVertices": 87,
+    "maxVertexDistanceMm": 4.169257710294699e-07
+  },
+  "PearTeal": {
+    "boundsErrorMm": 1.2293457984924316e-07,
+    "checkedVertices": 85,
+    "maxVertexDistanceMm": 2.122434904164689e-07
+  },
+  "Pave01": {
+    "boundsErrorMm": 3.5762786865234375e-07,
+    "checkedVertices": 176,
+    "maxVertexDistanceMm": 5.190333485675986e-07
+  },
+  "Pave02": {
+    "boundsErrorMm": 4.3213367462158203e-07,
+    "checkedVertices": 176,
+    "maxVertexDistanceMm": 4.3987223947812517e-07
+  },
+  "Pave03": {
+    "boundsErrorMm": 2.8312206268310547e-07,
+    "checkedVertices": 176,
+    "maxVertexDistanceMm": 3.7176922710866766e-07
+  },
+  "Pave04": {
+    "boundsErrorMm": 1.7881393432617188e-07,
+    "checkedVertices": 176,
+    "maxVertexDistanceMm": 5.102160435156087e-07
+  },
+  "Pave05": {
+    "boundsErrorMm": 4.246830940246582e-07,
+    "checkedVertices": 176,
+    "maxVertexDistanceMm": 4.6454982435194045e-07
+  },
+  "Champagne": {
+    "boundsErrorMm": 2.2351741790771484e-07,
+    "checkedVertices": 4191,
+    "maxVertexDistanceMm": 5.15222597706928e-07
+  },
+  "White": {
+    "boundsErrorMm": 4.3213367462158203e-07,
+    "checkedVertices": 4425,
+    "maxVertexDistanceMm": 5.131849366738028e-07
+  }
+}

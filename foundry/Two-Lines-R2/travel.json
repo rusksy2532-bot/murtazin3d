@@ -1,0 +1,332 @@
+{
+  "trajectory": "B_White +Y, 0..10 mm; A_Rose fixed",
+  "gateYmm": 0.05,
+  "whiteMinYmm": 0.10000000149011612,
+  "projectedOverlapMm2": 0.0,
+  "intervals": [
+    {
+      "fromMm": 0,
+      "toMm": 0.07125000146683305,
+      "midpointClearanceLowerBoundMm": 0.06953828322600658,
+      "intervalClearanceLowerBoundMm": 0.033913282492590055
+    },
+    {
+      "fromMm": 0.07125000146683305,
+      "toMm": 0.1425000029336661,
+      "midpointClearanceLowerBoundMm": 0.06953751339456178,
+      "intervalClearanceLowerBoundMm": 0.033912512661145255
+    },
+    {
+      "fromMm": 0.1425000029336661,
+      "toMm": 0.21375000440049916,
+      "midpointClearanceLowerBoundMm": 0.06953871588083578,
+      "intervalClearanceLowerBoundMm": 0.033913715147419254
+    },
+    {
+      "fromMm": 0.21375000440049916,
+      "toMm": 0.2850000058673322,
+      "midpointClearanceLowerBoundMm": 0.06954242613514162,
+      "intervalClearanceLowerBoundMm": 0.0339174254017251
+    },
+    {
+      "fromMm": 0.2850000058673322,
+      "toMm": 0.35625000733416523,
+      "midpointClearanceLowerBoundMm": 0.06954488250543242,
+      "intervalClearanceLowerBoundMm": 0.03391988177201591
+    },
+    {
+      "fromMm": 0.35625000733416523,
+      "toMm": 0.4275000088009983,
+      "midpointClearanceLowerBoundMm": 0.06953994091481652,
+      "intervalClearanceLowerBoundMm": 0.03391494018139998
+    },
+    {
+      "fromMm": 0.4275000088009983,
+      "toMm": 0.4987500102678314,
+      "midpointClearanceLowerBoundMm": 0.06954755580544174,
+      "intervalClearanceLowerBoundMm": 0.0339225550720252
+    },
+    {
+      "fromMm": 0.4987500102678314,
+      "toMm": 0.5700000117346644,
+      "midpointClearanceLowerBoundMm": 0.0695517242405283,
+      "intervalClearanceLowerBoundMm": 0.03392672350711179
+    },
+    {
+      "fromMm": 0.5700000117346644,
+      "toMm": 0.6412500132014974,
+      "midpointClearanceLowerBoundMm": 0.06954284751071285,
+      "intervalClearanceLowerBoundMm": 0.03391784677729634
+    },
+    {
+      "fromMm": 0.6412500132014974,
+      "toMm": 0.7125000146683305,
+      "midpointClearanceLowerBoundMm": 0.06953928572216632,
+      "intervalClearanceLowerBoundMm": 0.03391428498874981
+    },
+    {
+      "fromMm": 0.7125000146683305,
+      "toMm": 0.7837500161351636,
+      "midpointClearanceLowerBoundMm": 0.06954598734629054,
+      "intervalClearanceLowerBoundMm": 0.033920986612873974
+    },
+    {
+      "fromMm": 0.7837500161351636,
+      "toMm": 0.8550000176019966,
+      "midpointClearanceLowerBoundMm": 0.0695526889704164,
+      "intervalClearanceLowerBoundMm": 0.03392768823699989
+    },
+    {
+      "fromMm": 0.8550000176019966,
+      "toMm": 0.9262500190688296,
+      "midpointClearanceLowerBoundMm": 0.06953806222050245,
+      "intervalClearanceLowerBoundMm": 0.033913061487085935
+    },
+    {
+      "fromMm": 0.9262500190688296,
+      "toMm": 0.9975000205356628,
+      "midpointClearanceLowerBoundMm": 0.06954651866041991,
+      "intervalClearanceLowerBoundMm": 0.03392151792700335
+    },
+    {
+      "fromMm": 0.9975000205356628,
+      "toMm": 1.068750022002496,
+      "midpointClearanceLowerBoundMm": 0.06955497510033737,
+      "intervalClearanceLowerBoundMm": 0.0339299743669208
+    },
+    {
+      "fromMm": 1.068750022002496,
+      "toMm": 1.1400000234693288,
+      "midpointClearanceLowerBoundMm": 0.06955322591514224,
+      "intervalClearanceLowerBoundMm": 0.03392822518172578
+    },
+    {
+      "fromMm": 1.1400000234693288,
+      "toMm": 1.2112500249361617,
+      "midpointClearanceLowerBoundMm": 0.06954776748050215,
+      "intervalClearanceLowerBoundMm": 0.03392276674708569
+    },
+    {
+      "fromMm": 1.2112500249361617,
+      "toMm": 1.2825000264029949,
+      "midpointClearanceLowerBoundMm": 0.06954882635490509,
+      "intervalClearanceLowerBoundMm": 0.03392382562148852
+    },
+    {
+      "fromMm": 1.2825000264029949,
+      "toMm": 1.353750027869828,
+      "midpointClearanceLowerBoundMm": 0.0695512827251941,
+      "intervalClearanceLowerBoundMm": 0.03392628199177754
+    },
+    {
+      "fromMm": 1.353750027869828,
+      "toMm": 1.425000029336661,
+      "midpointClearanceLowerBoundMm": 0.0695537390954849,
+      "intervalClearanceLowerBoundMm": 0.033928738362068445
+    },
+    {
+      "fromMm": 1.425000029336661,
+      "toMm": 1.496250030803494,
+      "midpointClearanceLowerBoundMm": 0.06955619546577396,
+      "intervalClearanceLowerBoundMm": 0.033931194732357395
+    },
+    {
+      "fromMm": 1.496250030803494,
+      "toMm": 1.5675000322703272,
+      "midpointClearanceLowerBoundMm": 0.06955865183606474,
+      "intervalClearanceLowerBoundMm": 0.03393365110264818
+    },
+    {
+      "fromMm": 1.5675000322703272,
+      "toMm": 1.63875003373716,
+      "midpointClearanceLowerBoundMm": 0.06956024249372474,
+      "intervalClearanceLowerBoundMm": 0.03393524176030828
+    },
+    {
+      "fromMm": 1.63875003373716,
+      "toMm": 1.7100000352039932,
+      "midpointClearanceLowerBoundMm": 0.06956024249372474,
+      "intervalClearanceLowerBoundMm": 0.03393524176030817
+    },
+    {
+      "fromMm": 1.7100000352039932,
+      "toMm": 1.7812500366708264,
+      "midpointClearanceLowerBoundMm": 0.06955882257503078,
+      "intervalClearanceLowerBoundMm": 0.03393382184161421
+    },
+    {
+      "fromMm": 1.7812500366708264,
+      "toMm": 1.8525000381376593,
+      "midpointClearanceLowerBoundMm": 0.06955921817274623,
+      "intervalClearanceLowerBoundMm": 0.03393421743932977
+    },
+    {
+      "fromMm": 1.8525000381376593,
+      "toMm": 1.9237500396044924,
+      "midpointClearanceLowerBoundMm": 0.06956073397969013,
+      "intervalClearanceLowerBoundMm": 0.03393573324627357
+    },
+    {
+      "fromMm": 1.9237500396044924,
+      "toMm": 1.9950000410713256,
+      "midpointClearanceLowerBoundMm": 0.0695568443794432,
+      "intervalClearanceLowerBoundMm": 0.03393184364602664
+    },
+    {
+      "fromMm": 1.9950000410713256,
+      "toMm": 2.066250042538159,
+      "midpointClearanceLowerBoundMm": 0.06955827779527414,
+      "intervalClearanceLowerBoundMm": 0.03393327706185746
+    },
+    {
+      "fromMm": 2.066250042538159,
+      "toMm": 2.137500044004992,
+      "midpointClearanceLowerBoundMm": 0.06955704970306613,
+      "intervalClearanceLowerBoundMm": 0.03393204896964967
+    },
+    {
+      "fromMm": 2.137500044004992,
+      "toMm": 2.2087500454718247,
+      "midpointClearanceLowerBoundMm": 0.06955582161085813,
+      "intervalClearanceLowerBoundMm": 0.033930820877441675
+    },
+    {
+      "fromMm": 2.2087500454718247,
+      "toMm": 2.2800000469386577,
+      "midpointClearanceLowerBoundMm": 0.06956250603870524,
+      "intervalClearanceLowerBoundMm": 0.03393750530528879
+    },
+    {
+      "fromMm": 2.2800000469386577,
+      "toMm": 2.3512500484054906,
+      "midpointClearanceLowerBoundMm": 0.06955736335325845,
+      "intervalClearanceLowerBoundMm": 0.03393236261984199
+    },
+    {
+      "fromMm": 2.3512500484054906,
+      "toMm": 2.4225000498723235,
+      "midpointClearanceLowerBoundMm": 0.06956460817876715,
+      "intervalClearanceLowerBoundMm": 0.0339396074453507
+    },
+    {
+      "fromMm": 2.4225000498723235,
+      "toMm": 2.4937500513391564,
+      "midpointClearanceLowerBoundMm": 0.06956109878610654,
+      "intervalClearanceLowerBoundMm": 0.033936098052690086
+    },
+    {
+      "fromMm": 2.4937500513391564,
+      "toMm": 2.5650000528059897,
+      "midpointClearanceLowerBoundMm": 0.0695575893934477,
+      "intervalClearanceLowerBoundMm": 0.033932588660031016
+    },
+    {
+      "fromMm": 2.5650000528059897,
+      "toMm": 2.636250054272823,
+      "midpointClearanceLowerBoundMm": 0.0695718909747659,
+      "intervalClearanceLowerBoundMm": 0.033946890241349226
+    },
+    {
+      "fromMm": 2.636250054272823,
+      "toMm": 2.707500055739656,
+      "midpointClearanceLowerBoundMm": 0.0695663152043365,
+      "intervalClearanceLowerBoundMm": 0.03394131447092004
+    },
+    {
+      "fromMm": 2.707500055739656,
+      "toMm": 2.778750057206489,
+      "midpointClearanceLowerBoundMm": 0.06956073943390703,
+      "intervalClearanceLowerBoundMm": 0.033935738700490575
+    },
+    {
+      "fromMm": 2.778750057206489,
+      "toMm": 2.850000058673322,
+      "midpointClearanceLowerBoundMm": 0.06957011429577044,
+      "intervalClearanceLowerBoundMm": 0.03394511356235398
+    },
+    {
+      "fromMm": 2.850000058673322,
+      "toMm": 2.9212500601401548,
+      "midpointClearanceLowerBoundMm": 0.06956888620356246,
+      "intervalClearanceLowerBoundMm": 0.033943885470146
+    },
+    {
+      "fromMm": 2.9212500601401548,
+      "toMm": 2.992500061606988,
+      "midpointClearanceLowerBoundMm": 0.06956845645392419,
+      "intervalClearanceLowerBoundMm": 0.03394345572050751
+    },
+    {
+      "fromMm": 2.992500061606988,
+      "toMm": 3.0637500630738215,
+      "midpointClearanceLowerBoundMm": 0.0695682070289575,
+      "intervalClearanceLowerBoundMm": 0.03394320629554082
+    },
+    {
+      "fromMm": 3.0637500630738215,
+      "toMm": 3.1350000645406544,
+      "midpointClearanceLowerBoundMm": 0.06956469763629865,
+      "intervalClearanceLowerBoundMm": 0.03393969690288219
+    },
+    {
+      "fromMm": 3.1350000645406544,
+      "toMm": 3.2062500660074873,
+      "midpointClearanceLowerBoundMm": 0.06956118824363804,
+      "intervalClearanceLowerBoundMm": 0.03393618751022158
+    },
+    {
+      "fromMm": 3.2062500660074873,
+      "toMm": 3.27750006747432,
+      "midpointClearanceLowerBoundMm": 0.06955888367912481,
+      "intervalClearanceLowerBoundMm": 0.03393388294570836
+    },
+    {
+      "fromMm": 3.27750006747432,
+      "toMm": 3.348750068941153,
+      "midpointClearanceLowerBoundMm": 0.06958251456561591,
+      "intervalClearanceLowerBoundMm": 0.03395751383219946
+    },
+    {
+      "fromMm": 3.348750068941153,
+      "toMm": 3.4200000704079865,
+      "midpointClearanceLowerBoundMm": 0.06958128647340792,
+      "intervalClearanceLowerBoundMm": 0.03395628573999124
+    },
+    {
+      "fromMm": 3.4200000704079865,
+      "toMm": 3.49125007187482,
+      "midpointClearanceLowerBoundMm": 0.06958005838119992,
+      "intervalClearanceLowerBoundMm": 0.03395505764778324
+    },
+    {
+      "fromMm": 3.49125007187482,
+      "toMm": 3.5625000733416528,
+      "midpointClearanceLowerBoundMm": 0.06993393542629497,
+      "intervalClearanceLowerBoundMm": 0.03430893469287852
+    },
+    {
+      "fromMm": 3.5625000733416528,
+      "toMm": 3.7050000762753186,
+      "midpointClearanceLowerBoundMm": 0.08720437938385645,
+      "intervalClearanceLowerBoundMm": 0.015954377917023532
+    },
+    {
+      "fromMm": 3.7050000762753186,
+      "toMm": 3.990000082142651,
+      "midpointClearanceLowerBoundMm": 0.22250000293366629,
+      "intervalClearanceLowerBoundMm": 0.08000000000000002
+    },
+    {
+      "fromMm": 3.990000082142651,
+      "toMm": 4.560000093877315,
+      "midpointClearanceLowerBoundMm": 0.3,
+      "intervalClearanceLowerBoundMm": 0.014999994132667893
+    },
+    {
+      "fromMm": 4.560000093877315,
+      "toMm": 10,
+      "method": "disjoint axial bounds"
+    }
+  ],
+  "verified": true
+}

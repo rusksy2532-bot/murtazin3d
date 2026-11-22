@@ -1,0 +1,275 @@
+{
+  "White": {
+    "sha256": "427b18fc504049998da58392aca714e80424c7795a86c4c961a592cf13b2193c",
+    "rays": 35426,
+    "noExit": 121,
+    "rawBelow045": 671,
+    "min": {
+      "face": 14654,
+      "exitFace": 14654,
+      "lengthMm": 1.0842021724855047e-19,
+      "pointMm": [
+        10.721342086791992,
+        1.1489806175231934,
+        -0.07493197917938232
+      ],
+      "direction": [
+        -0.9978988440619782,
+        -0.06414503438158628,
+        -0.0091275179513797
+      ],
+      "endMm": [
+        10.721342086791992,
+        1.1489806175231934,
+        -0.07493197917938232
+      ],
+      "opposedCos": -0.9999999999999999,
+      "nearCrease": true
+    },
+    "rawClasses": {
+      "opposedAwayFromCrease": 0,
+      "opposedNearCrease": 58,
+      "obliqueAwayFromCrease": 48,
+      "obliqueNearCrease": 565
+    },
+    "zones": {
+      "basket box": {
+        "facesInZone": 0,
+        "hits": 0,
+        "rawBelow045": 0,
+        "min": null
+      },
+      "basket detail": {
+        "facesInZone": 0,
+        "hits": 0,
+        "rawBelow045": 0,
+        "min": null
+      },
+      "gallery shoulder": {
+        "facesInZone": 0,
+        "hits": 0,
+        "rawBelow045": 0,
+        "min": null
+      },
+      "bottom y < -8": {
+        "facesInZone": 2610,
+        "hits": 2610,
+        "rawBelow045": 0,
+        "min": {
+          "face": 2376,
+          "exitFace": 2509,
+          "lengthMm": 1.3228782704470268,
+          "pointMm": [
+            -4.820701917012532,
+            -8.529432932535807,
+            -0.7655007839202881
+          ],
+          "direction": [
+            0.4744247917499359,
+            0.84852177036771,
+            0.23437560066072843
+          ],
+          "endMm": [
+            -4.193095669045186,
+            -7.406941920515122,
+            -0.4554503946832406
+          ],
+          "opposedCos": 0.940393716712254,
+          "nearCrease": null
+        }
+      }
+    },
+    "witnesses": {
+      "basket 1": {
+        "face": 30037,
+        "exitFace": 31047,
+        "lengthMm": 1.0146893174941813,
+        "pointMm": [
+          0.7449660201867422,
+          10.430283228556315,
+          -2.093395551045736
+        ],
+        "direction": [
+          0.8195204659078321,
+          -5.234762132914793e-08,
+          0.5730499157649419
+        ],
+        "endMm": [
+          1.5765246824112737,
+          10.430283175439742,
+          -1.5119279231281089
+        ],
+        "opposedCos": 0.9999999999999045,
+        "nearCrease": null,
+        "givenPointMm": [
+          0.4,
+          10.24,
+          -2.25
+        ],
+        "centerDistanceMm": 0.42395072306290865
+      },
+      "basket 2": {
+        "face": 30036,
+        "exitFace": 31052,
+        "lengthMm": 1.0146893157150763,
+        "pointMm": [
+          1.1601777871449788,
+          10.431331316630045,
+          -2.6871912479400635
+        ],
+        "direction": [
+          0.8195206717005886,
+          2.613672614071821e-08,
+          0.5730496214599704
+        ],
+        "endMm": [
+          1.9917366567272086,
+          10.4313313431507,
+          -2.1057239196700626
+        ],
+        "opposedCos": 0.9999999999999538,
+        "nearCrease": null,
+        "givenPointMm": [
+          0.94,
+          10.31,
+          -2.65
+        ],
+        "centerDistanceMm": 0.2541313346885405
+      },
+      "gallery shoulder 1": {
+        "face": 29929,
+        "exitFace": 30685,
+        "lengthMm": 1.6092283565568333,
+        "pointMm": [
+          -3.260446071624756,
+          10.94457721710205,
+          0.7625682751337687
+        ],
+        "direction": [
+          -0.21096595799378579,
+          -0.736695780548089,
+          0.6424738838975526
+        ],
+        "endMm": [
+          -3.599938473496534,
+          9.759065476888296,
+          1.7964554674489128
+        ],
+        "opposedCos": 0.6725230520651152,
+        "nearCrease": null,
+        "givenPointMm": [
+          -3.15,
+          10.73,
+          0.62
+        ],
+        "centerDistanceMm": 0.28029882252913435
+      }
+    }
+  },
+  "Champagne": {
+    "sha256": "6ec7472944bea3de35e5404ad69d96f9e79fc06c50e81fc83cc2e0003377625f",
+    "rays": 16762,
+    "noExit": 54,
+    "rawBelow045": 166,
+    "min": {
+      "face": 16396,
+      "exitFace": 16396,
+      "lengthMm": 4.336808689942018e-18,
+      "pointMm": [
+        9.264823913574219,
+        0.40700308481852215,
+        0.30666665732860565
+      ],
+      "direction": [
+        -0.9700330831856918,
+        -0.2429728740523533,
+        0.0
+      ],
+      "endMm": [
+        9.264823913574219,
+        0.40700308481852215,
+        0.30666665732860565
+      ],
+      "opposedCos": -1.0,
+      "nearCrease": false
+    },
+    "rawClasses": {
+      "opposedAwayFromCrease": 0,
+      "opposedNearCrease": 2,
+      "obliqueAwayFromCrease": 27,
+      "obliqueNearCrease": 137
+    },
+    "zones": {
+      "left toe": {
+        "facesInZone": 0,
+        "hits": 0,
+        "rawBelow045": 0,
+        "min": null
+      },
+      "right toe": {
+        "facesInZone": 0,
+        "hits": 0,
+        "rawBelow045": 0,
+        "min": null
+      }
+    },
+    "witnesses": {
+      "left toe 1": {
+        "face": 13613,
+        "exitFace": 9605,
+        "lengthMm": 1.8881325837966225,
+        "pointMm": [
+          -9.206307411193848,
+          -0.44298287232716876,
+          -0.03999999910593033
+        ],
+        "direction": [
+          -0.0,
+          -0.0,
+          1.0
+        ],
+        "endMm": [
+          -9.206307411193848,
+          -0.44298287232716876,
+          1.8481325846906922
+        ],
+        "opposedCos": 0.9798025753857232,
+        "nearCrease": null,
+        "givenPointMm": [
+          -9.3,
+          -0.48,
+          0.32
+        ],
+        "centerDistanceMm": 0.3738295979381721
+      },
+      "right toe 1": {
+        "face": 13693,
+        "exitFace": 10052,
+        "lengthMm": 1.9292959617426373,
+        "pointMm": [
+          9.24129581451416,
+          -0.39133790135383606,
+          -0.03999999910593033
+        ],
+        "direction": [
+          -0.0,
+          -0.0,
+          1.0
+        ],
+        "endMm": [
+          9.24129581451416,
+          -0.39133790135383606,
+          1.889295962636707
+        ],
+        "opposedCos": 0.9777948839364313,
+        "nearCrease": null,
+        "givenPointMm": [
+          9.3,
+          -0.48,
+          0.32
+        ],
+        "centerDistanceMm": 0.3753760094707278
+      }
+    }
+  }
+}
