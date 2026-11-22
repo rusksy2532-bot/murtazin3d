@@ -73,3 +73,5 @@ h1,h2,h3,.card strong,em{font-family:var(--serif);font-weight:500;font-kerning:n
   .family { grid-template-columns: 1fr; gap: 1.65rem; }
   .family-photo img { object-position: center 56%; }
 }
+
+@media(max-width:850px){.bar{flex-wrap:wrap}.bar nav{display:flex;order:3;width:100%;justify-content:space-between;flex-wrap:wrap;gap:6px 12px;padding:0 0 8px;font-size:13px}.bar .contact{margin-left:auto}}
