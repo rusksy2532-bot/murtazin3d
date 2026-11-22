@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 620 300" role="img" aria-labelledby="ttl"><title id="ttl">Анатомия круглого камня в профиль</title><rect width="620" height="300" fill="#eaf0eb"/>
+<g transform="translate(12 0)" stroke="#496b66" stroke-width="2" stroke-linejoin="round">
+<path fill="#d4ebeb" d="M42 119 111 63H238l70 56v9L175 253 42 128Z"/><path fill="#f7ffff" d="m42 119 69-56 19 56Z"/><path fill="#a9cdcb" d="m130 119 44-56 48 56Z"/><path fill="#c3e0dd" d="m222 119 16-56 70 56Z"/><path fill="#b0d2cf" d="m42 128 133 125-47-125Z"/><path fill="#f2fcf8" d="m175 253 133-125h-86Z"/><path fill="none" d="M42 119h266m-266 9h266"/></g>
+<g fill="none" stroke="#7e7059" stroke-width="1.5"><path d="M186 63 265 35h90m-83 53 36-14h47m-37 49h37m-116 63 57-6h59m-168 73h168"/></g>
+<g font-family="Arial,sans-serif" font-size="22" fill="#23362c"><text x="370" y="42">Площадка</text><text x="370" y="81">Корона</text><text x="370" y="131">Рундист</text><text x="370" y="187">Павильон</text><text x="370" y="260">Шип</text></g></svg>

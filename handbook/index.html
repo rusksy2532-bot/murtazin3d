@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="ru"><head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Анатомия украшения · Учебник R&amp;R Design</title>
+  <meta name="description" content="Интерактивный учебник ювелирного CAD. Вращайте модели, изучайте посадки камней, сечения, резьбу, зазоры и контроль перед литьём.">
+  <link rel="icon" href="/mark.svg"><link rel="stylesheet" href="book.css">
+  <script defer src="lessons.js"></script><script type="module" src="book.js"></script>
+</head><body>
+<header class="top"><div class="bound brandbar"><a href="/cad/" aria-label="R&amp;R Design, портфолио"><img src="/rr-design.svg" alt="R&amp;R Design"></a><nav aria-label="Навигация учебника"><a href="#dictionary">Словарь</a><a href="../order-01/">Техпаспорт</a></nav></div></header>
+<main class="bound">
+  <div class="mast"><div><p class="kicker">Учебник ювелирного CAD</p><h1>Анатомия украшения</h1></div><p>Разберите кольцо и пусету в&nbsp;3D, загляните под камень и&nbsp;проследите путь от размера в&nbsp;чертеже до проверки в&nbsp;мастерской.</p></div>
+  <div class="chapterbar"><button id="open-toc" type="button"><span aria-hidden="true">☰</span> Оглавление</button><span id="chapter-name"></span><span id="counter"></span><div id="progress"></div></div>
+  <section class="lesson-grid" aria-label="Текущий урок">
+    <div class="plate">
+      <div id="scene" aria-label="Интерактивная модель украшения"></div>
+      <div id="fallback" hidden><img src="../order-01/whole.webp" alt="Кольцо и пусеты"><p>Трёхмерный вид недоступен. Изучите размеры и сечения под моделью.</p></div>
+      <div class="controls"><label class="view-choice">Ракурс <select id="view-choice"></select></label><div><button id="stones" type="button" aria-pressed="true">Камни</button><button id="minus" type="button" aria-label="Отдалить модель">−</button><button id="plus" type="button" aria-label="Приблизить модель">+</button><button id="reset" type="button">К уроку</button></div></div>
+    </div>
+    <article class="overview"><p class="kicker" id="group"></p><h2 id="title" tabindex="-1">Загружаем урок</h2><p id="intro"></p><dl id="metrics"></dl><div class="paging"><button id="previous" type="button">Назад</button><button id="next" class="filled" type="button">Следующий урок</button></div></article>
+  </section>
+  <section class="reading"><article><h3>Что это</h3><p id="term"></p><h3>Зачем это нужно</h3><p id="why"></p><h3>Как проверить</h3><p id="check"></p></article>
+    <aside><figure id="cut" hidden><a id="cut-link"><img id="cut-img" alt=""></a><figcaption id="cut-label"></figcaption></figure>
+      <figure id="stone-profile" hidden><img src="stone-profile.svg" alt="Профиль круглой вставки. Площадка сверху, корона до рундиста, павильон под рундистом, шип внизу."><figcaption>Схема огранки · без масштаба</figcaption></figure>
+      <form id="mass-calc" hidden><h3>Посчитать массу</h3><label>Деталь<select id="metal-part"><option value="180.636">Кольцо 16</option><option value="189.10" selected>Кольцо 17</option><option value="197.58">Кольцо 18</option><option value="32.65">Корпус пусеты</option><option value="33.71">Барашек до нарезки</option></select></label><label>Сплав<select id="metal-alloy"><option value="13.15">Au 585</option><option value="15.55">Au 750</option><option value="20.60">Pt 950</option><option value="10.36">Ag 925</option></select></label><output id="metal-result" aria-live="polite"></output><small>Объём в мм³ ÷ 1000 × плотность в г/см³. Расчёт по паспорту комплекта, до финиша, без камней и литников.</small></form>
+      <div class="quiz"><p class="kicker">Вопрос технолога</p><h3 id="question"></h3><details id="quiz-detail"><summary>Сверить свой ответ</summary><p id="answer"></p></details></div><nav id="sources" aria-label="Материалы урока"></nav>
+    </aside></section>
+  <section id="dictionary"><p class="kicker">Справочник</p><h2>Словарь мастерской</h2><label for="lookup">Найти термин</label><input id="lookup" type="search" placeholder="Например, рундист или литник"><dl id="words"></dl><p id="empty" hidden>Совпадений нет. Попробуйте часть слова.</p></section>
+  <footer><a href="/cad/">Портфолио R&amp;R Design</a><a href="../check/">Инспектор STL</a></footer>
+</main>
+<dialog id="toc" aria-labelledby="toc-title"><div class="dialog-head"><h2 id="toc-title">Оглавление</h2><button id="close-toc" aria-label="Закрыть оглавление">×</button></div><nav id="chapters" aria-label="Главы и уроки"></nav></dialog>
+<noscript>Для вращения модели и переключения уроков включите JavaScript. <a href="../order-01/passport.pdf">Открыть паспорт комплекта в PDF</a>.</noscript>
+</body></html>
