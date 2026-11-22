@@ -3,17 +3,17 @@
   "reference": "https://doc.cgal.org/latest/Polygon_mesh_processing/",
   "files": {
     "White": {
-      "sha256": "427b18fc504049998da58392aca714e80424c7795a86c4c961a592cf13b2193c",
-      "faces": 35426,
-      "vertices": 17699,
+      "sha256": "0f324cc776b473d508b94f8397ad5fa77bd2e216a8599efc10d91f853aade6b2",
+      "faces": 35318,
+      "vertices": 17645,
       "closed": true,
       "intersectingPairs": 0,
       "pairs": []
     },
     "Champagne": {
-      "sha256": "6ec7472944bea3de35e5404ad69d96f9e79fc06c50e81fc83cc2e0003377625f",
-      "faces": 16762,
-      "vertices": 8381,
+      "sha256": "74e27e6c41692c7bccbafb14113e96b97aa1b93a6ef3d7e3236d0e6687a75331",
+      "faces": 16644,
+      "vertices": 8322,
       "closed": true,
       "intersectingPairs": 0,
       "pairs": []

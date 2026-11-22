@@ -1,0 +1,107 @@
+{
+  "units": "mm",
+  "edition": "B1",
+  "rhino": {
+    "minimumNominalSide": 0.75,
+    "archive": 80,
+    "brepFaces": 64,
+    "reliefPockets": 6,
+    "brepVolume": 190.43498597040178,
+    "minimumNominalFloor": 0.81,
+    "engine": "9.1.26315.13001",
+    "validSolid": true
+  },
+  "files": {
+    "Metal": {
+      "sha256": "08c77381edd8fd73c393fcd54daf128b2b057d528327bb7d84dc8be472f2f9ec",
+      "faces": 43000,
+      "components": 1,
+      "openEdges": 0,
+      "nonManifoldEdges": 0,
+      "consistentWinding": true,
+      "volumeMm3": 190.2557730376833,
+      "extentsMm": [
+        19.719999313354492,
+        23.589999198913574,
+        7.0
+      ],
+      "selfIntersectionPairs": 0
+    },
+    "Stone": {
+      "sha256": "b3b953c9fbc9b180f0ffc9f5cdb199528a4347455ee5fa7db7ddd91378382361",
+      "faces": 284,
+      "components": 1,
+      "openEdges": 0,
+      "nonManifoldEdges": 0,
+      "consistentWinding": true,
+      "volumeMm3": 44.71661897692372,
+      "extentsMm": [
+        6.0,
+        3.530000686645508,
+        6.0
+      ],
+      "selfIntersectionPairs": 0
+    }
+  },
+  "meshExport": {
+    "rhinoChordToleranceMm": 0.003,
+    "simplificationToleranceMm": 0.0017,
+    "sourceFacets": 167926,
+    "exportFacets": 43000
+  },
+  "insertion": {
+    "direction": "-Y",
+    "travelMm": 6,
+    "sweptOverlapMm3": 0.0,
+    "seatedOverlapMm3": 0.0,
+    "down0020OverlapMm3": 0.0680803730854196
+  },
+  "reliefs": {
+    "count": 6,
+    "floorSampleCount": 24,
+    "minFloorMm": 0.8090324812418012,
+    "maxFloorMm": 0.8113646048055468,
+    "sidewallSampleCount": 48,
+    "minSideMm": 0.749349981546402,
+    "maxSideMm": 0.750023715281452
+  },
+  "boreSampleDiameterMm": [
+    16.99730036474688,
+    17.000744709057198
+  ],
+  "upperGallery": {
+    "sections": 49,
+    "raysPerSection": 72,
+    "minWallMm": 0.7048341263922749
+  },
+  "prongs": {
+    "countAboveGirdle": 4,
+    "girdleMm": 13.03,
+    "tipMm": 13.729999542236328
+  },
+  "mass585g": 2.5684529360087245,
+  "mass750g": 2.948964482084091,
+  "glbSha256": "c5cfab204208368458235b6c2cac512ceb6c16aa3a6a269a72ef0e5d053e6e76",
+  "wallAudit": {
+    "rays": 43000,
+    "resolved": 43000,
+    "noExit": 0,
+    "belowMm": {
+      "0.45": 44,
+      "0.5": 50,
+      "0.6": 137,
+      "0.68": 1180,
+      "0.75": 2941
+    },
+    "shortest": {
+      "face": 38337,
+      "mm": 0.09039299630774165,
+      "at": [
+        1.6653345369377348e-16,
+        8.496376673380533,
+        0.9594107667605082
+      ],
+      "exitFacingCos": 0.4354661708406538
+    }
+  }
+}

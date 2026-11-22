@@ -13,9 +13,9 @@
       "shells": 1
     },
     "Lever": {
-      "sha256": "8faa6815e9f0c3ebebb816c45022508ccf3ff9afbd6abd5651f92df65085d384",
-      "facets": 29934,
-      "volumeMm3": 94.92333324403013,
+      "sha256": "77f430ea7fd5e48d9145db98422ef05a735387a2a940509e274c39cdef28e7e9",
+      "facets": 30404,
+      "volumeMm3": 96.39980102397949,
       "open": 0,
       "nonManifold": 0,
       "degenerate": 0,
@@ -57,9 +57,9 @@
       "shells": 1
     },
     "Pearl": {
-      "sha256": "77035d1ea7b02d131dd7e82f9a92a89d55d223cb543f4d454126f07f717f7f59",
+      "sha256": "3d4a093b879f87998f76f7b361418bbb076bdf704343a0104ddc72b88f92ca3c",
       "facets": 6758,
-      "volumeMm3": 23.79157787045982,
+      "volumeMm3": 23.791577887637786,
       "open": 0,
       "nonManifold": 0,
       "degenerate": 0,
@@ -125,9 +125,9 @@
       "shells": 1
     },
     "Lever": {
-      "sha256": "b7f94b4131670496bb5c7c7b16a4937d52526e23cd424a521f13d57089bf3719",
-      "facets": 43538,
-      "volumeMm3": 95.11357604847349,
+      "sha256": "3954c0b21a991465a31a0c3b5f0c1cdc2a2e2c0e47461da242c15f27a0b3e769",
+      "facets": 44046,
+      "volumeMm3": 96.58924231664362,
       "open": 0,
       "nonManifold": 0,
       "degenerate": 0,
@@ -150,8 +150,8 @@
       0.64007
     ]
   },
-  "stoneEntryMm3": 6.367211250742193e-08,
-  "stoneOvertravel002mmMm3": 0.04536428106415966,
+  "stoneEntryMm3": 6.367211251697273e-08,
+  "stoneOvertravel002mmMm3": 0.04536428106415969,
   "kinematics": {
     "-16": {
       "overlapMm3": 1.4558949982272814e-07,
@@ -216,47 +216,47 @@
     "-4": {
       "overlapMm3": 0.0,
       "leverFrameMm": 0.1600000262260437,
-      "leverInlayMm": 0.3806792432714317
+      "leverInlayMm": 0.40033415823382984
     },
     "-3": {
       "overlapMm3": 0.0,
       "leverFrameMm": 0.1600000262260437,
-      "leverInlayMm": 0.30936623064932456
+      "leverInlayMm": 0.36476974220142916
     },
     "-2": {
       "overlapMm3": 0.0,
       "leverFrameMm": 0.1600000262260437,
-      "leverInlayMm": 0.2674191880383191
+      "leverInlayMm": 0.32548081758682235
     },
     "-1": {
       "overlapMm3": 0.0,
       "leverFrameMm": 0.1600000262260437,
-      "leverInlayMm": 0.2560623839106653
+      "leverInlayMm": 0.31482720208609327
     },
     "0": {
       "overlapMm3": 0.0,
       "leverFrameMm": 0.1600000262260437,
-      "leverInlayMm": 0.2528481234831274
+      "leverInlayMm": 0.31128416892709565
     },
     "1": {
       "overlapMm3": 0.0,
       "leverFrameMm": 0.1600000262260437,
-      "leverInlayMm": 0.25555173000252546
+      "leverInlayMm": 0.3141805705700546
     },
     "2": {
       "overlapMm3": 0.0,
       "leverFrameMm": 0.1600000262260437,
-      "leverInlayMm": 0.2679970457806675
+      "leverInlayMm": 0.32611708115649146
     },
     "3": {
       "overlapMm3": 0.0,
       "leverFrameMm": 0.1600000262260437,
-      "leverInlayMm": 0.30968229646079437
+      "leverInlayMm": 0.3651466066233341
     },
     "4": {
       "overlapMm3": 0.0,
       "leverFrameMm": 0.1600000262260437,
-      "leverInlayMm": 0.3810599504737245
+      "leverInlayMm": 0.4003339285732815
     },
     "5": {
       "overlapMm3": 0.0,
@@ -328,24 +328,24 @@
     "radialRimSections": {
       "15.55": {
         "azimuths": 72,
-        "minMm": 0.75311,
-        "maxMm": 0.7538500000000001
+        "minMm": 0.8926099999999999,
+        "maxMm": 0.8929000000000002
       },
       "15.58": {
         "azimuths": 72,
-        "minMm": 0.7432199999999998,
-        "maxMm": 0.7436200000000002
+        "minMm": 0.8814900000000001,
+        "maxMm": 0.8817199999999998
       },
       "15.595": {
         "azimuths": 72,
-        "minMm": 0.7382900000000001,
-        "maxMm": 0.7384700000000002
+        "minMm": 0.8759399999999999,
+        "maxMm": 0.87615
       }
     },
     "normalWallBand": {
       "samples": 216,
-      "minMm": 0.5990500000000001,
-      "maxMm": 0.6003599999999998
+      "minMm": 0.7198299999999997,
+      "maxMm": 0.7201500000000001
     }
   },
   "rearLightWindow": {
@@ -371,5 +371,24 @@
       "Frame": 0.0,
       "Inlay": 0.0
     }
+  },
+  "revision": "R3",
+  "balance": {
+    "mass": 4.18391372383687,
+    "moving_mass": 1.6380384504524235,
+    "imbalance": 0.2565753514322262,
+    "drop": 1.992987511788183
+  },
+  "pearlContactsMm3": {
+    "Frame": 0.0,
+    "Lever": 0.0006786303398527917,
+    "Axle": 0.0,
+    "Stop": 0.0,
+    "Inlay": 0.0,
+    "Aquamarine": 0.0,
+    "Post": 0.0,
+    "Clutch": 0.0,
+    "ClutchCap": 0.0,
+    "leverSeatGapMm": 0.0
   }
 }

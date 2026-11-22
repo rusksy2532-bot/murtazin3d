@@ -2,8 +2,8 @@
 <html lang="ru" data-view="workshop"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#19221f">
 <title>Руслан Муртазин · Ювелирное 3D-моделирование | R&amp;R Design</title>
 <meta name="description" content="Ювелирное 3D-моделирование для мастерских. Реальные STL, сборки, техлисты и проверка толщин в браузере. Авторская коллекция семейного ателье R&amp;R Design.">
-<meta property="og:type" content="website"><meta property="og:locale" content="ru_RU"><meta property="og:title" content="Murtazin 3D · Ювелирное 3D-моделирование"><meta property="og:description" content="Рассмотрите посадки камней и механизмы, откройте техлист и проверьте STL в тепловой карте."><meta property="og:image" content="https://murtazin3d.ru/assets/landing/share.jpg"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta name="twitter:card" content="summary_large_image">
-<link rel="icon" href="/mark.svg"><link rel="stylesheet" href="/portfolio.css"><script>
+<meta property="og:type" content="website"><meta property="og:locale" content="ru_RU"><meta property="og:title" content="Murtazin 3D · Ювелирное 3D-моделирование"><meta property="og:description" content="Рассмотрите посадки камней и механизмы, откройте техлист и проверьте STL в тепловой карте."><meta property="og:image" content="https://murtazin3d.ru/assets/landing/share.jpg?v=duet41"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="/mark.svg"><link rel="stylesheet" href="/portfolio.css?v=series2"><script>
 if(location.hash.startsWith('#work/')) location.replace('/catalog/'+location.hash);
 const isAtelier=['#atelier','#collection','#contact'].includes(location.hash);
 document.documentElement.dataset.view=isAtelier?'atelier':'workshop';
@@ -16,7 +16,7 @@ if(!location.hash&&location.pathname==='/')history.replaceState(null,'','#worksh
 <h1>Руслан Муртазин <span>— 3D-моделлер ювелирных изделий</span></h1>
 <p class="intro">Строю модели под печать, литьё и закрепку. До передачи в цех проверяю толщины, зазоры и массу металла. Усадку согласуем под вашу лигатуру и процесс.</p>
 <div class="actions"><a class="primary" href="https://t.me/RR_Atelier_Rime_Et_Or">Отправить ТЗ или тестовое <span>↗</span></a><a class="textlink" href="/check/">Открыть STL-инспектор →</a></div>
-</div><figure class="hero-figure"><img data-src="/assets/landing/workshop-hero.webp" width="1440" height="1080" alt="Две груши над переплетёнными шинками кольца «Дуэт»" fetchpriority="high"><figcaption><span>Кольцо «Дуэт»</span><a href="/foundry/Duet-R4/report.html#model">Рассмотреть сборку ↗</a></figcaption></figure></section>
+</div><figure class="hero-figure"><img data-src="/assets/landing/workshop-hero.webp?v=duet41" width="1440" height="1080" alt="Две груши над переплетёнными шинками кольца «Дуэт»" fetchpriority="high"><figcaption><span>Кольцо «Дуэт»</span><a href="/foundry/Duet-R4/report.html#model">Рассмотреть сборку ↗</a></figcaption></figure></section>
 <div class="facts wrap"><p><strong>Форматы</strong>STL и техлист, сборки .3dm по проекту</p><p><strong>Контроль</strong>Собственные скрипты на Python проверяют стенки, посадки камней и объём до печати</p><p><strong>Тестовое задание</strong>По вашему эскизу, фото или чертежу</p></div>
 <section class="wrap cases"><div class="section-head"><h2>Проекты для мастерских</h2><a class="textlink" href="/foundry/">Комплекты файлов ↗</a></div>
 <section><h3 class="group-name">Серийные модели</h3><div class="project-grid" id="series"></div><details class="pipeline" id="series-plans"><summary>Следующие серийные модели</summary><ul></ul></details></section>

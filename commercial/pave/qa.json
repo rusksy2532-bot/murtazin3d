@@ -1,0 +1,412 @@
+{
+  "units": "mm",
+  "engine": {
+    "crownAboveGirdle": 0.345,
+    "stemDiameter": 0.53,
+    "volume": 180.89645860526178,
+    "engine": "9.1.26315.13001",
+    "archive": 80,
+    "innerDiameter": 17.0,
+    "prongs": 16,
+    "pitchMm": 1.3999999999999997
+  },
+  "files": {
+    "Metal": {
+      "sha256": "0a3ab676521fead0ccba93b894b7b9c2a1cd8403ab7f1269af8d11ecdc83f88f",
+      "triangles": 67656,
+      "components": 1,
+      "open": 0,
+      "nonmanifold": 0,
+      "consistent": true,
+      "volume": 180.90248179774426,
+      "degenerate": 0
+    },
+    "Pave01": {
+      "sha256": "7af784301a7402ab8b0645814d3275a0f5f8e7abe9baca1fb4508f50830ad99a",
+      "triangles": 124,
+      "components": 1,
+      "open": 0,
+      "nonmanifold": 0,
+      "consistent": true,
+      "volume": 0.31719574560818625,
+      "degenerate": 0
+    },
+    "Pave02": {
+      "sha256": "14d558d49ef47e3a409ed88bce848d51cc1fb70afa4ce6500a659f9662414500",
+      "triangles": 124,
+      "components": 1,
+      "open": 0,
+      "nonmanifold": 0,
+      "consistent": true,
+      "volume": 0.3171958045803707,
+      "degenerate": 0
+    },
+    "Pave03": {
+      "sha256": "cc56393312d6545d558b66bf68caaf6fbc0596656597abcca2a43448514e602b",
+      "triangles": 124,
+      "components": 1,
+      "open": 0,
+      "nonmanifold": 0,
+      "consistent": true,
+      "volume": 0.31719568121634045,
+      "degenerate": 0
+    },
+    "Pave04": {
+      "sha256": "881acb14c383aa300ca577fe73d12ed27a05b024554cb5b6b8b938a6e066cc66",
+      "triangles": 124,
+      "components": 1,
+      "open": 0,
+      "nonmanifold": 0,
+      "consistent": true,
+      "volume": 0.31719550278995096,
+      "degenerate": 0
+    },
+    "Pave05": {
+      "sha256": "12059650d44ba284b778341d316022311ce61b18798c3f718c09517e5a61af5c",
+      "triangles": 124,
+      "components": 1,
+      "open": 0,
+      "nonmanifold": 0,
+      "consistent": true,
+      "volume": 0.31719562183720423,
+      "degenerate": 0
+    },
+    "Pave06": {
+      "sha256": "3cc9506a33dd5e5c13d441aeef5e51307596a4f9d3c642330ea204cb91cb3d11",
+      "triangles": 124,
+      "components": 1,
+      "open": 0,
+      "nonmanifold": 0,
+      "consistent": true,
+      "volume": 0.31719578525638387,
+      "degenerate": 0
+    },
+    "Pave07": {
+      "sha256": "19b050086adbdf17345f14287e647ebb6d051dbbd271c3d1ce49a76fa396368e",
+      "triangles": 124,
+      "components": 1,
+      "open": 0,
+      "nonmanifold": 0,
+      "consistent": true,
+      "volume": 0.31719579569371237,
+      "degenerate": 0
+    }
+  },
+  "stoneRoutes": [
+    {
+      "id": "Pave01",
+      "seatOverlapMm3": 0.0,
+      "sweptMetalOverlapMm3": 0.0,
+      "sweptNeighborOverlapMm3": 0.0,
+      "metalGapAtSeatMm": 0.00011295836795149346,
+      "neighborGapMm": 0.1990036841267092,
+      "inward0025OverlapMm3": 0.007874176788381364,
+      "gauge066OverlapMm3": 0.0
+    },
+    {
+      "id": "Pave02",
+      "seatOverlapMm3": 0.0,
+      "sweptMetalOverlapMm3": 0.0,
+      "sweptNeighborOverlapMm3": 0.0,
+      "metalGapAtSeatMm": 0.00011310040555518885,
+      "neighborGapMm": 0.1990036841267092,
+      "inward0025OverlapMm3": 0.007874204996308585,
+      "gauge066OverlapMm3": 0.0
+    },
+    {
+      "id": "Pave03",
+      "seatOverlapMm3": 0.0,
+      "sweptMetalOverlapMm3": 0.0,
+      "sweptNeighborOverlapMm3": 0.0,
+      "metalGapAtSeatMm": 0.00011327490957610153,
+      "neighborGapMm": 0.19900372572274902,
+      "inward0025OverlapMm3": 0.007874082952835783,
+      "gauge066OverlapMm3": 0.0
+    },
+    {
+      "id": "Pave04",
+      "seatOverlapMm3": 0.0,
+      "sweptMetalOverlapMm3": 0.0,
+      "sweptNeighborOverlapMm3": 0.0,
+      "metalGapAtSeatMm": 0.00011333482117780767,
+      "neighborGapMm": 0.19900372572274902,
+      "inward0025OverlapMm3": 0.00787429742001876,
+      "gauge066OverlapMm3": 0.0
+    },
+    {
+      "id": "Pave05",
+      "seatOverlapMm3": 0.0,
+      "sweptMetalOverlapMm3": 0.0,
+      "sweptNeighborOverlapMm3": 0.0,
+      "metalGapAtSeatMm": 0.00011327490957610153,
+      "neighborGapMm": 0.19900372572274902,
+      "inward0025OverlapMm3": 0.007874082952835745,
+      "gauge066OverlapMm3": 0.0
+    },
+    {
+      "id": "Pave06",
+      "seatOverlapMm3": 0.0,
+      "sweptMetalOverlapMm3": 0.0,
+      "sweptNeighborOverlapMm3": 0.0,
+      "metalGapAtSeatMm": 0.00011310040555518885,
+      "neighborGapMm": 0.1990036841267092,
+      "inward0025OverlapMm3": 0.007874204996308608,
+      "gauge066OverlapMm3": 0.0
+    },
+    {
+      "id": "Pave07",
+      "seatOverlapMm3": 0.0,
+      "sweptMetalOverlapMm3": 0.0,
+      "sweptNeighborOverlapMm3": 0.0,
+      "metalGapAtSeatMm": 0.00011295836795149346,
+      "neighborGapMm": 0.1990036841267092,
+      "inward0025OverlapMm3": 0.007874176788381313,
+      "gauge066OverlapMm3": 0.0
+    }
+  ],
+  "sidewallRadialAtZ09": [
+    {
+      "id": "Pave01",
+      "left": [
+        1.579878094611121
+      ],
+      "right": [
+        1.5799707765103752
+      ]
+    },
+    {
+      "id": "Pave02",
+      "left": [
+        1.5794545940932836
+      ],
+      "right": [
+        1.5798810557078498
+      ]
+    },
+    {
+      "id": "Pave03",
+      "left": [
+        1.579613710668986
+      ],
+      "right": [
+        1.5799098065890083
+      ]
+    },
+    {
+      "id": "Pave04",
+      "left": [
+        1.579999919009179
+      ],
+      "right": [
+        1.579999919009179
+      ]
+    },
+    {
+      "id": "Pave05",
+      "left": [
+        1.579613710668986
+      ],
+      "right": [
+        1.5799098065890083
+      ]
+    },
+    {
+      "id": "Pave06",
+      "left": [
+        1.5794545940932836
+      ],
+      "right": [
+        1.5798810557078498
+      ]
+    },
+    {
+      "id": "Pave07",
+      "left": [
+        1.579878094611121
+      ],
+      "right": [
+        1.5799707765103752
+      ]
+    }
+  ],
+  "beads": [
+    {
+      "row": 1,
+      "zSide": -0.52,
+      "stemSectionMm": 0.5300000152995165,
+      "topAboveUpperGirdleMm": 0.34500001696338045
+    },
+    {
+      "row": 1,
+      "zSide": 0.52,
+      "stemSectionMm": 0.5300000152995165,
+      "topAboveUpperGirdleMm": 0.34500001696338045
+    },
+    {
+      "row": 2,
+      "zSide": -0.52,
+      "stemSectionMm": 0.5300000276005232,
+      "topAboveUpperGirdleMm": 0.34500032822143406
+    },
+    {
+      "row": 2,
+      "zSide": 0.52,
+      "stemSectionMm": 0.5300000276005232,
+      "topAboveUpperGirdleMm": 0.34500032822143406
+    },
+    {
+      "row": 3,
+      "zSide": -0.52,
+      "stemSectionMm": 0.5300000217651848,
+      "topAboveUpperGirdleMm": 0.34499963985104887
+    },
+    {
+      "row": 3,
+      "zSide": 0.52,
+      "stemSectionMm": 0.5300000217651848,
+      "topAboveUpperGirdleMm": 0.344999639851038
+    },
+    {
+      "row": 4,
+      "zSide": -0.52,
+      "stemSectionMm": 0.5300000298760567,
+      "topAboveUpperGirdleMm": 0.34500000110770707
+    },
+    {
+      "row": 4,
+      "zSide": 0.52,
+      "stemSectionMm": 0.5300000298760567,
+      "topAboveUpperGirdleMm": 0.34500000110770707
+    },
+    {
+      "row": 5,
+      "zSide": -0.52,
+      "stemSectionMm": 0.5300000298760567,
+      "topAboveUpperGirdleMm": 0.34500000110770707
+    },
+    {
+      "row": 5,
+      "zSide": 0.52,
+      "stemSectionMm": 0.5300000298760567,
+      "topAboveUpperGirdleMm": 0.34500000110770707
+    },
+    {
+      "row": 6,
+      "zSide": -0.52,
+      "stemSectionMm": 0.5300000217651848,
+      "topAboveUpperGirdleMm": 0.3449998307697604
+    },
+    {
+      "row": 6,
+      "zSide": 0.52,
+      "stemSectionMm": 0.5300000217651848,
+      "topAboveUpperGirdleMm": 0.3449998307697604
+    },
+    {
+      "row": 7,
+      "zSide": -0.52,
+      "stemSectionMm": 0.5300000276005232,
+      "topAboveUpperGirdleMm": 0.34500032822143406
+    },
+    {
+      "row": 7,
+      "zSide": 0.52,
+      "stemSectionMm": 0.5300000276005232,
+      "topAboveUpperGirdleMm": 0.34500032822143406
+    },
+    {
+      "row": 8,
+      "zSide": -0.52,
+      "stemSectionMm": 0.5300000152995165,
+      "topAboveUpperGirdleMm": 0.3449997392412884
+    },
+    {
+      "row": 8,
+      "zSide": 0.52,
+      "stemSectionMm": 0.5300000152995165,
+      "topAboveUpperGirdleMm": 0.3449997392412884
+    }
+  ],
+  "wallRays": {
+    "total": 67656,
+    "opposed": 65948,
+    "below060": 4448,
+    "minimumMm": 0.19870671464003886,
+    "lowestOriginMm": [
+      -3.361166477203369,
+      9.424112637837728,
+      0.019799462209145153
+    ]
+  },
+  "glbFile": "7e0102e9d4755f8cd1198e7c0033c2f55b70aeca045c7ad2c0c64020eb7df773",
+  "glbVertexErrorMm": {
+    "Pave07": 4.458535999172086e-07,
+    "Pave06": 4.5331689834590386e-07,
+    "Pave05": 4.496504092870914e-07,
+    "Pave04": 4.396665799029408e-07,
+    "Pave03": 4.496504092870914e-07,
+    "Pave02": 4.5331689834590386e-07,
+    "Pave01": 4.458535999172086e-07,
+    "Metal": 5.003690336549421e-07
+  },
+  "selfIntersections": {
+    "Metal": 0,
+    "Pave01": 0,
+    "Pave02": 0,
+    "Pave03": 0,
+    "Pave04": 0,
+    "Pave05": 0,
+    "Pave06": 0,
+    "Pave07": 0
+  },
+  "websMidplaneZ0": [
+    {
+      "seats": [
+        "Pave01",
+        "Pave02"
+      ],
+      "atRadius9.5": 0.6398557142503435,
+      "atRadius9.93": 0.19841975945386225
+    },
+    {
+      "seats": [
+        "Pave02",
+        "Pave03"
+      ],
+      "atRadius9.5": 0.6398557968551445,
+      "atRadius9.93": 0.19841974664629716
+    },
+    {
+      "seats": [
+        "Pave03",
+        "Pave04"
+      ],
+      "atRadius9.5": 0.6398558539910744,
+      "atRadius9.93": 0.19841984088751102
+    },
+    {
+      "seats": [
+        "Pave04",
+        "Pave05"
+      ],
+      "atRadius9.5": 0.6398558539910744,
+      "atRadius9.93": 0.19841984088751102
+    },
+    {
+      "seats": [
+        "Pave05",
+        "Pave06"
+      ],
+      "atRadius9.5": 0.6398557968551445,
+      "atRadius9.93": 0.19841974664629716
+    },
+    {
+      "seats": [
+        "Pave06",
+        "Pave07"
+      ],
+      "atRadius9.5": 0.6398557142503435,
+      "atRadius9.93": 0.19841975945386225
+    }
+  ]
+}

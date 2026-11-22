@@ -12,11 +12,11 @@
   "Pearl": {
     "boundsErrorMm": 8.834526141754395e-07,
     "checkedVertices": 3611,
-    "maxVertexDistanceMm": 8.849719129805403e-07
+    "maxVertexDistanceMm": 8.856226358758466e-07
   },
   "Lever": {
     "boundsErrorMm": 9.531182811883809e-07,
-    "checkedVertices": 4622,
+    "checkedVertices": 4694,
     "maxVertexDistanceMm": 9.550767793405097e-07
   },
   "Inlay": {

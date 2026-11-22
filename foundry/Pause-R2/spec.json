@@ -1,0 +1,51 @@
+{
+  "parts": [
+    [
+      "Frame",
+      "satin"
+    ],
+    [
+      "Inlay",
+      "gold"
+    ],
+    [
+      "Axle",
+      "steel"
+    ],
+    [
+      "Stop",
+      "steel"
+    ],
+    [
+      "Post",
+      "steel"
+    ],
+    [
+      "Clutch",
+      "silicone"
+    ],
+    [
+      "ClutchCap",
+      "gold"
+    ],
+    [
+      "Lever",
+      "satin"
+    ],
+    [
+      "Pearl",
+      "pearl"
+    ],
+    [
+      "Aquamarine",
+      "aqua"
+    ]
+  ],
+  "mass": 4.18391372383687,
+  "moving_mass": 1.6380384504524235,
+  "imbalance": 0.2565753514322262,
+  "drop": 1.992987511788183,
+  "upper": 1.1135598345010456,
+  "lower": 0.9421097869421642,
+  "cg_z": -0.27849486764087916
+}

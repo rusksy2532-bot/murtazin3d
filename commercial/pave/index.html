@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1"><script defer src="/portfolio-nav.js"></script>
+  <meta name="theme-color" content="#1e211f">
+  <meta name="description" content="Семь круглых фианитов и шестнадцать открытых корнеров. Размер 17. Интерактивная заготовка, исходник Rhino и результаты измерений.">
+  <title>Кольцо-дорожка · R&amp;R Design</title>
+  <meta property="og:title" content="Кольцо-дорожка · R&amp;R Design"><meta property="og:image" content="https://murtazin3d.ru/commercial/pave/cover.webp">
+  <link rel="icon" href="../../mark.svg"><link rel="stylesheet" href="../../solitaire/atelier.css">
+  <script src="viewer.js" defer></script>
+</head>
+<body>
+  <header><div class="bar"><img src="../../rr-design.svg" width="141" height="39" alt="R&amp;R Design"><a href="../../#workshop">Все проекты для мастерской</a></div></header>
+  <main>
+    <section class="product" aria-labelledby="title">
+      <div class="visual">
+        <div id="stage">
+          <img id="still" src="cover.webp" alt="Дорожка из семи круглых фианитов на узкой золотой шинке" fetchpriority="high">
+          <canvas id="model" tabindex="0" aria-label="Интерактивное кольцо. Поворачивайте мышью или пальцем; с клавиатуры используйте стрелки и клавиши плюс и минус." hidden></canvas>
+          <p id="status" role="status">Загружается модель…</p>
+        </div>
+        <div class="view-switch" aria-label="Варианты просмотра">
+          <button data-tab="model" aria-pressed="true">Вращать в 3D</button>
+          <button data-tab="cover" aria-pressed="false">Общий вид</button>
+          <button data-tab="profile" aria-pressed="false">Профиль</button>
+          <button data-tab="macro" aria-pressed="false">Макро</button>
+        </div>
+      </div>
+      <div class="about">
+        <h1 id="title">Кольцо-дорожка</h1>
+        <p class="lead">Семь круглых фианитов повторяют изгиб тёплого золота. Между соседними камнями остаётся узкая полоска света. В 3D можно поднять весь ряд и увидеть отдельное опорное гнездо под каждой вставкой.</p>
+        <dl>
+          <div><dt>Размер и ширина шинки</dt><dd>Ø 17,00 × 2,20 мм</dd></div>
+          <div><dt>Круглые вставки</dt><dd>7 × Ø 1,20 мм</dd></div>
+          <div><dt>Зазор между камнями</dt><dd>0,199 мм</dd></div>
+          <div><dt>Корнеры до обжима</dt><dd>16 × Ø 0,53 мм</dd></div>
+          <div><dt>Расчётная масса металла</dt><dd>585 · 2,44 г<br>750 · 2,80 г</dd></div>
+        </dl>
+        <fieldset id="inspection" hidden>
+          <legend>Посадка семи камней</legend>
+          <div class="tools">
+            <button data-state="set" aria-pressed="true">На опоре</button>
+            <button data-state="lift" aria-pressed="false">Поднять на 3 мм</button>
+            <button data-state="blank" aria-pressed="false">Без камней</button>
+          </div>
+          <button id="reset" class="link">Исходный ракурс</button>
+        </fieldset>
+        <div class="documents"><a class="primary" href="kit.zip" download>Скачать комплект</a><a class="link" href="../../check/?stl=../commercial/pave/Metal.stl">Тепловая карта металла</a><a class="link" href="report.html">Протокол измерений</a></div>
+        <p class="format">В комплекте исходник Rhino 8 с телами Brep, STL металла и семи камней, сборка GLB и результаты контроля. Заготовка для согласования с закрепщиком.</p>
+      </div>
+    </section>
+  </main>
+</body>
+</html>

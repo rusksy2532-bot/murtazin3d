@@ -1,40 +1,40 @@
 {
-  "sourceMetaSha256": "0c329123803fa6ccc83c394dd122baab644877b733908d3457f96097e2fb618c",
-  "glbSha256": "bf329f85a1161dd8ceba6cc1cf74f69d121ac1ff5c3ce9e610f0cb8d637316bd",
+  "sourceMetaSha256": "8a8c9b691dde37d68da3c518c0bc94cd915e88a123a59acaca518d2c47beb6f0",
+  "glbSha256": "176e957ee5f3ee61bc0176050895f9e966586f0bde2fc27021b3bbbd4a6276a4",
   "units": "mm",
   "volEpsilonMm3": 1e-06,
   "files": {
     "White": {
       "name": "White",
-      "sha256": "427b18fc504049998da58392aca714e80424c7795a86c4c961a592cf13b2193c",
-      "triangles": 35426,
+      "sha256": "0f324cc776b473d508b94f8397ad5fa77bd2e216a8599efc10d91f853aade6b2",
+      "triangles": 35318,
       "openEdges": 0,
       "nonManifoldEdges": 0,
       "degenerateTriangles": 0,
       "consistent": true,
       "components": 1,
-      "volumeMm3": 194.01314763405674,
+      "volumeMm3": 199.3129448418182,
       "sizeXYZmm": [
         21.375690460205078,
         21.98699951171875,
-        6.436900615692139
+        6.565234661102295
       ],
       "boreDiameterMm": 17.000599197709988
     },
     "Champagne": {
       "name": "Champagne",
-      "sha256": "6ec7472944bea3de35e5404ad69d96f9e79fc06c50e81fc83cc2e0003377625f",
-      "triangles": 16762,
+      "sha256": "74e27e6c41692c7bccbafb14113e96b97aa1b93a6ef3d7e3236d0e6687a75331",
+      "triangles": 16644,
       "openEdges": 0,
       "nonManifoldEdges": 0,
       "degenerateTriangles": 0,
       "consistent": true,
       "components": 1,
-      "volumeMm3": 89.94862392780695,
+      "volumeMm3": 93.85076163796008,
       "sizeXYZmm": [
         21.375264167785645,
         13.609000086784363,
-        5.389801323413849
+        5.534723877906799
       ],
       "boreDiameterMm": 17.000599184589355
     },
@@ -56,18 +56,18 @@
     },
     "PearTeal": {
       "name": "PearTeal",
-      "sha256": "ecc9d4031a9eb68d1f094a3966daa5f4ab1f4e3f6908488e6cbb66f66ed81d55",
+      "sha256": "953b09fd14eb4022cf81c1b7ff95441dde9e9a5feb3fee2e9782e98183830f98",
       "triangles": 166,
       "openEdges": 0,
       "nonManifoldEdges": 0,
       "degenerateTriangles": 0,
       "consistent": true,
       "components": 1,
-      "volumeMm3": 13.749199898750708,
+      "volumeMm3": 13.749199886713521,
       "sizeXYZmm": [
         5.225429832935333,
         2.369800567626953,
-        3.5508303120732307
+        3.5508304089307785
       ]
     },
     "Pave01": {
@@ -163,7 +163,7 @@
       ],
       "convexityExcessMm3": -3.552713678800501e-15,
       "metalSweepMm3": {
-        "White": 5.990342652537047e-08,
+        "White": 5.990342660772589e-08,
         "Champagne": 0.0
       },
       "peakStoneSweepMm3": 0.0,
@@ -178,7 +178,7 @@
       "finalGapMm": 0.0,
       "supportAlloy": "White",
       "overtravelDepthMm": 0.025,
-      "overtravelVolumeMm3": 0.14370726980160367,
+      "overtravelVolumeMm3": 0.1437072698016032,
       "supportContactIslands": 1,
       "gapAtQuarterMm": 0.05200001266837374,
       "maxUnsupportedAngleDeg": 42.77620167467124,
@@ -223,7 +223,7 @@
       "convexityExcessMm3": 0.0,
       "metalSweepMm3": {
         "White": 0.0,
-        "Champagne": 1.156934512223456e-08
+        "Champagne": 1.2617319031472764e-08
       },
       "peakStoneSweepMm3": 0.0,
       "otherStones": {
@@ -237,13 +237,13 @@
       "finalGapMm": 0.0,
       "supportAlloy": "Champagne",
       "overtravelDepthMm": 0.025,
-      "overtravelVolumeMm3": 0.08333594237053583,
+      "overtravelVolumeMm3": 0.08333597596767593,
       "supportContactIslands": 1,
       "gapAtQuarterMm": 0.05199999091159008,
-      "maxUnsupportedAngleDeg": 42.58123573613284,
+      "maxUnsupportedAngleDeg": 42.58123643716664,
       "prongs": {
-        "girdleMaxDiameterMm": 5.599999821916904,
-        "girdleMinCaliperMm": 3.364178415785563,
+        "girdleMaxDiameterMm": 5.599999872692844,
+        "girdleMinCaliperMm": 3.364178382839895,
         "upperGirdleOffsetMm": 0.04700031280517436,
         "heightAboveOutlineMm": 0.2,
         "tipHeightsAboveUpperGirdleMm": [
@@ -255,17 +255,17 @@
         ],
         "minHeightMm": 0.7799997329711914,
         "maxHeightMm": 0.7799997329711914,
-        "minWidthMm": 0.6419817656376319,
+        "minWidthMm": 0.6419818363806034,
         "measuredIslands": 5,
         "widthsMm": [
-          0.7177804187632559,
-          0.6419817656376319,
-          0.6452292174799927,
-          0.645229191130908,
-          0.6445763463993897
+          0.7177804605963667,
+          0.6419818363806034,
+          0.6452291272798218,
+          0.6452291769077024,
+          0.6445763534336679
         ],
         "minGapInSectionMm": 0.9817672301627018,
-        "minGapBetweenFreeCapsMm": 0.9817672301627018
+        "minGapBetweenFreeCapsMm": 0.9817672302346279
       },
       "routeOK": true,
       "seatOK": true
@@ -281,7 +281,7 @@
       ],
       "convexityExcessMm3": 2.4600511155936644e-08,
       "metalSweepMm3": {
-        "White": 3.5018270255527615e-08,
+        "White": 3.501827025729082e-08,
         "Champagne": 0.0
       },
       "peakStoneSweepMm3": 0.0,
@@ -296,7 +296,7 @@
       "finalGapMm": 0.0,
       "supportAlloy": "White",
       "overtravelDepthMm": 0.025,
-      "overtravelVolumeMm3": 0.013761016285675118,
+      "overtravelVolumeMm3": 0.013761016285675111,
       "supportContactIslands": 1,
       "gapAtQuarterMm": 0.04494546678551351,
       "maxUnsupportedAngleDeg": 5.216543379221662,
@@ -338,7 +338,7 @@
       ],
       "convexityExcessMm3": 1.5121236929260817e-08,
       "metalSweepMm3": {
-        "White": 2.9736075497590997e-08,
+        "White": 2.973607549927391e-08,
         "Champagne": 0.0
       },
       "peakStoneSweepMm3": 0.0,
@@ -353,7 +353,7 @@
       "finalGapMm": 0.0,
       "supportAlloy": "White",
       "overtravelDepthMm": 0.025,
-      "overtravelVolumeMm3": 0.013879921150725151,
+      "overtravelVolumeMm3": 0.01387992115072514,
       "supportContactIslands": 1,
       "gapAtQuarterMm": 0.044945612264836926,
       "maxUnsupportedAngleDeg": 5.145749852205654,
@@ -395,7 +395,7 @@
       ],
       "convexityExcessMm3": 7.303279647707939e-09,
       "metalSweepMm3": {
-        "White": 2.4455603847280198e-08,
+        "White": 2.445560385420232e-08,
         "Champagne": 0.0
       },
       "peakStoneSweepMm3": 0.0,
@@ -410,7 +410,7 @@
       "finalGapMm": 0.0,
       "supportAlloy": "White",
       "overtravelDepthMm": 0.025,
-      "overtravelVolumeMm3": 0.013901154516503467,
+      "overtravelVolumeMm3": 0.013901154516503473,
       "supportContactIslands": 1,
       "gapAtQuarterMm": 0.044945599842787454,
       "maxUnsupportedAngleDeg": 5.145794510509916,
@@ -452,7 +452,7 @@
       ],
       "convexityExcessMm3": 4.256687555215244e-08,
       "metalSweepMm3": {
-        "White": 3.316483077694848e-08,
+        "White": 3.3164830780701134e-08,
         "Champagne": 0.0
       },
       "peakStoneSweepMm3": 0.0,
@@ -467,7 +467,7 @@
       "finalGapMm": 0.0,
       "supportAlloy": "White",
       "overtravelDepthMm": 0.025,
-      "overtravelVolumeMm3": 0.013979122155134084,
+      "overtravelVolumeMm3": 0.0139791221551341,
       "supportContactIslands": 1,
       "gapAtQuarterMm": 0.044945508764231853,
       "maxUnsupportedAngleDeg": 5.150833086161981,
@@ -509,7 +509,7 @@
       ],
       "convexityExcessMm3": 3.550531291196535e-08,
       "metalSweepMm3": {
-        "White": 6.313517059688199e-08,
+        "White": 6.313517059704888e-08,
         "Champagne": 0.0
       },
       "peakStoneSweepMm3": 0.0,
@@ -524,7 +524,7 @@
       "finalGapMm": 0.0,
       "supportAlloy": "White",
       "overtravelDepthMm": 0.025,
-      "overtravelVolumeMm3": 0.014055885976763376,
+      "overtravelVolumeMm3": 0.014055885976763386,
       "supportContactIslands": 1,
       "gapAtQuarterMm": 0.04494565479279158,
       "maxUnsupportedAngleDeg": 5.150828844109417,
@@ -562,7 +562,7 @@
     "lastContactOffsetMm": null,
     "axialToleranceMm": 1e-05,
     "forwardChecksMm3": {
-      "0": 2.479176680969194e-08,
+      "0": 2.479176681122343e-08,
       "0.0001": 0.0,
       "0.025": 0.0,
       "0.15": 0.0,
@@ -572,7 +572,7 @@
       "4": 0.0,
       "8": 0.0
     },
-    "overtravelMm3": 0.37170069569252406,
+    "overtravelMm3": 0.37099995523053725,
     "endGapMm": 0.0,
     "pinsMeasured": [
       {

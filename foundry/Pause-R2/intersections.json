@@ -8,9 +8,9 @@
     "pairs": []
   },
   "casting/Lever": {
-    "sha256": "b7f94b4131670496bb5c7c7b16a4937d52526e23cd424a521f13d57089bf3719",
-    "faces": 43538,
-    "vertices": 21767,
+    "sha256": "3954c0b21a991465a31a0c3b5f0c1cdc2a2e2c0e47461da242c15f27a0b3e769",
+    "faces": 44046,
+    "vertices": 22021,
     "closed": true,
     "intersectingPairs": 0,
     "pairs": []
