@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="robots" content="noindex,nofollow,noarchive">
+  <meta name="referrer" content="no-referrer"><meta name="theme-color" content="#191717">
+  <meta property="og:title" content="Приватный просмотр · R&amp;R Design">
+  <title>Приватный просмотр · R&amp;R Design</title>
+  <link rel="icon" href="/mark.svg">
+  <style>html{color-scheme:dark;background:#191717;color:#f4eee6;font:100%/1.55 system-ui,sans-serif}#notice{max-width:30rem;margin:25vh auto;padding:1.5rem}</style>
+</head>
+<body>
+  <div id="notice" role="status">Для просмотра откройте полную ссылку из сообщения.</div>
+  <script type="module">
+    async function openFilm() {
+      const fragment = location.hash.slice(1);
+      if (!/^[A-Za-z0-9_-]{43}$/.test(fragment)) return;
+      const notice = document.getElementById('notice');
+      notice.textContent = 'Открываем ролик…';
+      try {
+        const bytes = Uint8Array.from(atob(fragment.replaceAll('-','+').replaceAll('_','/')+'='), c=>c.charCodeAt(0));
+        const key = await crypto.subtle.importKey('raw',bytes,'AES-GCM',false,['decrypt']);
+        const response = await fetch('film.bin');
+        if (!response.ok) throw Error();
+        const packed = new Uint8Array(await response.arrayBuffer());
+        const plain = await crypto.subtle.decrypt({name:'AES-GCM',iv:packed.subarray(0,12)},key,packed.subarray(12));
+        const sizes = new DataView(plain);
+        const htmlEnd = 8 + sizes.getUint32(0);
+        const coverEnd = htmlEnd + sizes.getUint32(4);
+        const html = new TextDecoder().decode(new Uint8Array(plain,8,htmlEnd-8));
+        const cover = URL.createObjectURL(new Blob([plain.slice(htmlEnd,coverEnd)],{type:'image/jpeg'}));
+        const movie = URL.createObjectURL(new Blob([plain.slice(coverEnd)],{type:'video/mp4'}));
+        const view = new DOMParser().parseFromString(html,'text/html');
+        const film = view.querySelector('video');
+        film.poster=cover; film.src=movie;
+        view.querySelector('[download]').href=movie;
+        document.title=view.title;
+        document.head.append(view.querySelector('style'));
+        document.body.replaceChildren(...view.body.children);
+        const play=document.querySelector('#play');
+        play.hidden=false;film.controls=false;
+        play.addEventListener('click',async()=>{
+          film.controls=true;play.hidden=true;
+          try {await film.play();film.focus()} catch {play.hidden=false}
+        });
+        film.addEventListener('ended',()=>{film.controls=false;play.hidden=false});
+      } catch {
+        notice.textContent='Не удалось открыть ролик. Проверьте соединение и скопируйте ссылку из сообщения целиком.';
+      }
+    }
+    openFilm();
+  </script>
+</body>
+</html>
