@@ -22,7 +22,7 @@ h1,h2,h3,.card strong,em{font-family:var(--serif);font-weight:500;font-kerning:n
 .workshop h2 { margin: 0; font-size: clamp(2.7rem, 5.3vw, 5.2rem); }
 .workshop-intro { margin: .8rem 0 1.8rem; max-width: 68ch; color: #635f53; }
 .workshop-intro strong { color: var(--ink); font-weight: 500; }
-.workshop-grid { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: clamp(1rem, 2vw, 2rem); }
+.workshop-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: clamp(1rem, 2vw, 2rem); }
 .workshop-grid article { display: flex; flex-direction: column; min-width: 0; }
 .workshop-photo { display: block; overflow: hidden; background: #494643; }
 .workshop-photo img { display: block; width: 100%; aspect-ratio: 4 / 3; height: auto; object-fit: cover; }
@@ -58,7 +58,7 @@ h1,h2,h3,.card strong,em{font-family:var(--serif);font-weight:500;font-kerning:n
 .family-photo img {
   display: block;
   width: 100%;
-  aspect-ratio: 4 / 5;
+  aspect-ratio: 3 / 2;
   height: auto;
   object-fit: cover;
   object-position: center 62%;
@@ -72,5 +72,5 @@ h1,h2,h3,.card strong,em{font-family:var(--serif);font-weight:500;font-kerning:n
 .family-links a:hover { color: #e6cfab; }
 @media (max-width: 760px) {
   .family { grid-template-columns: 1fr; gap: 1.65rem; }
-  .family-photo img { aspect-ratio: 5 / 4; object-position: center 56%; }
+  .family-photo img { aspect-ratio: 3 / 2; object-position: center 56%; }
 }

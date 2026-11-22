@@ -1,0 +1,1470 @@
+{
+  "units": "mm",
+  "assumedDensityAu585Gcm3": 13.5,
+  "pilotDiameterMm": 0.75,
+  "hingeFinishedBodyBoreMm": 0.815,
+  "hingeFinishedLeverBoreMm": 0.86,
+  "sides": {
+    "R": {
+      "files": {
+        "Body": {
+          "volumeMm3": 97.15964551109454,
+          "sha256": "fca48fbc601dfde0e69cd89b0be33f1d3d586592cd8ac0765c308253c92b9790",
+          "triangles": 2216,
+          "open": 0,
+          "nonmanifold": 0,
+          "watertight": true,
+          "shells": 1,
+          "selfIntersectingTrianglePairs": 0
+        },
+        "Shvenza": {
+          "volumeMm3": 32.85598500117661,
+          "sha256": "293f5376ae9015876c36a246fb7416fa95d25d8152c6d9a91d2ed98893cefc9e",
+          "triangles": 676,
+          "open": 0,
+          "nonmanifold": 0,
+          "watertight": true,
+          "shells": 1,
+          "selfIntersectingTrianglePairs": 0
+        },
+        "Post": {
+          "volumeMm3": 8.046195654400284,
+          "sha256": "33b3cabd7cf7147b4c8852dca735ee5e31653052e174fdf4f0b742ff86b7e4bf",
+          "triangles": 1966,
+          "open": 0,
+          "nonmanifold": 0,
+          "watertight": true,
+          "shells": 1,
+          "selfIntersectingTrianglePairs": 0
+        },
+        "Pin": {
+          "volumeMm3": 1.435734733127985,
+          "sha256": "2330c36c3b2f839e7c5dcf66ab5555cf080f6513477f181ff960af3a94d33611",
+          "triangles": 716,
+          "open": 0,
+          "nonmanifold": 0,
+          "watertight": true,
+          "shells": 1,
+          "selfIntersectingTrianglePairs": 0
+        },
+        "Baguette": {
+          "volumeMm3": 6.064292113389564,
+          "sha256": "5914c404e7bb79fb9508c4f4c7d3f92970fdecfe15c0478f453a1257ed258112",
+          "triangles": 92,
+          "open": 0,
+          "nonmanifold": 0,
+          "watertight": true,
+          "shells": 1,
+          "selfIntersectingTrianglePairs": 0
+        },
+        "Body_blank": {
+          "volumeMm3": 97.3242877704764,
+          "sha256": "1338d115f8ce7e09305a0b34955814d1effbdc18c4e8a1302e085bf2536cd044",
+          "triangles": 1640,
+          "open": 0,
+          "nonmanifold": 0,
+          "watertight": true,
+          "shells": 1,
+          "selfIntersectingTrianglePairs": 0
+        },
+        "Shvenza_blank": {
+          "volumeMm3": 33.01157261795966,
+          "sha256": "4ff8c9771892ac499e19caccd43e21faa058324f3628d042e60f5a4fa40de8b3",
+          "triangles": 676,
+          "open": 0,
+          "nonmanifold": 0,
+          "watertight": true,
+          "shells": 1,
+          "selfIntersectingTrianglePairs": 0
+        }
+      },
+      "stoneSweepMm3": 6.556865420873942e-09,
+      "stoneOvertravel002mmMm3": 0.08390397005695475,
+      "lobeGaugeOverlapMm3": 0,
+      "closedPostLeverOverlapMm3": 0,
+      "closedFreeTravel": {
+        "0": 0,
+        "1": 0.004428815223367559,
+        "2": 0.028793279017182836,
+        "3": 0.042470246728992314
+      },
+      "catchWallsMm": {
+        "minusX": {
+          "samples": 267,
+          "minimumMm": 0.7700996000505627,
+          "maximumMm": 0.8700000047683716
+        },
+        "plusX": {
+          "samples": 267,
+          "minimumMm": 0.7700996149517239,
+          "maximumMm": 0.8700000196695328
+        },
+        "slotRoof": {
+          "samples": 225,
+          "minimumMm": 0.7699995040893555,
+          "maximumMm": 0.7699995040893555
+        },
+        "bodyOverPost": {
+          "samples": 221,
+          "minimumMm": 0.7200002670288086,
+          "maximumMm": 0.8684308651632477
+        }
+      },
+      "release": {
+        "0.0": [
+          0,
+          0,
+          0
+        ],
+        "0.5": [
+          0,
+          0,
+          0
+        ],
+        "1.0": [
+          0,
+          0,
+          0
+        ],
+        "1.5": [
+          0,
+          0,
+          0
+        ],
+        "2.0": [
+          0,
+          0,
+          0
+        ],
+        "2.5": [
+          0,
+          0,
+          0
+        ],
+        "3.0": [
+          0,
+          0,
+          0
+        ],
+        "3.5": [
+          0,
+          0,
+          0
+        ],
+        "4.0": [
+          0,
+          0,
+          0
+        ],
+        "4.5": [
+          0,
+          0,
+          0
+        ],
+        "5.0": [
+          0,
+          0,
+          0
+        ],
+        "5.5": [
+          0,
+          0,
+          0
+        ],
+        "6.0": [
+          0,
+          0,
+          0
+        ],
+        "6.5": [
+          0,
+          0,
+          0
+        ],
+        "7.0": [
+          0,
+          0,
+          0
+        ],
+        "7.5": [
+          0,
+          0,
+          0
+        ],
+        "8.0": [
+          0,
+          0,
+          0
+        ],
+        "8.5": [
+          0,
+          0,
+          0
+        ],
+        "9.0": [
+          0,
+          0,
+          0
+        ],
+        "9.5": [
+          0,
+          0,
+          0
+        ],
+        "10.0": [
+          0,
+          0,
+          0
+        ],
+        "10.5": [
+          0,
+          0,
+          0
+        ],
+        "11.0": [
+          0,
+          0,
+          0
+        ],
+        "11.5": [
+          0,
+          0,
+          0
+        ],
+        "12.0": [
+          0,
+          0,
+          0
+        ],
+        "12.5": [
+          0,
+          0,
+          0
+        ],
+        "13.0": [
+          0,
+          0,
+          0
+        ],
+        "13.5": [
+          0,
+          0,
+          0
+        ],
+        "14.0": [
+          0,
+          0,
+          0
+        ],
+        "14.5": [
+          0,
+          0,
+          0
+        ],
+        "15.0": [
+          0,
+          0,
+          0
+        ],
+        "15.5": [
+          0,
+          0,
+          0
+        ],
+        "16.0": [
+          0,
+          0,
+          0
+        ],
+        "16.5": [
+          0,
+          0,
+          0
+        ],
+        "17.0": [
+          0,
+          0,
+          0
+        ],
+        "17.5": [
+          0,
+          0,
+          0
+        ],
+        "18.0": [
+          0,
+          0,
+          0
+        ],
+        "18.5": [
+          0,
+          0,
+          0
+        ],
+        "19.0": [
+          0,
+          0,
+          0
+        ],
+        "19.5": [
+          0,
+          0,
+          0
+        ],
+        "20.0": [
+          0,
+          0,
+          0
+        ],
+        "20.5": [
+          0,
+          0,
+          0
+        ],
+        "21.0": [
+          0,
+          0,
+          0
+        ],
+        "21.5": [
+          0,
+          0,
+          0
+        ],
+        "22.0": [
+          0,
+          0,
+          0
+        ],
+        "22.5": [
+          0,
+          0,
+          0
+        ],
+        "23.0": [
+          0,
+          0,
+          0
+        ],
+        "23.5": [
+          0,
+          0,
+          0
+        ],
+        "24.0": [
+          0,
+          0,
+          0
+        ],
+        "24.5": [
+          0,
+          0,
+          0
+        ],
+        "25.0": [
+          0,
+          0,
+          0
+        ],
+        "25.5": [
+          0,
+          0,
+          0
+        ],
+        "26.0": [
+          0,
+          0,
+          0
+        ],
+        "26.5": [
+          0,
+          0,
+          0
+        ],
+        "27.0": [
+          0,
+          0,
+          0
+        ],
+        "27.5": [
+          0,
+          0,
+          0
+        ],
+        "28.0": [
+          0,
+          0,
+          0
+        ],
+        "28.5": [
+          0,
+          0,
+          0
+        ],
+        "29.0": [
+          0,
+          0,
+          0
+        ],
+        "29.5": [
+          0,
+          0,
+          0
+        ],
+        "30.0": [
+          0,
+          0,
+          0
+        ],
+        "30.5": [
+          0,
+          0,
+          0
+        ],
+        "31.0": [
+          0,
+          0,
+          0
+        ],
+        "31.5": [
+          0,
+          0,
+          0
+        ],
+        "32.0": [
+          0,
+          0,
+          0
+        ],
+        "32.5": [
+          0,
+          0,
+          0
+        ],
+        "33.0": [
+          0,
+          0,
+          0
+        ],
+        "33.5": [
+          0,
+          0,
+          0
+        ],
+        "34.0": [
+          0,
+          0,
+          0
+        ],
+        "34.5": [
+          0,
+          0,
+          0
+        ],
+        "35.0": [
+          0,
+          0,
+          0
+        ],
+        "35.5": [
+          0,
+          0,
+          0
+        ],
+        "36.0": [
+          0,
+          0,
+          0
+        ],
+        "36.5": [
+          0,
+          0,
+          0
+        ],
+        "37.0": [
+          0,
+          0,
+          0
+        ],
+        "37.5": [
+          0,
+          0,
+          0
+        ],
+        "38.0": [
+          0,
+          0,
+          0
+        ],
+        "38.5": [
+          0,
+          0,
+          0
+        ],
+        "39.0": [
+          0,
+          0,
+          0
+        ],
+        "39.5": [
+          0,
+          0,
+          0
+        ],
+        "40.0": [
+          0,
+          0,
+          0
+        ],
+        "40.5": [
+          0,
+          0,
+          0
+        ],
+        "41.0": [
+          0,
+          0,
+          0
+        ],
+        "41.5": [
+          0,
+          0,
+          0
+        ],
+        "42.0": [
+          0,
+          0,
+          0
+        ],
+        "42.5": [
+          0,
+          0,
+          0
+        ],
+        "43.0": [
+          0,
+          0,
+          0
+        ],
+        "43.5": [
+          0,
+          0,
+          0
+        ],
+        "44.0": [
+          0,
+          0,
+          0
+        ],
+        "44.5": [
+          0,
+          0,
+          0
+        ],
+        "45.0": [
+          0,
+          0,
+          0
+        ],
+        "45.5": [
+          0,
+          0,
+          0
+        ],
+        "46.0": [
+          0,
+          0,
+          0
+        ],
+        "46.5": [
+          0,
+          0,
+          0
+        ],
+        "47.0": [
+          0,
+          0,
+          0
+        ],
+        "47.5": [
+          0,
+          0,
+          0
+        ],
+        "48.0": [
+          0,
+          0,
+          0
+        ],
+        "48.5": [
+          0,
+          0,
+          0
+        ],
+        "49.0": [
+          0,
+          0,
+          0
+        ],
+        "49.5": [
+          0,
+          0,
+          0
+        ],
+        "50.0": [
+          0,
+          0,
+          0
+        ],
+        "50.5": [
+          0,
+          0,
+          0
+        ],
+        "51.0": [
+          0,
+          0,
+          0
+        ],
+        "51.5": [
+          0,
+          0,
+          0
+        ],
+        "52.0": [
+          0,
+          0,
+          0
+        ],
+        "52.5": [
+          0,
+          0,
+          0
+        ],
+        "53.0": [
+          0,
+          0,
+          0
+        ],
+        "53.5": [
+          0,
+          0,
+          0
+        ],
+        "54.0": [
+          0,
+          0,
+          0
+        ],
+        "54.5": [
+          0,
+          0,
+          0
+        ],
+        "55.0": [
+          0,
+          0,
+          0
+        ],
+        "55.5": [
+          0,
+          0,
+          0
+        ]
+      },
+      "liftInPlace": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "metalMassG": 1.883217072147292,
+      "stoneMassG": 0.016494874548419615
+    },
+    "L": {
+      "files": {
+        "Body": {
+          "volumeMm3": 97.15964551109454,
+          "sha256": "bec974361aeed832470a551cd43f1732243029f6de478187cb58fcc331584e38",
+          "triangles": 2216,
+          "open": 0,
+          "nonmanifold": 0,
+          "watertight": true,
+          "shells": 1,
+          "selfIntersectingTrianglePairs": 0
+        },
+        "Shvenza": {
+          "volumeMm3": 32.85598500117661,
+          "sha256": "6f2ec611627f9cac04b3fdd0e9290b00a3169dd33f30ad64569710e89baa53f7",
+          "triangles": 676,
+          "open": 0,
+          "nonmanifold": 0,
+          "watertight": true,
+          "shells": 1,
+          "selfIntersectingTrianglePairs": 0
+        },
+        "Post": {
+          "volumeMm3": 8.046195654400282,
+          "sha256": "486b162f80da2fe2ca583fbb9c02a3dbddf02dccde1d0e6e9c8d12a5f152f723",
+          "triangles": 1966,
+          "open": 0,
+          "nonmanifold": 0,
+          "watertight": true,
+          "shells": 1,
+          "selfIntersectingTrianglePairs": 0
+        },
+        "Pin": {
+          "volumeMm3": 1.435734733127985,
+          "sha256": "a96eff7d6acc1f3f2637a1f37b033e91032b9befe3f370a2105a717a868ee3d6",
+          "triangles": 716,
+          "open": 0,
+          "nonmanifold": 0,
+          "watertight": true,
+          "shells": 1,
+          "selfIntersectingTrianglePairs": 0
+        },
+        "Baguette": {
+          "volumeMm3": 6.064292113389564,
+          "sha256": "a0c9d6790aa95c521339f60df666ad5ea75a8b7e8f7325806b904f69c9c38104",
+          "triangles": 92,
+          "open": 0,
+          "nonmanifold": 0,
+          "watertight": true,
+          "shells": 1,
+          "selfIntersectingTrianglePairs": 0
+        },
+        "Body_blank": {
+          "volumeMm3": 97.3242877704764,
+          "sha256": "298ac6325e982a1f312749699a0d4d4656bb6fbfc979a90292062691bccc0b5d",
+          "triangles": 1640,
+          "open": 0,
+          "nonmanifold": 0,
+          "watertight": true,
+          "shells": 1,
+          "selfIntersectingTrianglePairs": 0
+        },
+        "Shvenza_blank": {
+          "volumeMm3": 33.01157261795966,
+          "sha256": "b29e241e86e2fc5832c7fb2ed08fe4f6ce7606f08d75d038d8a33b793bda3b7c",
+          "triangles": 676,
+          "open": 0,
+          "nonmanifold": 0,
+          "watertight": true,
+          "shells": 1,
+          "selfIntersectingTrianglePairs": 0
+        }
+      },
+      "stoneSweepMm3": 6.556865395036457e-09,
+      "stoneOvertravel002mmMm3": 0.08390397005695491,
+      "lobeGaugeOverlapMm3": 0,
+      "closedPostLeverOverlapMm3": 0,
+      "closedFreeTravel": {
+        "0": 0,
+        "1": 0.004428815223367531,
+        "2": 0.028793279017182774,
+        "3": 0.04247024672899232
+      },
+      "catchWallsMm": {
+        "minusX": {
+          "samples": 267,
+          "minimumMm": 0.7700996149517239,
+          "maximumMm": 0.8700000196695328
+        },
+        "plusX": {
+          "samples": 267,
+          "minimumMm": 0.7700996000505627,
+          "maximumMm": 0.8700000047683716
+        },
+        "slotRoof": {
+          "samples": 225,
+          "minimumMm": 0.7699995040893555,
+          "maximumMm": 0.7699995040893555
+        },
+        "bodyOverPost": {
+          "samples": 221,
+          "minimumMm": 0.7200002670288086,
+          "maximumMm": 0.8684308651632477
+        }
+      },
+      "release": {
+        "0.0": [
+          0,
+          0,
+          0
+        ],
+        "0.5": [
+          0,
+          0,
+          0
+        ],
+        "1.0": [
+          0,
+          0,
+          0
+        ],
+        "1.5": [
+          0,
+          0,
+          0
+        ],
+        "2.0": [
+          0,
+          0,
+          0
+        ],
+        "2.5": [
+          0,
+          0,
+          0
+        ],
+        "3.0": [
+          0,
+          0,
+          0
+        ],
+        "3.5": [
+          0,
+          0,
+          0
+        ],
+        "4.0": [
+          0,
+          0,
+          0
+        ],
+        "4.5": [
+          0,
+          0,
+          0
+        ],
+        "5.0": [
+          0,
+          0,
+          0
+        ],
+        "5.5": [
+          0,
+          0,
+          0
+        ],
+        "6.0": [
+          0,
+          0,
+          0
+        ],
+        "6.5": [
+          0,
+          0,
+          0
+        ],
+        "7.0": [
+          0,
+          0,
+          0
+        ],
+        "7.5": [
+          0,
+          0,
+          0
+        ],
+        "8.0": [
+          0,
+          0,
+          0
+        ],
+        "8.5": [
+          0,
+          0,
+          0
+        ],
+        "9.0": [
+          0,
+          0,
+          0
+        ],
+        "9.5": [
+          0,
+          0,
+          0
+        ],
+        "10.0": [
+          0,
+          0,
+          0
+        ],
+        "10.5": [
+          0,
+          0,
+          0
+        ],
+        "11.0": [
+          0,
+          0,
+          0
+        ],
+        "11.5": [
+          0,
+          0,
+          0
+        ],
+        "12.0": [
+          0,
+          0,
+          0
+        ],
+        "12.5": [
+          0,
+          0,
+          0
+        ],
+        "13.0": [
+          0,
+          0,
+          0
+        ],
+        "13.5": [
+          0,
+          0,
+          0
+        ],
+        "14.0": [
+          0,
+          0,
+          0
+        ],
+        "14.5": [
+          0,
+          0,
+          0
+        ],
+        "15.0": [
+          0,
+          0,
+          0
+        ],
+        "15.5": [
+          0,
+          0,
+          0
+        ],
+        "16.0": [
+          0,
+          0,
+          0
+        ],
+        "16.5": [
+          0,
+          0,
+          0
+        ],
+        "17.0": [
+          0,
+          0,
+          0
+        ],
+        "17.5": [
+          0,
+          0,
+          0
+        ],
+        "18.0": [
+          0,
+          0,
+          0
+        ],
+        "18.5": [
+          0,
+          0,
+          0
+        ],
+        "19.0": [
+          0,
+          0,
+          0
+        ],
+        "19.5": [
+          0,
+          0,
+          0
+        ],
+        "20.0": [
+          0,
+          0,
+          0
+        ],
+        "20.5": [
+          0,
+          0,
+          0
+        ],
+        "21.0": [
+          0,
+          0,
+          0
+        ],
+        "21.5": [
+          0,
+          0,
+          0
+        ],
+        "22.0": [
+          0,
+          0,
+          0
+        ],
+        "22.5": [
+          0,
+          0,
+          0
+        ],
+        "23.0": [
+          0,
+          0,
+          0
+        ],
+        "23.5": [
+          0,
+          0,
+          0
+        ],
+        "24.0": [
+          0,
+          0,
+          0
+        ],
+        "24.5": [
+          0,
+          0,
+          0
+        ],
+        "25.0": [
+          0,
+          0,
+          0
+        ],
+        "25.5": [
+          0,
+          0,
+          0
+        ],
+        "26.0": [
+          0,
+          0,
+          0
+        ],
+        "26.5": [
+          0,
+          0,
+          0
+        ],
+        "27.0": [
+          0,
+          0,
+          0
+        ],
+        "27.5": [
+          0,
+          0,
+          0
+        ],
+        "28.0": [
+          0,
+          0,
+          0
+        ],
+        "28.5": [
+          0,
+          0,
+          0
+        ],
+        "29.0": [
+          0,
+          0,
+          0
+        ],
+        "29.5": [
+          0,
+          0,
+          0
+        ],
+        "30.0": [
+          0,
+          0,
+          0
+        ],
+        "30.5": [
+          0,
+          0,
+          0
+        ],
+        "31.0": [
+          0,
+          0,
+          0
+        ],
+        "31.5": [
+          0,
+          0,
+          0
+        ],
+        "32.0": [
+          0,
+          0,
+          0
+        ],
+        "32.5": [
+          0,
+          0,
+          0
+        ],
+        "33.0": [
+          0,
+          0,
+          0
+        ],
+        "33.5": [
+          0,
+          0,
+          0
+        ],
+        "34.0": [
+          0,
+          0,
+          0
+        ],
+        "34.5": [
+          0,
+          0,
+          0
+        ],
+        "35.0": [
+          0,
+          0,
+          0
+        ],
+        "35.5": [
+          0,
+          0,
+          0
+        ],
+        "36.0": [
+          0,
+          0,
+          0
+        ],
+        "36.5": [
+          0,
+          0,
+          0
+        ],
+        "37.0": [
+          0,
+          0,
+          0
+        ],
+        "37.5": [
+          0,
+          0,
+          0
+        ],
+        "38.0": [
+          0,
+          0,
+          0
+        ],
+        "38.5": [
+          0,
+          0,
+          0
+        ],
+        "39.0": [
+          0,
+          0,
+          0
+        ],
+        "39.5": [
+          0,
+          0,
+          0
+        ],
+        "40.0": [
+          0,
+          0,
+          0
+        ],
+        "40.5": [
+          0,
+          0,
+          0
+        ],
+        "41.0": [
+          0,
+          0,
+          0
+        ],
+        "41.5": [
+          0,
+          0,
+          0
+        ],
+        "42.0": [
+          0,
+          0,
+          0
+        ],
+        "42.5": [
+          0,
+          0,
+          0
+        ],
+        "43.0": [
+          0,
+          0,
+          0
+        ],
+        "43.5": [
+          0,
+          0,
+          0
+        ],
+        "44.0": [
+          0,
+          0,
+          0
+        ],
+        "44.5": [
+          0,
+          0,
+          0
+        ],
+        "45.0": [
+          0,
+          0,
+          0
+        ],
+        "45.5": [
+          0,
+          0,
+          0
+        ],
+        "46.0": [
+          0,
+          0,
+          0
+        ],
+        "46.5": [
+          0,
+          0,
+          0
+        ],
+        "47.0": [
+          0,
+          0,
+          0
+        ],
+        "47.5": [
+          0,
+          0,
+          0
+        ],
+        "48.0": [
+          0,
+          0,
+          0
+        ],
+        "48.5": [
+          0,
+          0,
+          0
+        ],
+        "49.0": [
+          0,
+          0,
+          0
+        ],
+        "49.5": [
+          0,
+          0,
+          0
+        ],
+        "50.0": [
+          0,
+          0,
+          0
+        ],
+        "50.5": [
+          0,
+          0,
+          0
+        ],
+        "51.0": [
+          0,
+          0,
+          0
+        ],
+        "51.5": [
+          0,
+          0,
+          0
+        ],
+        "52.0": [
+          0,
+          0,
+          0
+        ],
+        "52.5": [
+          0,
+          0,
+          0
+        ],
+        "53.0": [
+          0,
+          0,
+          0
+        ],
+        "53.5": [
+          0,
+          0,
+          0
+        ],
+        "54.0": [
+          0,
+          0,
+          0
+        ],
+        "54.5": [
+          0,
+          0,
+          0
+        ],
+        "55.0": [
+          0,
+          0,
+          0
+        ],
+        "55.5": [
+          0,
+          0,
+          0
+        ]
+      },
+      "liftInPlace": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "metalMassG": 1.883217072147292,
+      "stoneMassG": 0.016494874548419615
+    }
+  },
+  "pairMassWithStonesG": 3.7994238933914235,
+  "revision": "R3",
+  "catchWallMethod": "On the reimported casting STL: rays across the window along +/-X, vertically across its roof, and vertically across the front body above the post socket. Minima and maxima are sampled chord lengths in these specific load-bearing sections.",
+  "postTip": {
+    "profile": "rounded spring stock transitioning into half ellipsoid",
+    "stockWidthMm": 0.85,
+    "stockHeightMm": 1.15,
+    "stockCornerRadiusMm": 0.18,
+    "ellipsoidSemiaxesXyzMm": [
+      0.425,
+      0.42,
+      0.575
+    ],
+    "nominalNotchDepthMm": 0.25,
+    "releaseLiftMm": 0.34
+  },
+  "wireBlankMm": {
+    "diameter": 0.8,
+    "cutLength": 3.1,
+    "hingeWidth": 2.8,
+    "allowancePerEnd": 0.15
+  },
+  "selfIntersectionAudit": "Exhaustive CGAL triangle pair check on all 14 exported casting and assembly STL files.",
+  "displayAudit": {
+    "allNodes": {
+      "R_Body": {
+        "verticesComparedGLB": 1104,
+        "verticesComparedSTL": 6648,
+        "maxSeparationMm": 5.037146631298414e-07
+      },
+      "R_Shvenza": {
+        "verticesComparedGLB": 336,
+        "verticesComparedSTL": 2028,
+        "maxSeparationMm": 4.927532602484957e-07
+      },
+      "R_Post": {
+        "verticesComparedGLB": 985,
+        "verticesComparedSTL": 5898,
+        "maxSeparationMm": 6.323892877474991e-07
+      },
+      "R_Pin": {
+        "verticesComparedGLB": 360,
+        "verticesComparedSTL": 2148,
+        "maxSeparationMm": 4.81371260451656e-07
+      },
+      "R_Baguette": {
+        "verticesComparedGLB": 276,
+        "verticesComparedSTL": 276,
+        "maxSeparationMm": 3.3495518436393245e-07
+      },
+      "L_Body": {
+        "verticesComparedGLB": 1104,
+        "verticesComparedSTL": 6648,
+        "maxSeparationMm": 5.037146631298414e-07
+      },
+      "L_Shvenza": {
+        "verticesComparedGLB": 336,
+        "verticesComparedSTL": 2028,
+        "maxSeparationMm": 4.927532602484957e-07
+      },
+      "L_Post": {
+        "verticesComparedGLB": 985,
+        "verticesComparedSTL": 5898,
+        "maxSeparationMm": 6.323892877474991e-07
+      },
+      "L_Pin": {
+        "verticesComparedGLB": 360,
+        "verticesComparedSTL": 2148,
+        "maxSeparationMm": 4.81371260451656e-07
+      },
+      "L_Baguette": {
+        "verticesComparedGLB": 276,
+        "verticesComparedSTL": 276,
+        "maxSeparationMm": 3.3495518436393245e-07
+      }
+    },
+    "rhinoUnits": "millimetres",
+    "rhinoObjects": 14,
+    "glbSHA256": "de995bf8721c71a63ab5101fe6d026baa72cfa9b0b77ef535c27f75aebbd9a85",
+    "rhinoSHA256": "19c12b0c8169e022cd649a6de08346dfc677aee707c04e7668830c82db4de715"
+  }
+}

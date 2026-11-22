@@ -1,0 +1,13 @@
+<!doctype html><html lang="ru"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Консоль · R&amp;R Design</title><meta name="description" content="Зеркальная пара серёг с английским замком. Рассмотрите багет в макро и откройте швензу в 3D."><meta property="og:title" content="Консоль · R&amp;R Design"><meta property="og:description" content="Архитектурные серьги с английским замком. Интерактивная модель R3."><meta property="og:image" content="./pair.webp"><link rel="stylesheet" href="style.css"></head>
+<body><header><b>R<span>&amp;</span>R</b><span>DESIGN</span></header>
+<main><section class="stage" aria-label="Просмотр серёг"><img id="still" src="pair.webp" alt="Зеркальная пара серёг «Консоль» с голубовато-зелёными багетами"><canvas hidden aria-label="Вращение трёхмерной модели серёг"></canvas><span id="status" role="status"></span></section>
+<article><small>Серьги с английским замком</small><h1>Консоль</h1><p>Косая грань ведёт взгляд к узкому багету. У каждой серьги свой наклон, а в профиль проступает устройство замка — тонкая швенза замыкает золотую скобу.</p>
+<div class="views" aria-label="Ракурс"><button data-frame="pair" aria-pressed="true">Пара</button><button data-frame="profile" aria-pressed="false">Профиль</button><button data-frame="macro" aria-pressed="false">Макро</button></div>
+<button id="mode">Вращать в 3D</button>
+<div id="movement" hidden><label for="angle">Раскрытие замка <output for="angle">0°</output></label><input id="angle" type="range" min="0" max="55" value="0" step=".5"><p class="hint">Потяните модель, чтобы повернуть. Колесо мыши или жест двумя пальцами меняет масштаб.</p></div>
+<details id="workshop"><summary>Для мастерской · R3</summary><dl>
+<dt>Багет, каждый</dt><dd>4,60 × 1,80 мм</dd><dt>Проём под мочку</dt><dd>10 × 7 мм</dd><dt>Ось шарнира</dt><dd>Ø 0,80 мм</dd>
+<dt>Боковые стенки и верх окна швензы</dt><dd>от 0,77 мм</dd><dt>Стенка корпуса над гарпуном</dt><dd>от 0,72 мм</dd><dt>Скругление кромок гарпуна</dt><dd>R 0,18 мм</dd>
+<dt>Расчётная масса пары с камнями</dt><dd>3,80 г · Au 585</dd></dl>
+<p class="hint">Гарпун заканчивается закруглённым торцом. На экспортированных STL проверены посадка обоих багетов и раскрытие швензы до 55,5° с шагом 0,5°. Все 14 сеток замкнуты и прошли проверку самопересечений. Усилие защёлки и удобство замка предстоит проверить на образце.</p>
+<a href="Console-R3.zip" download>Скачать комплект R3 · STL, Rhino и GLB</a><a href="qa.json" download>Протокол измерений</a></details></article></main><script src="view.js" defer></script></body></html>

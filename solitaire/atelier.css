@@ -1,6 +1,6 @@
 @font-face {
   font-family: Atelier;
-  src: url("../catalog/assets/fonts/atelier-serif.woff") format("woff");
+  src: url("../assets/fonts/atelier-serif.woff") format("woff");
   font-weight: 300 700;
   font-display: swap;
 }
