@@ -8,16 +8,16 @@ if(location.hash.startsWith('#work/')) location.replace('/catalog/'+location.has
 const isAtelier=['#atelier','#collection','#contact'].includes(location.hash);
 document.documentElement.dataset.view=isAtelier?'atelier':'workshop';
 if(!location.hash&&location.pathname==='/')history.replaceState(null,'','#workshop');
-</script><script src="/portfolio-nav.js" defer></script><script src="/portfolio.js?v=showroom1" defer></script></head>
+</script><script src="/portfolio-nav.js" defer></script><script src="/portfolio.js?v=duet-collection" defer></script></head>
 <body><portfolio-nav></portfolio-nav><main>
 <div class="work-view">
 <section class="showroom"><div class="showroom-inner wrap">
 <div class="showroom-copy"><p class="eyebrow">Руслан Муртазин · инженер</p>
 <h1>Ювелирное<br>проектирование</h1>
 <p class="lead">Строю кольца, оправы и подвижные механизмы по эскизам мастерских. Проверяю посадку камней, толщины и массу до передачи в цех.</p>
-<div class="showroom-actions"><a class="ivory-button" href="/foundry/Duet-R4/report.html#model">Разобрать «Дуэт» в 3D</a><a href="https://t.me/RR_Atelier_Rime_Et_Or">Прислать задание</a></div></div>
-<figure class="exhibit"><div class="duet-stage"><img id="duet-angle" data-src="/assets/landing/duet-whole.webp" width="820" height="690" fetchpriority="high" alt="Переплетённые золотые шинки «Дуэта» и две вставки огранки груша"></div>
-<figcaption><div><span class="exhibit-name">Дуэт</span><p id="duet-note" aria-live="polite">Две груши над переплетёнными шинками.</p></div>
+<div class="showroom-actions"><a class="ivory-button" href="/catalog/#work/64-Duet">Повернуть «Дуэт» в 3D</a><a href="/foundry/Duet-R4/report.html#model">Заготовка R4.1 в 3D</a><a href="https://t.me/RR_Atelier_Rime_Et_Or">Прислать задание</a></div></div>
+<figure class="exhibit"><div class="duet-stage"><img id="duet-angle" data-src="/assets/landing/duet-collection-whole.webp" width="1173" height="1100" fetchpriority="high" alt="Переплетённые золотые шинки «Дуэта» и две вставки огранки груша"></div>
+<figcaption><div><span class="exhibit-name">Дуэт</span><p id="duet-note" aria-live="polite">Коллекционная модель с закреплёнными камнями · 3D-рендер</p></div>
 <div class="angles" role="group" aria-label="Ракурс кольца Дуэт"><button type="button" data-angle="whole" aria-pressed="true">Целиком</button><button type="button" data-angle="macro" aria-pressed="false">Макро</button><button type="button" data-angle="side" aria-pressed="false">Профиль</button></div></figcaption></figure></div></section>
 <div class="facts wrap"><p><strong>Форматы</strong>STL и техлист, сборки .3dm по проекту. Усадку согласуем с цехом.</p><p><strong>Контроль</strong>Собственные скрипты на Python проверяют стенки, посадки камней и объём до печати</p><p><strong>Параметрическая модель</strong><a href="/configurator/">Построить кольцо по своим размерам</a></p></div>
 <section class="wrap cases"><div class="section-head"><h2>Проекты для мастерских</h2><a class="textlink" href="/foundry/">Комплекты файлов ↗</a></div>

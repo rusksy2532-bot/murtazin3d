@@ -1,14 +1,14 @@
 const find = id => document.getElementById(id);
 const angles = {
-  whole: ['Переплетённые золотые шинки «Дуэта» и две вставки огранки груша', 'Две груши над переплетёнными шинками.'],
-  macro: ['Крупный план лапок оправы и двух встречных груш', 'Крупный план оправ и камней до обжима крапанов.'],
-  side: ['Кольцо «Дуэт» сбоку, вид на плечи и галереи оправ', 'В профиль видны подъём плеч и высота оправ.']
+  whole: ['Переплетённые золотые шинки «Дуэта» и две вставки огранки груша', 'Коллекционная модель с закреплёнными камнями · 3D-рендер'],
+  macro: ['Бриллиант и индиголит крупным планом, кончики крапанов у края камней', 'Закрепка бриллианта и индиголита крупным планом.'],
+  side: ['Боковой вид «Дуэта» с двумя вставками над пересекающимися шинками', 'В профиль видно, как две линии сходятся под камнями.']
 };
 for (const button of document.querySelectorAll('[data-angle]')) {
   button.addEventListener('click', () => {
     const key = button.dataset.angle;
     const img = find('duet-angle');
-    img.src = '/assets/landing/duet-' + key + '.webp';
+    img.src = '/assets/landing/duet-collection-' + key + '.webp';
     img.alt = angles[key][0];
     find('duet-note').textContent = angles[key][1];
     for (const sibling of button.parentElement.children) sibling.setAttribute('aria-pressed', String(sibling === button));
