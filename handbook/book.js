@@ -1,3 +1,4 @@
+import {plates,visualPanel} from './visual.js';
 const byId = id => document.getElementById(id);
 const chapters = window.RRLessons || [];
 const parts = {
@@ -40,12 +41,38 @@ function showGlossary() {
   const words = glossary.filter(pair => pair.join(' ').toLocaleLowerCase('ru').includes(query));
   byId('words').replaceChildren(...words.map(([name, meaning]) => {
     const row = element('div');
-    row.append(element('dt', name), element('dd', meaning));
+    const term=element('dt'), [id,phase=0]=termTargets.get(name);
+    const lesson=plates[id], frame=lesson.steps[phase]||lesson.steps[0];
+    const link=element('a');link.className='term-illustration';link.href='#'+id;
+    const icon=document.createElementNS('http://www.w3.org/2000/svg','svg');
+    icon.setAttribute('viewBox','0 0 520 285');icon.setAttribute('aria-hidden','true');
+    icon.innerHTML=frame.draw(lesson.control?.start??0);
+    icon.querySelectorAll('text').forEach(node=>node.remove());
+    const nameplate=element('span');nameplate.append(element('strong',name),element('small','Показать на схеме'));
+    link.append(icon,nameplate);
+    link.addEventListener('click',e=>{
+      e.preventDefault();setMobileView('diagram');
+      if(location.hash==='#'+id){panel.show(id,phase);document.querySelector('.chapterbar').scrollIntoView();}
+      else{pendingPhase=phase;location.hash=id;}
+    });
+    term.append(link);row.append(term,element('dd', meaning));
     return row;
   }));
   byId('empty').hidden = words.length > 0;
 }
-let current = -1, viewer;
+const termTargets=new Map([
+  ['Ажур',['windows']],['Барашек',['thread']],['Втулка',['pivot',1]],['Выборка',['relief']],['Галерея',['prongs']],
+  ['Зазор',['pivot',1]],['Калетта и шип',['stone',2]],['Каст',['anatomy',2]],['Корнер',['beads']],['Корона и площадка',['stone']],
+  ['Крапан',['prongs']],['Литник',['casting']],['Паве',['pave']],['Павильон',['stone',2]],['Посадка камня',['insertion',1]],
+  ['Проба',['mass']],['Пусета',['stud']],['Рундист',['stone',1]],['Сечение',['shank',1]],['Усадка',['casting',3]],
+  ['Шаг резьбы',['thread']],['Шинка и плечи',['anatomy']],['STL',['audit']]
+]);
+let current = -1, viewer, pendingPhase=0;
+const panel=visualPanel((id,phase,value)=>viewer?.setDemonstration(id,phase,value));
+function setMobileView(view){
+  document.querySelector('.lesson-grid').dataset.view=view;
+  for(const v of ['model','diagram'])byId('mobile-'+v).setAttribute('aria-pressed',String(view===v));
+}
 const angles = {
   ring: {ring:'Всё кольцо',center:'Центральный камень',prong:'Крапан',pave:'Дорожка паве',bead:'Корнер',window:'Выход ажура',shank:'Низ шинки',relief:'Выборка'},
   stud: {stud:'Вся пусета',basket:'Корзинка',post:'Гладкий штифт'},
@@ -73,7 +100,9 @@ function activate(index, bringIntoView = false) {
   const item = chapters[index];
   if (!item) return;
   current = index;
-  for (const id of ['title','term','why','check','group','intro']) byId(id).textContent = item[id];
+  for (const id of ['title','term','why','check','intro']) byId(id).textContent = item[id];
+  byId('notes').open=false;
+  panel.show(item.id,pendingPhase);pendingPhase=0;
   byId('counter').textContent = (index + 1) + ' из ' + chapters.length;
   byId('progress').style.width = (100 * (index + 1) / chapters.length) + '%';
   byId('chapter-name').textContent = item.group;
@@ -145,6 +174,7 @@ function init() {
     if (event.clientX < b.left || event.clientX > b.right || event.clientY < b.top || event.clientY > b.bottom) byId('toc').close();
   });
   byId('lookup').addEventListener('input', showGlossary);
+  for(const view of ['model','diagram'])byId('mobile-'+view).addEventListener('click',()=>setMobileView(view));
   byId('previous').addEventListener('click', () => location.hash = chapters[current - 1].id);
   byId('next').addEventListener('click', () => location.hash = chapters[current + 1].id);
   byId('plus').addEventListener('click', () => viewer?.zoom(1.25));
@@ -158,13 +188,13 @@ function init() {
 }
 init();
 try {
-  const {mountViewer} = await import('./viewer.js');
+  const {mountViewer} = await import('./viewer.js?v=plates1');
   viewer = mountViewer(byId('scene'), {onSelect(key) {
     const found = chapters.find(item => item.focus === key);
     if (found && chapters[current]?.focus !== key) location.hash = found.id;
     else syncSceneButtons(key);
   }});
-  viewer.show(chapters[current].focus);
+  panel.restore();viewer.show(chapters[current].focus);
 } catch (error) {
   console.error('Ошибка просмотра 3D', error);
   byId('fallback').hidden = false;

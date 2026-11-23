@@ -148,6 +148,19 @@ function unpack(buf, mats, file) {
     const silicone=file==='pause'&&i===2;
     const m=new T.Mesh(g,mats[silicone?5:type]);m.userData.stone=!silicone&&[1,3,4].includes(type);
     if(file==='thread'&&i===2)m.position.set(3.9,0,-8.7);
+    if(file==='ring' && type===1 && g.index){
+      // The 5 mm centre stone ends at |X|=2.50; the first pavé starts at |X|=3.21.
+      // Keep the original vertices and normals; only separate their triangle indices.
+      const centre=[], pave=[], ids=g.index.array, x=g.getAttribute('position');
+      for(let k=0;k<ids.length;k+=3){
+        const dest=Math.abs(x.getX(ids[k]))<2.8?centre:pave;
+        dest.push(ids[k],ids[k+1],ids[k+2]);
+      }
+      const cg=new T.BufferGeometry();
+      cg.setAttribute('position',x);cg.setAttribute('normal',g.getAttribute('normal'));cg.setIndex(centre);
+      const central=new T.Mesh(cg,m.material);central.userData.stone=true;central.userData.central=true;
+      g.setIndex(pave);group.add(central);
+    }
     group.add(m);
   }
   return group;
@@ -156,6 +169,7 @@ export function mountViewer(container,{onSelect=()=>{}}={}){
   installStyle();
   let key='ring',modelName='ring',loadedName=null, showStones=true, epoch=0, group=null, frame=0, motion=null;
   let renderer, scene, camera, controls, studioMap, mat, fatal=false;
+  let demonstration={id:'',phase:0,value:0};
   const cache=new Map();
   const root=document.createElement('div');root.className='rr-atlas-stage';root.tabIndex=0;
   root.setAttribute('role','group');root.setAttribute('aria-label','Интерактивная модель. Стрелки вращают, плюс и минус меняют масштаб.');
@@ -179,7 +193,37 @@ export function mountViewer(container,{onSelect=()=>{}}={}){
   }
   function getView(){
     const m=defaultViews[modelName], p=m.points?.[key];
+    if(demonstration.id==='pivot' && key==='pivot')return {at:m.center,dir:m.dir,span:47};
+    if(demonstration.id==='joint' && key==='joint')return {at:m.center,dir:m.dir,span:31};
+    if(demonstration.id==='insertion' && key==='center')return {at:[0,0,14],dir:[.28,-1,.20],span:14};
+    if(demonstration.id==='thread' && key==='thread')return {at:[0,0,-6.2],dir:[.4,-1,.18],span:12};
     return {at:p?.at||m.center,dir:p?.dir||m.dir,span:p?.span||m.span};
+  }
+  function applyDemonstration(){
+    if(!group)return;
+    const {id,phase,value}=demonstration, objects=group.children;
+    if(modelName==='thread'){
+      const nut=objects[2];
+      if(id==='thread'){nut.position.set(0,0,-9.45+.35*value);nut.rotation.z=2*Math.PI*value;}
+      else{nut.position.set(3.9,0,-8.7);nut.rotation.z=0;}
+    }
+    if(modelName==='pause'){
+      const angle=id==='pivot'?(-value-12)*Math.PI/180:0;
+      for(const i of [0,6,7,9])objects[i].rotation.y=angle;
+    }
+    if(modelName==='duet'){
+      const distance=id==='joint'?5-value:0;
+      for(const i of [1,7])objects[i].position.y=distance;
+    }
+    if(modelName==='ring'){
+      const centre=objects.find(x=>x.userData.central);
+      if(centre)centre.position.z=id==='insertion'?(phase===2?-.02:5*(1-value/100)):0;
+    }
+    invalidate();
+  }
+  function setDemonstration(id,phase,value){
+    demonstration={id,phase,value};
+    applyDemonstration();
   }
   function fit(animated){
     if(!controls)return;
@@ -210,11 +254,17 @@ export function mountViewer(container,{onSelect=()=>{}}={}){
       pins.push({el:b,tag,at:vec(p.at),pref:vec(p.dir||m.dir).normalize(),id});
     }
   }
-  const projected=new T.Vector3(),toCamera=new T.Vector3();
+  const projected=new T.Vector3(),toCamera=new T.Vector3(),pinWorld=new T.Vector3(),axisY=new T.Vector3(0,1,0);
   function projectPins(){
     const occupied=[];
     for(const pin of pins){
-      projected.copy(pin.at).project(camera);toCamera.copy(camera.position).sub(pin.at).normalize();
+      pinWorld.copy(pin.at);
+      const {id,value,phase}=demonstration;
+      if(id==='pivot' && ['lever','pearl','aquamarine'].includes(pin.id))pinWorld.applyAxisAngle(axisY,(-value-12)*Math.PI/180);
+      if(id==='joint' && ['socket','teal'].includes(pin.id))pinWorld.y+=5-value;
+      if(id==='thread' && pin.id==='bore')pinWorld.set(0,0,-9.45+.35*value+2.67);
+      if(id==='insertion' && pin.id==='center')pinWorld.z+=phase===2?-.02:5*(1-value/100);
+      projected.copy(pinWorld).project(camera);toCamera.copy(camera.position).sub(pinWorld).normalize();
       const x=(projected.x*.5+.5)*width, y=(-projected.y*.5+.5)*height;
       const hide=projected.z>1||projected.z< -1||x<10||y<10||x>width-10||y>height-10||pin.pref.dot(toCamera)<-.13||
         (!showStones&&['center','pave','white','teal','pearl','aquamarine'].includes(pin.id));
@@ -263,7 +313,7 @@ export function mountViewer(container,{onSelect=()=>{}}={}){
       const asset=await pending;
       if(token!==epoch)return false;
       root.querySelector('.rr-atlas-still')?.remove();group=asset;scene.add(group);stoneVisibility();
-      sizes();addPins();fit(false);loadedName=file;message('');invalidate();
+      applyDemonstration();sizes();addPins();fit(false);loadedName=file;message('');invalidate();
       return true;
     }catch(e){
       if(cache.get(file)===pending)cache.delete(file);
@@ -277,7 +327,7 @@ export function mountViewer(container,{onSelect=()=>{}}={}){
     const length=Math.min(210,Math.max(.8,d.length()/factor));
     camera.position.copy(controls.target).add(d.setLength(length));controls.update();invalidate();
   }
-  const api={show,reset(){fit(false)},zoom,toggleStones(){showStones=!showStones;stoneVisibility();return showStones},
+  const api={show,setDemonstration,reset(){fit(false)},zoom,toggleStones(){showStones=!showStones;stoneVisibility();return showStones},
     get stoneVisible(){return showStones},
     get active(){return key}};
   try{
