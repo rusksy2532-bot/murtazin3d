@@ -1,6 +1,6 @@
 import {buildRing,binarySTL} from './geometry.mjs?v=contours1';
 import {buildSolitaire} from './solitaire.mjs?v=contours1';
-import {createViewer} from './viewer.mjs';
+import {createViewer} from './viewer.mjs?v=standalone1';
 import {inspectSTL} from './inspect.mjs';
 
 const by=id=>document.getElementById(id);

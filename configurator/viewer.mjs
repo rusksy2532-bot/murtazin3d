@@ -1,4 +1,4 @@
-import * as T from '../handbook/model-three.js';
+import * as T from './vendor/three-r170.module.js';
 
 const finishes = {
   champagne: '#e4bd80',
