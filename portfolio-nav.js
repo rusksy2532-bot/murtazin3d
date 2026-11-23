@@ -18,7 +18,8 @@ class PortfolioNav extends HTMLElement {
     <nav aria-label="Раздел портфолио"><a href="${page}#workshop" data-tab="workshop">Для мастерских и производств</a><a href="${page}#atelier" data-tab="atelier">Частные заказы</a></nav>
     <div class="actions"><a class="inspect" href="/check/"><svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="m10 2 7 4v8l-7 4-7-4V6zm-7 4 7 4 7-4m-7 4v8"/></svg>Проверить STL</a><a class="tg" href="https://t.me/RR_Atelier_Rime_Et_Or">Telegram ↗</a></div></div>`;
     this.update = () => {
-      const atelier = location.hash==='#atelier' || location.pathname.startsWith('/catalog/') || (this.dataset.section==='atelier' && !atHome);
+      const landing = atHome || ['/cad/', '/cad/index.html'].includes(location.pathname);
+      const atelier = (landing && ['#atelier','#collection','#contact'].includes(location.hash)) || location.pathname.startsWith('/catalog/') || (this.dataset.section==='atelier' && !atHome);
       root.querySelectorAll('[data-tab]').forEach(a=>{
         if(a.dataset.tab===(atelier?'atelier':'workshop')) a.setAttribute('aria-current','page');
         else a.removeAttribute('aria-current');
