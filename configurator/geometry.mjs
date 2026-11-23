@@ -1,3 +1,5 @@
+import {freeformSection} from './freeform.mjs';
+import {designedSection} from './band-profiles.mjs';
 // Millimetres. Each radial section is one counterclockwise loop in (axial, radial) space.
 const TAU = Math.PI * 2;
 const STATIONS = 256;
@@ -48,8 +50,9 @@ function ringSection(style, width, thickness, angle, character, lobes) {
   return points;
 }
 
-export function buildRing({template, diameter, width, thickness, shrink, character = 3, lobes = 2}) {
-  if (!['classic', 'facet', 'wave'].includes(template)) throw new RangeError('Неизвестный профиль.');
+export function buildRing({template, diameter, width, thickness, shrink, character = 3, lobes = 2, seed = 1}) {
+  const sculpted = ['ridge','flutes','twin'].includes(template);
+  if (!sculpted && !['classic', 'facet', 'wave', 'freeform'].includes(template)) throw new RangeError('Неизвестный профиль.');
   checkNumber(diameter, 14, 23, 'Внутренний диаметр');
   checkNumber(width, 2, 8, 'Ширина');
   checkNumber(thickness, 1.2, 2.8, 'Толщина');
@@ -58,14 +61,18 @@ export function buildRing({template, diameter, width, thickness, shrink, charact
   if (!Number.isInteger(lobes) || lobes < 1 || lobes > 4) throw new RangeError('Количество волн: целое число от 1 до 4.');
   // Circumscribe the regular polygon around the requested bore gauge.
   const bore = diameter / (2 * Math.cos(Math.PI / STATIONS));
-  const section = ringSection(template, width, thickness, 0, character, lobes);
+  const atStation = template === 'freeform'
+    ? freeformSection(seed, width, thickness, character, STATIONS)
+    : i => sculpted ? designedSection(template,width,thickness,TAU*i/STATIONS,character)
+                    : ringSection(template,width,thickness,TAU*i/STATIONS,character,lobes);
+  const section = atStation(0);
   const stride = section.length;
   const positions = new Float32Array(3 * STATIONS * stride);
   const indices = new Uint32Array(6 * STATIONS * stride);
   let face = 0;
   for (let i = 0; i < STATIONS; i++) {
     const angle = TAU * i / STATIONS;
-    const current = template === 'wave' ? ringSection(template, width, thickness, angle, character, lobes) : section;
+    const current = ['classic','facet'].includes(template) ? section : atStation(i);
     const next = (i + 1) % STATIONS;
     for (let j = 0; j < stride; j++) {
       const [axial, radial] = current[j];

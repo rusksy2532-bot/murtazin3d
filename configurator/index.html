@@ -2,13 +2,18 @@
 <html lang="ru"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <meta name="theme-color" content="#17221f"><title>Конструктор колец · R&amp;R Design</title>
 <meta name="description" content="Постройте кольцо по своим размерам, примерьте случайный дизайн и проверьте STL в браузере.">
-<link rel="icon" href="../mark.svg"><link rel="stylesheet" href="style.css"><script type="module" src="app.mjs"></script></head>
+<link rel="icon" href="../mark.svg"><link rel="stylesheet" href="style.css"><script type="module" src="app.mjs?v=contours1"></script></head>
 <body><header><a href="../" class="brand"><img src="../mark.svg" width="35" height="38" alt="">R&amp;R Design</a><a href="../#workshop">Портфолио мастерской</a></header>
 <main><div class="intro"><p class="eyebrow">Параметрическая мастерская</p><h1>Конструктор колец</h1><p>Задайте размеры или попробуйте случайную форму. Готовую модель можно вращать, проверить и скачать в STL.</p></div>
 <div class="desk"><section class="studio" aria-label="Модель кольца"><div class="viewport"><div class="stage-head"><span id="model-name">Волна</span><button type="button" id="reset">Исходный ракурс</button></div><canvas id="view" tabindex="0" aria-label="Интерактивное кольцо. Перетащите, чтобы повернуть."></canvas><p class="hint">Тяните для вращения · колесо или жест для масштаба</p></div>
 <div class="summary"><div><span>Размер кольца</span><strong id="out-size">—</strong></div><div><span>Объём металла</span><strong id="volume">—</strong></div><div><span>Расчётная масса</span><strong id="mass">—</strong></div></div>
 </section><form id="settings"><div class="rowtitle"><h2>Форма кольца</h2><button class="random" type="button" id="random">Случайный дизайн</button></div>
-<label for="template">Шаблон</label><select id="template"><option value="wave">Волна</option><option value="classic">Классическая дуга</option><option value="facet">Плоская грань</option><option value="solitaire">Солитер в ободке</option></select>
+<label for="template">Шаблон</label><select id="template">
+<optgroup label="Генеративная форма"><option value="freeform">Свободный силуэт</option></optgroup>
+<optgroup label="Цельнометаллические кольца"><option value="wave" selected>Волна</option><option value="classic">Классическая дуга</option><option value="facet">Плоская грань</option><option value="ridge">Киль</option><option value="flutes">Каннелюры</option><option value="twin">Двойная лента</option></optgroup>
+<optgroup label="С камнем"><option value="solitaire">Солитер в ободке</option><option value="oval">Овальный солитер</option></optgroup></select>
+<div style="margin-top:10px"><button id="new-contour" type="button" class="random">Создать новый силуэт</button></div>
+<div id="seed-row" hidden><label for="seed">Номер формы</label><input id="seed" type="number" min="1" max="4294967295" step="1" value="12087" required disabled></div>
 <div class="fields"><label>Размер, Ø мм<input type="number" id="diameter" min="14" max="23" step="0.01" value="17" required></label><label>Ширина шинки, мм<input type="number" id="width" min="2" max="8" step="0.01" value="4.2" required></label><label>Толщина шинки, мм<input type="number" id="thickness" min="1.2" max="2.8" step="0.01" value="1.8" required></label><label id="variation-label"><span id="variation-title">Количество волн</span><input type="number" id="lobes" min="1" max="4" step="1" value="2" required><input type="number" id="stone" min="3.5" max="6" step="0.01" value="5" hidden disabled></label></div>
 <label id="character-row">Выраженность профиля <output id="char-value">3 / 5</output><input id="character" type="range" min="1" max="5" value="3"></label>
 <fieldset><legend>Цвет металла в 3D</legend><div class="swatches">

@@ -52,7 +52,7 @@ function bandProfile(half, thickness, lip) {
   return p;
 }
 
-function roundStone(radius, girdle, pavilion) {
+function facetedStone(radius, girdle, pavilion, aspect) {
   const m=builder(), count=32;
   const tip=m.point(0,girdle-pavilion,0);
   let previous=[];
@@ -61,7 +61,7 @@ function roundStone(radius, girdle, pavilion) {
     const belt=[];
     for(let i=0;i<count;i++) {
       const a=TAU*(i+offset)/count;
-      belt.push(m.point(radius*scale*Math.cos(a),girdle+height,radius*scale*Math.sin(a)));
+      belt.push(m.point(radius*scale*Math.cos(a),girdle+height,radius*scale*Math.sin(a)*aspect));
     }
     for(let i=0;i<count;i++) {
       const j=(i+1)%count;
@@ -75,14 +75,17 @@ function roundStone(radius, girdle, pavilion) {
   return m.finish();
 }
 
-export function buildSolitaire({diameter=17,width=3,thickness=1.6,shrink=0,stone=5}={}) {
+export function buildSolitaire({template='solitaire',diameter=17,width=3,thickness=1.6,shrink=0,stone=5}={}) {
   for(const [v,min,max] of [[diameter,14,23],[width,2,8],[thickness,1.2,2.8],[shrink,0,3],[stone,3.5,6]]) {
     if(!Number.isFinite(v) || v < min || v > max) throw new RangeError('Размер за пределами диапазона шаблона.');
   }
   const m=builder(), radius=diameter/(2*Math.cos(Math.PI/STATIONS)), gemRadius=stone/2;
+  // Only the head is elongated along the finger. The ring gauge and lower band
+  // keep their dimensions and the seat follows the selected stone outline.
+  const aspect=template==='oval'?1.4:1;
   const lip=Math.min(.24,width*.07,thickness*.15);
   const crestMargin=1.48;
-  const crestHalf=Math.max(width/2,gemRadius+crestMargin+lip);
+  const crestHalf=Math.max(width/2,(gemRadius+crestMargin)*aspect+lip);
   const outer=radius+thickness;
   const march=TAU/STATIONS;
   const limit=Math.ceil(Math.asin((gemRadius+crestMargin)/outer)/march);
@@ -110,10 +113,10 @@ export function buildSolitaire({diameter=17,width=3,thickness=1.6,shrink=0,stone
   for(let i=-limit;i<limit;i++) frame.push(rows[at(i)][AXIAL_INTERVALS]);
   for(let j=AXIAL_INTERVALS;j>0;j--) frame.push(rows[limit][j]);
   for(let i=limit;i>-limit;i--) frame.push(rows[at(i)][0]);
-  const angles=frame.map(index=>Math.atan2(m.vertices[index][2],m.vertices[index][0]));
+  const angles=frame.map(index=>Math.atan2(m.vertices[index][2]/aspect,m.vertices[index][0]));
   let loop=frame;
   function circle(r,y) {
-    const next=angles.map(a=>m.point(r*Math.cos(a),y,r*Math.sin(a)));
+    const next=angles.map(a=>m.point(r*Math.cos(a),y,r*Math.sin(a)*aspect));
     for(let i=0;i<loop.length;i++) {
       const j=(i+1)%loop.length;
       m.quad(loop[i],loop[j],next[j],next[i]);
@@ -135,5 +138,5 @@ export function buildSolitaire({diameter=17,width=3,thickness=1.6,shrink=0,stone
   circle(gemRadius*.16,floor);
   const base=m.point(0,floor,0);
   for(let i=0;i<loop.length;i++) m.triangle(loop[i],loop[(i+1)%loop.length],base);
-  return {...m.finish(), factor:1/(1-shrink/100), section:bandProfile(width/2,thickness,lip), gem:roundStone(gemRadius,girdle,pavilion)};
+  return {...m.finish(), factor:1/(1-shrink/100), section:bandProfile(width/2,thickness,lip), gem:facetedStone(gemRadius,girdle,pavilion,aspect)};
 }
