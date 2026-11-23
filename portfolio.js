@@ -1,4 +1,37 @@
 const find = id => document.getElementById(id);
+const angles = {
+  whole: ['Переплетённые золотые шинки «Дуэта» и две вставки огранки груша', 'Две груши над переплетёнными шинками.'],
+  macro: ['Крупный план лапок оправы и двух встречных груш', 'Крупный план оправ и камней до обжима крапанов.'],
+  side: ['Кольцо «Дуэт» сбоку, вид на плечи и галереи оправ', 'В профиль видны подъём плеч и высота оправ.']
+};
+for (const button of document.querySelectorAll('[data-angle]')) {
+  button.addEventListener('click', () => {
+    const key = button.dataset.angle;
+    const img = find('duet-angle');
+    img.src = '/assets/landing/duet-' + key + '.webp';
+    img.alt = angles[key][0];
+    find('duet-note').textContent = angles[key][1];
+    for (const sibling of button.parentElement.children) sibling.setAttribute('aria-pressed', String(sibling === button));
+  });
+}
+const filmDialog = find('film-dialog');
+const film = find('gran-film');
+find('play-film').addEventListener('click', () => {
+  filmDialog.showModal();
+  if (!film.hasAttribute('src')) {
+    film.poster = '/assets/landing/gran-case.webp';
+    film.src = film.dataset.file;
+  }
+  film.currentTime = 0;
+  film.play().catch(() => {}); // Native controls remain available when playback needs another tap.
+});
+find('close-film').addEventListener('click', () => filmDialog.close());
+filmDialog.addEventListener('click', event => {
+  if (event.target !== filmDialog) return;
+  const bounds = filmDialog.getBoundingClientRect();
+  if (event.clientX < bounds.left || event.clientX > bounds.right || event.clientY < bounds.top || event.clientY > bounds.bottom) filmDialog.close();
+});
+filmDialog.addEventListener('close', () => film.pause());
 function el(tag, cls, text) {
   const node = document.createElement(tag);
   if (cls) node.className = cls;
@@ -30,13 +63,15 @@ function projectCard(p) {
     art.append(modes);
   }
   const content = el('div','project-content'), rows = el('dl');
-  for (const [label,value] of [['Расчётная масса',p.mass],['Вставки',p.stones],['Стенка / усадка',p.wall],['Конструкция',p.construction]]) {
+  for (const [label,value] of [['Расчётная масса',p.mass],['Вставки',p.stones],['Стенка / усадка',p.wall]]) {
     const row = el('div'); row.append(el('dt','',label),el('dd','',value)); rows.append(row);
   }
   const actions = el('div','project-actions');
   actions.append(link('Тепловая карта 3D',p.heatmap,'secondary'),link('Техлист ↗',p.report,'textlink'));
   if (p.secondary) actions.append(link(p.secondary.label,p.secondary.url,'textlink'));
-  content.append(el('p','category',p.category),el('h4','card-title',p.title),rows,actions);
+  const specs = el('details','specs');
+  specs.append(el('summary','','Размеры и допуски'),rows);
+  content.append(el('p','category',p.category),el('h4','card-title',p.title),el('p','project-brief',p.construction),specs,actions);
   card.append(art,content); return card;
 }
 function workshop(projects) {
@@ -80,6 +115,7 @@ find('archive').onclick=()=>{
 };
 const loaded = new Set();
 async function route() {
+  if (filmDialog.open) filmDialog.close();
   const hash=location.hash;
   if(hash.startsWith('#work/')){location.replace('/catalog/'+hash);return;}
   const view=['#atelier','#collection','#contact'].includes(hash)?'atelier':'workshop';
