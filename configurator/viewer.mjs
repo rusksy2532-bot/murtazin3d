@@ -5,7 +5,7 @@ const finishes = {
   white: '#e1e4e5',
   rose: '#e5a087'
 };
-const home = { yaw: -.73, pitch: -.26, roll: -.17 };
+const home = { yaw: -.55, pitch: .72, roll: -.17 };
 const clamp = (x, lo, hi) => Math.max(lo, Math.min(hi, x));
 
 // An analytic studio environment keeps the preview local and avoids an HDR download.
