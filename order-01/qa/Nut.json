@@ -1,8 +1,6 @@
 {
   "name": "Nut.stl",
   "sha256": "b096f7fc52d6e0c7b26a2a1463df870d07d6c930059f7198fde3ac4f2a0f8835",
-  "started": "2026-11-22T16:02:04.670Z",
-  "completed": "2026-11-22T16:02:08.367Z",
   "metrics": {
     "triCount": 47482,
     "openEdges": 0,

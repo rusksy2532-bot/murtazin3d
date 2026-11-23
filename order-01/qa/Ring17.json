@@ -1,8 +1,6 @@
 {
   "name": "Ring17.stl",
   "sha256": "01505e4ae44c90f8caf29a6c5c39205097a52a98cf1d60f2f083c2d6556b57d7",
-  "started": "2026-11-22T16:40:49.775Z",
-  "completed": "2026-11-22T16:40:53.632Z",
   "metrics": {
     "triCount": 72502,
     "openEdges": 0,
