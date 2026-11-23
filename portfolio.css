@@ -35,16 +35,17 @@ html[data-view=workshop] .atelier-view,html[data-view=atelier] .work-view,[hidde
 .showroom-actions .ivory-button {display:inline-flex;align-items:center;justify-content:center;gap:.6em;min-height:46px;padding:.64rem 1.15rem;background:#eee6d5;color:#1a211b;border:1px solid #eee6d5;border-radius:2px;text-decoration:none;font-size:.94rem;font-weight:550}
 .ivory-button:hover {background:#fff9ed}
 .exhibit {min-width:0}
-.duet-stage,.gran-stage {position:relative;display:grid;place-items:center;height:clamp(320px,30vw,480px);overflow:hidden;background:radial-gradient(ellipse at 58% 42%,#383c35,#20251f 65%,#191e1a)}
+.duet-stage,.gran-stage {position:relative;display:grid;place-items:center;height:clamp(320px,30vw,480px);overflow:hidden}
 .exhibit img {width:100%;height:100%;min-height:0;display:block;object-fit:contain}
 .gran-stage {background:#131414}
 .gran-stage img {object-fit:cover}
 .exhibit figcaption {display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:10px;padding:14px 0 0;border-top:1px solid #675f4b}
+.work-view .exhibit figcaption {border-top:0}
 .exhibit-name {font:400 1.65rem/1.1 var(--display);color:#f7f0df}
 .exhibit figcaption p {font-size:.875rem;color:#c3c6ba;margin-top:.25rem}
 .angles {display:flex;gap:4px;flex-wrap:wrap}
-.angles button {border:1px solid transparent;color:#d6d8cf;background:none;border-radius:2px;min-height:40px;padding:5px 9px;font-size:.875rem}
-.angles button[aria-pressed=true] {border-color:#8d8269;color:#fff4d9}
+.angles button {border:0;color:#d6d8cf;background:none;min-height:40px;padding:5px 9px;font-size:.875rem}
+.angles button[aria-pressed=true] {color:#fff4d9;text-decoration:underline;text-underline-offset:5px}
 .angles button:hover {background:#34392f}
 .atelier-show {background:#1d1a18}
 .atelier-show h1 {font-size:clamp(5rem,8vw,9rem)}
