@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Кирпичный коттедж в 3D · Руслан Муртазин</title>
+  <meta name="description" content="Интерактивная модель кирпичного коттеджа с участком и интерьером в тёплом минимализме. Фасад, планировка и кадры Unreal Engine 5.">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Кирпичный коттедж в 3D · Руслан Муртазин">
+  <meta property="og:description" content="Осмотрите фасад, гостиную и столовую в браузере. Архитектурная визуализация и кадры UE5.">
+  <meta property="og:image" content="https://murtazin3d.ru/cottage/preview.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:url" content="https://murtazin3d.ru/cottage/">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="robots" content="noindex, follow">
+  <meta name="theme-color" content="#22231f">
+  <link rel="canonical" href="https://murtazin3d.ru/cottage/">
+  <link rel="icon" href="../mark.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="./style.css">
+  <script type="importmap">
+    {"imports":{"three":"./vendor/three.module.js","three/addons/":"./vendor/addons/"}}
+  </script>
+  <script type="module" src="./viewer.js"></script>
+</head>
+<body>
+  <main>
+    <section class="scene" aria-label="Трёхмерная модель коттеджа">
+      <img id="still" src="./living.webp" width="1600" height="900" alt="Гостиная коттеджа в Unreal Engine 5">
+      <canvas id="model" tabindex="0" aria-label="Обзор коттеджа в 3D" hidden></canvas>
+      <div class="scene-label" id="scene-label">Гостиная</div>
+      <p class="status" id="status" role="status">Загружается 3D-модель…</p>
+      <div class="movement" id="movement" aria-label="Перемещение в интерьере" hidden>
+        <button type="button" data-move="0,-1" aria-label="Шаг влево">←</button>
+        <button type="button" data-move="1,0" aria-label="Шаг вперёд">↑</button>
+        <button type="button" data-move="-1,0" aria-label="Шаг назад">↓</button>
+        <button type="button" data-move="0,1" aria-label="Шаг вправо">→</button>
+      </div>
+    </section>
+    <aside class="panel" aria-label="Управление просмотром">
+      <div class="intro">
+        <p class="author">Руслан Муртазин</p>
+        <h1>Кирпичный<br> коттедж</h1>
+        <p class="summary">Одноэтажный дом с панорамным остеклением и интерьером в тёплом минимализме.</p>
+      </div>
+      <nav class="views" aria-label="Ракурс">
+        <button type="button" data-view="living" aria-pressed="true">Гостиная</button>
+        <button type="button" data-view="dining" aria-pressed="false">Столовая</button>
+        <button type="button" data-view="exterior" aria-pressed="false">Фасад и участок</button>
+        <button type="button" data-view="plan" aria-pressed="false">Планировка</button>
+      </nav>
+      <div class="media" aria-label="Режим просмотра">
+        <button type="button" id="show-model" aria-pressed="true">В 3D</button>
+        <button type="button" id="show-still" aria-pressed="false">Кадр UE5</button>
+      </div>
+      <p class="help" id="help">Потяни изображение для обзора. Для перемещения используй WASD или кнопки на кадре.</p>
+      <p class="credit"><a href="mailto:MurtazinRIR@outlook.com">Связаться по проекту</a></p>
+      <noscript>
+        <p>Для 3D нужен JavaScript. <a href="./living.webp">Гостиная</a> · <a href="./dining.webp">Столовая</a></p>
+      </noscript>
+    </aside>
+  </main>
+</body>
+</html>
